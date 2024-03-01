@@ -1,0 +1,645 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708955293
+Ve^akd`6c`BK;>^TeJ15ag3
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc969c-39f-285c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1709194768
+V6Je[IUffl8k]iOBelaE:z2
+R1
+=1-68545a54ff8d-65e03e10-a-54f0
+R2
+R3
+n@_opt2
+R4
+vcontroller
+Z5 !s110 1709194765
+!i10b 1
+!s100 7[ST_Pf2c7bQHi0Q]hAT12
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRY4Y_1h^Qa848o<7T:[0L2
+Z7 dD:/Y86-CPU
+w1709003591
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 5046
+L0 3 55
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1709194764.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1709194764
+!i10b 1
+!s100 1gdY[C<N=`NNbaQRA:7_?1
+R6
+I2kZ?fkG>lo?3zIO1UL2bb0
+R7
+w1708957858
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 5038
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z17 !s110 1709194763
+!i10b 1
+!s100 FQfL>M6d?0[n0Z;KL74`10
+R6
+I]?ID:CJF1iJEMF`6Ozcm73
+R7
+w1709015424
+R12
+R13
+!i122 5028
+L0 3 131
+R8
+R9
+r1
+!s85 0
+31
+Z18 !s108 1709194763.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R17
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 5029
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R17
+!i10b 1
+!s100 T1E2Wd7DEc9lgcBa`b?GA1
+R6
+IOf;;U^z46aX@_@763lK6g3
+R7
+w1709020954
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 5030
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R16
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 5039
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R17
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 5033
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R16
+!i10b 1
+!s100 @J0CkN0O?=2>VWdNmnYS62
+R6
+IAUdc5QMz8:>nV9LN2<NG:1
+R7
+w1709003866
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 5042
+L0 3 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R16
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 5043
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R17
+!i10b 1
+!s100 ZL1dK5QDkBQ6?eQ4I>do62
+R6
+IMB>]NjiBCKH9]?RL<fX;H2
+R7
+w1709124307
+Z19 8D:/Y86-CPU/fetch.v
+Z20 FD:/Y86-CPU/fetch.v
+!i122 5026
+L0 3 70
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 ram.v|define.v|D:/Y86-CPU/fetch.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 5037
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R17
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 5027
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z22 8D:/Y86-CPU/sel_fwdB.v
+Z23 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z24 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z25 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R16
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R22
+R23
+!i122 5045
+R24
+R8
+R9
+r1
+!s85 0
+31
+R10
+R25
+R26
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+!s110 1709024403
+!i10b 1
+!s100 551QMkP[KY?YbREOK=bmi2
+R6
+IzEEgRcQP2_aBON8N6A9PL0
+R7
+w1709019960
+R19
+R20
+!i122 4835
+L0 79 133
+R8
+R9
+r1
+!s85 0
+31
+!s108 1709024403.000000
+!s107 define.v|D:/Y86-CPU/fetch.v|
+R21
+!i113 0
+R11
+R3
+vmemory_access
+R17
+!i10b 1
+!s100 z1HfzRdb5@PKOJJYd:H;B1
+R6
+IH17F_42@gWPZHhR[NF87:3
+R7
+w1709124350
+8D:/Y86-CPU/memory_access.v
+FD:/Y86-CPU/memory_access.v
+!i122 5031
+L0 3 92
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 ram.v|define.v|D:/Y86-CPU/memory_access.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 5034
+Z27 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R18
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R16
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 5040
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R5
+!i10b 1
+!s100 ZECMKSZRA9Y^gkD:UR9oe1
+R6
+IOz087?HLei_74GXA3R;^61
+R7
+w1709194760
+8D:/Y86-CPU/ram.v
+FD:/Y86-CPU/ram.v
+!i122 5048
+L0 4 257
+R8
+R9
+r1
+!s85 0
+31
+Z28 !s108 1709194765.000000
+!s107 define.v|D:/Y86-CPU/ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/ram.v|
+!i113 0
+R11
+R3
+vsel_fwd
+R16
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 5044
+R27
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R16
+!i10b 1
+!s100 i_@`[]?=:=Bg4L41U]fCV1
+R6
+IlQ4IV`3X9MDYZ_EoEZShf2
+R7
+w1709004557
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 5041
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R17
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z29 w1706787196
+Z30 8D:/Y86-CPU/write_back.v
+Z31 FD:/Y86-CPU/write_back.v
+!i122 5032
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R18
+Z32 !s107 D:/Y86-CPU/write_back.v|
+Z33 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 5_85FYN:G00RPb9YfNa3=2
+R6
+IV`X8^l9UeSDK`QE4:UQ=c2
+R7
+w1709024299
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 5047
+L0 4 348
+R8
+R9
+r1
+!s85 0
+31
+R28
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/all_tb.v|
+!i113 0
+R11
+R3
+vupdate_PC
+R16
+!i10b 1
+!s100 ^YzU12o]hfc9=8GNCKB0c2
+R6
+IEabBNUck^A9BO=onnQQ:41
+R7
+w1706788401
+8D:/Y86-CPU/update_PC.v
+FD:/Y86-CPU/update_PC.v
+!i122 5036
+L0 2 39
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/update_PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/update_PC.v|
+!i113 0
+R11
+R3
+nupdate_@p@c
+vwrite_back
+R17
+!i10b 1
+!s100 Jz?b?:o7z^MbO7`HQ=mQc2
+R6
+ILzGlE:E6?ZWAhdfh;zUK^1
+R7
+R29
+R30
+R31
+!i122 5032
+L0 2 23
+R8
+R9
+r1
+!s85 0
+31
+R18
+R32
+R33
+!i113 0
+R11
+R3

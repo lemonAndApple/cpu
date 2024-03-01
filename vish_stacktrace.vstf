@@ -1,0 +1,11 @@
+# Current time Mon Feb 12 21:37:20 2024
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "2020.4"
+# Version = "2020.10"
+# Date = "Oct 13 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 00000000. Traceback:
+# End of Stack Trace
+

@@ -1,0 +1,227 @@
+# Compile of all_tb.v was successful.
+# Compile of define.v was successful.
+# Compile of fetch.v was successful.
+# Compile of fetch_tb.v was successful.
+# Compile of decode_stage.v was successful.
+# Compile of decode_tb.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of write_back.v was successful.
+# Compile of execute_tb.v was successful.
+# Compile of memory_tb.v was successful.
+# Compile of tb.v was successful.
+# Compile of update_PC.v was successful.
+# Compile of fetch_D_pipe_reg.v was successful.
+# Compile of decode_E_pipe_reg.v was successful.
+# Compile of execute_M_pipe_reg.v was successful.
+# Compile of memory_access_W_pipe_reg.v was successful.
+# Compile of select_pc.v was successful.
+# Compile of F_pipe_reg.v was successful.
+# Compile of F_test.v was successful.
+# Compile of sel_fwd.v was successful.
+# Compile of sel_fwdB.v was successful.
+# Compile of controller.v was successful.
+# Compile of all_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:26:25 on Feb 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.F_pipe_reg(fast)
+# Loading work.select_pc(fast)
+# Loading work.fetch(fast)
+# Loading work.instruction_memory(fast)
+# Loading work.fetch_D_pipe_reg(fast)
+# Loading work.decode_stage(fast)
+# Loading work.sel_fwd(fast)
+# Loading work.fwdB(fast)
+# Loading work.decode_E_pipe_reg(fast)
+# Loading work.execute(fast)
+# Loading work.execute_M_pipe_reg(fast)
+# Loading work.memory_access(fast)
+# Loading work.ram(fast)
+# Loading work.momery_access_W_pipe_reg(fast)
+# Loading work.controller(fast)
+add wave -position insertpoint sim:/tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: MyDesktop  Hostname: LAPTOP-LVLQIFP6  ProcessID: 6708
+#           Attempting to use alternate WLF file "./wlftj78kmj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj78kmj
+run -all
+# ** Note: $stop    : D:/Y86-CPU/all_tb.v(342)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Y86-CPU/all_tb.v line 342
+# Compile of execute.v was successful.
+quit -sim
+# End time: 21:35:40 on Feb 26,2024, Elapsed time: 0:09:15
+# Errors: 0, Warnings: 6
+# Compile of F_pipe_reg.v was successful.
+# Compile of define.v was successful.
+# Compile of fetch.v was successful.
+# Compile of fetch_tb.v was successful.
+# Compile of decode_stage.v was successful.
+# Compile of decode_tb.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of write_back.v was successful.
+# Compile of execute_tb.v was successful.
+# Compile of memory_tb.v was successful.
+# Compile of tb.v was successful.
+# Compile of update_PC.v was successful.
+# Compile of fetch_D_pipe_reg.v was successful.
+# Compile of decode_E_pipe_reg.v was successful.
+# Compile of execute_M_pipe_reg.v was successful.
+# Compile of memory_access_W_pipe_reg.v was successful.
+# Compile of select_pc.v was successful.
+# Compile of F_pipe_reg.v was successful.
+# Compile of F_test.v was successful.
+# Compile of sel_fwd.v was successful.
+# Compile of sel_fwdB.v was successful.
+# Compile of controller.v was successful.
+# Compile of all_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:42:26 on Feb 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.F_pipe_reg(fast)
+# Loading work.select_pc(fast)
+# Loading work.fetch(fast)
+# Loading work.instruction_memory(fast)
+# Loading work.fetch_D_pipe_reg(fast)
+# Loading work.decode_stage(fast)
+# Loading work.sel_fwd(fast)
+# Loading work.fwdB(fast)
+# Loading work.decode_E_pipe_reg(fast)
+# Loading work.execute(fast)
+# Loading work.execute_M_pipe_reg(fast)
+# Loading work.memory_access(fast)
+# Loading work.ram(fast)
+# Loading work.momery_access_W_pipe_reg(fast)
+# Loading work.controller(fast)
+add wave -position insertpoint sim:/tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: MyDesktop  Hostname: LAPTOP-LVLQIFP6  ProcessID: 6708
+#           Attempting to use alternate WLF file "./wlft9c9t9q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9c9t9q
+run -all
+# ** Note: $stop    : D:/Y86-CPU/all_tb.v(347)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Y86-CPU/all_tb.v line 347
+# Compile of define.v was successful.
+# Compile of fetch.v was successful.
+# Compile of fetch_tb.v was successful.
+# Compile of decode_stage.v was successful.
+# Compile of decode_tb.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of write_back.v was successful.
+# Compile of execute_tb.v was successful.
+# Compile of memory_tb.v was successful.
+# Compile of tb.v was successful.
+# Compile of update_PC.v was successful.
+# Compile of fetch_D_pipe_reg.v was successful.
+# Compile of decode_E_pipe_reg.v was successful.
+# Compile of execute_M_pipe_reg.v was successful.
+# Compile of memory_access_W_pipe_reg.v was successful.
+# Compile of select_pc.v was successful.
+# Compile of F_pipe_reg.v was successful.
+# Compile of F_test.v was successful.
+# Compile of sel_fwd.v was successful.
+# Compile of sel_fwdB.v was successful.
+# Compile of controller.v was successful.
+# Compile of all_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# End time: 21:46:35 on Feb 26,2024, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 6
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:46:36 on Feb 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.F_pipe_reg(fast)
+# Loading work.select_pc(fast)
+# Loading work.fetch(fast)
+# Loading work.instruction_memory(fast)
+# Loading work.fetch_D_pipe_reg(fast)
+# Loading work.decode_stage(fast)
+# Loading work.sel_fwd(fast)
+# Loading work.fwdB(fast)
+# Loading work.decode_E_pipe_reg(fast)
+# Loading work.execute(fast)
+# Loading work.execute_M_pipe_reg(fast)
+# Loading work.memory_access(fast)
+# Loading work.ram(fast)
+# Loading work.momery_access_W_pipe_reg(fast)
+# Loading work.controller(fast)
+add wave -position insertpoint sim:/tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: MyDesktop  Hostname: LAPTOP-LVLQIFP6  ProcessID: 6708
+#           Attempting to use alternate WLF file "./wlftsrnq26".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsrnq26
+run -continue
+run -all
+# ** Note: $stop    : D:/Y86-CPU/all_tb.v(349)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Y86-CPU/all_tb.v line 349
+# Compile of define.v was successful.
+# Compile of fetch.v was successful.
+# Compile of fetch_tb.v was successful.
+# Compile of decode_stage.v was successful.
+# Compile of decode_tb.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful.
+# Compile of write_back.v was successful.
+# Compile of execute_tb.v was successful.
+# Compile of memory_tb.v was successful.
+# Compile of tb.v was successful.
+# Compile of update_PC.v was successful.
+# Compile of fetch_D_pipe_reg.v was successful.
+# Compile of decode_E_pipe_reg.v was successful.
+# Compile of execute_M_pipe_reg.v was successful.
+# Compile of memory_access_W_pipe_reg.v was successful.
+# Compile of select_pc.v was successful.
+# Compile of F_pipe_reg.v was successful.
+# Compile of F_test.v was successful.
+# Compile of sel_fwd.v was successful.
+# Compile of sel_fwdB.v was successful.
+# Compile of controller.v was successful.
+# Compile of all_tb.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb
+# End time: 21:48:12 on Feb 26,2024, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.tb 
+# Start time: 21:48:12 on Feb 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.F_pipe_reg(fast)
+# Loading work.select_pc(fast)
+# Loading work.fetch(fast)
+# Loading work.instruction_memory(fast)
+# Loading work.fetch_D_pipe_reg(fast)
+# Loading work.decode_stage(fast)
+# Loading work.sel_fwd(fast)
+# Loading work.fwdB(fast)
+# Loading work.decode_E_pipe_reg(fast)
+# Loading work.execute(fast)
+# Loading work.execute_M_pipe_reg(fast)
+# Loading work.memory_access(fast)
+# Loading work.ram(fast)
+# Loading work.momery_access_W_pipe_reg(fast)
+# Loading work.controller(fast)
+add wave -position insertpoint sim:/tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: MyDesktop  Hostname: LAPTOP-LVLQIFP6  ProcessID: 6708
+#           Attempting to use alternate WLF file "./wlft1bjvme".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1bjvme
+run -all
+# ** Note: $stop    : D:/Y86-CPU/all_tb.v(349)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Y86-CPU/all_tb.v line 349

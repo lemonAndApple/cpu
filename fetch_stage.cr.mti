@@ -1,0 +1,168 @@
+D:/Y86-CPU/sel_fwd.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/sel_fwd.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sel_fwd
+
+Top level modules:
+	sel_fwd
+
+} {} {}} D:/Y86-CPU/F_test.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/F_test.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module F_test
+
+Top level modules:
+	F_test
+
+} {} {}} D:/Y86-CPU/sel_fwdB.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/sel_fwdB.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fwdB
+
+Top level modules:
+	fwdB
+
+} {} {}} D:/Y86-CPU/decode_stage.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/decode_stage.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module decode_stage
+
+Top level modules:
+	decode_stage
+
+} {} {}} D:/Y86-CPU/fetch_tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/fetch_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fetch_tb
+
+Top level modules:
+	fetch_tb
+
+} {} {}} D:/Y86-CPU/F_pipe_reg.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/F_pipe_reg.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module F_pipe_reg
+
+Top level modules:
+	F_pipe_reg
+
+} {} {}} D:/Y86-CPU/execute_M_pipe_reg.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/execute_M_pipe_reg.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module execute_M_pipe_reg
+
+Top level modules:
+	execute_M_pipe_reg
+
+} {} {}} D:/Y86-CPU/decode_tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/decode_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module decode_tb
+
+Top level modules:
+	decode_tb
+
+} {} {}} D:/Y86-CPU/decode_E_pipe_reg.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/decode_E_pipe_reg.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module decode_E_pipe_reg
+
+Top level modules:
+	decode_E_pipe_reg
+
+} {} {}} D:/Y86-CPU/memory_access_W_pipe_reg.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/memory_access_W_pipe_reg.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module momery_access_W_pipe_reg
+
+Top level modules:
+	momery_access_W_pipe_reg
+
+} {} {}} D:/Y86-CPU/select_pc.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/select_pc.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module select_pc
+
+Top level modules:
+	select_pc
+
+} {} {}} D:/Y86-CPU/controller.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/controller.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Y86-CPU/update_PC.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/update_PC.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module update_PC
+
+Top level modules:
+	update_PC
+
+} {} {}} D:/Y86-CPU/memory_tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/memory_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module memory_tb
+
+Top level modules:
+	memory_tb
+
+} {} {}} D:/Y86-CPU/tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/Y86-CPU/all_tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/all_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/Y86-CPU/fetch_D_pipe_reg.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/fetch_D_pipe_reg.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fetch_D_pipe_reg
+
+Top level modules:
+	fetch_D_pipe_reg
+
+} {} {}} D:/Y86-CPU/execute_tb.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/execute_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module execute_tb
+
+Top level modules:
+	execute_tb
+
+} {} {}} D:/Y86-CPU/ram.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/ram.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} D:/Y86-CPU/memory_access.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/memory_access.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ram
+-- Compiling module memory_access
+
+Top level modules:
+	memory_access
+
+} {} {}} D:/Y86-CPU/fetch.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/fetch.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ram
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} D:/Y86-CPU/execute.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/execute.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} D:/Y86-CPU/define.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/define.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} D:/Y86-CPU/write_back.v {1 {vlog -work work -vopt -stats=none D:/Y86-CPU/write_back.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module write_back
+-- Compiling module stat
+
+Top level modules:
+	write_back
+
+} {} {}}

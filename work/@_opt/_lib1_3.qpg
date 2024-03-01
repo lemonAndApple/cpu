@@ -1,0 +1,4987 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708782610
+VTYY;BDTNEN:_g[X:RZM463
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65d9f412-1af-3198
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708782607
+!i10b 1
+!s100 Yi>4cSX6]6cFf7W61LDiR2
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMdjoOZk@l2kSE;ZMIMzYl1
+Z7 dD:/Y86-CPU
+w1708686775
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4074
+L0 3 55
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708782607.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1708782606
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4066
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708782606.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z18 !s110 1708782605
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4056
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z19 !s108 1708782605.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R16
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4057
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R16
+!i10b 1
+!s100 ;3aOF0CV4[Qa:hSPhcHDD3
+R6
+Ic^GE>kV:^T^IkVILj?`;02
+R7
+w1708780698
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4058
+L0 3 86
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R16
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4067
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4061
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R16
+!i10b 1
+!s100 PG[g9kKoi`G3Z?g723UHM1
+R6
+IMbG0EC5VLmSaS`zW_0Kk03
+R7
+w1708698651
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4070
+L0 3 25
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4071
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R18
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z20 w1708782597
+Z21 8D:/Y86-CPU/fetch.v
+Z22 FD:/Y86-CPU/fetch.v
+!i122 4054
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z23 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4065
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R18
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4055
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z25 8D:/Y86-CPU/sel_fwdB.v
+Z26 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z27 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z28 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R25
+R26
+!i122 4073
+R27
+R8
+R9
+r1
+!s85 0
+31
+R10
+R28
+R29
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R18
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R20
+R21
+R22
+!i122 4054
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z30 w1708078169
+Z31 8D:/Y86-CPU/memory_access.v
+Z32 FD:/Y86-CPU/memory_access.v
+!i122 4059
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z33 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4062
+Z35 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R16
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4068
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R30
+R31
+R32
+!i122 4059
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R17
+R33
+R34
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4072
+R35
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R16
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4069
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z36 w1706787196
+Z37 8D:/Y86-CPU/write_back.v
+Z38 FD:/Y86-CPU/write_back.v
+!i122 4060
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z39 !s107 D:/Y86-CPU/write_back.v|
+Z40 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 EDmJh@>NA@iX?oX:NAE]^3
+R6
+Ig9HYJ=OR@=PD9a?0^[TJg2
+R7
+w1708774992
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4075
+L0 4 356
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -re­63´1UÜ±m‰É˜ž‡|¯º¨‰Ô¡˜Ÿ½Á‡Nø®»ª£.eX˜žžðQ
+º»¬Ò7c)ˆ˜žñ@«ª½Ã&u,þ¯ÔÑ”Í™˜žÄðúäÕOÜÁ{„ú!ïpx5~âÜ­:›OmÅœ+»™9™Ÿ¹0—.òyŠ±[Üù )â’8«Ä <(íÖjõ­ÃÜ¢ýYc±eìîåPl'Bßu”×» .ûéä­Ö>Ly3y…¯ã!U[ùÏ€|Jà.™½ÔG%©ŽÑ” 9-]/u-nÃ5{¨oÀò™ª]+üðü
+âUÙFd}M»˜FËôwïçjÿ‰|Éš—)„¯í¸š´]í¬ó¦4ÈîµÏc0¥ ü[Ôq­T½Yâš‹µrŽ„ 4º¼Ò¿L®åj±³b*› ‡dMŽd.œüÐG÷ë1_¤c_ÍÕViÍ.üœ‘rÅÚ[5(<íÝühèj’Ü#ÊyØ¤÷º¸±,‹Š±òüçnŒAEaÒ$y¸ÑÒ‹ð<¬Û®þ¿7zç“Þ™0ã*´]¼—°‰éûÈtK²u¤]üM¿Ì}PýXôñ6evÎ…¶_Þ½³…4@=ÇÖlë8æ:º°Ö®ìÌš7beÒ]ÏåMZŒ?ÙãP$­Þí‹NòŒª“ƒºS´5äi›œ`iwJX WPÝÕnw¯óÝzçM»§nñNšFmÖ\¶NÜNÜÒ=Ë:7ädÌŸ¤^"%_¢Ñc a!ª%¤Ì¹/Û²—ûêÍË*.35aŽ<Äo3šè´(®•¿þ§wy†¼Z¹År… “ü³;±JR=áÏB¦›2X15Z€¨ïŸøU Ô¢	/=Ä{‹ñ'~ìó¡Ï÷[~CyŸìÓ$Rw“:¦TCE~ôb*E«¨ðGîðC{€ã‹är¶>´ÞÒRáâ{B5oÃZœs¶”Àzfk§8ºW×[î´6	˜1s?Ã,aEWFz± U/QÊ¢+
+ÝÆz¹€J:!c8¨	üI
+ñë¯µ¤tù	¥êŽá9:ÀçD¿GãÇN¤n¤o¦õ¬Î9Ä›Q?<|­ÝåNNã¡{â3(—/34PqjÖb4PY÷b+,†$+×!éiŠ•$%eá+>kŸù»ãßÅ®EpQéSIð
+#äA(äbäî¡'°ÈÚÜ,ÌŒvOŠÂ+þñ9åßØÿ³l\E
+‹¸…æY©üûëGö²Ít+R0£(‡®ïÍ@ßþÆ®@G~üÚ¹‚t9r*õÔ6|ZŽ0¤r\;%±”2zC´­=,ì=„‰:õyÙ³,¦}¶.i”aÈ…RrÚ¶*šÁ,z.…#Öb#Xa!çÀÝ‹cÙ·ÌLð<Š™ú"ögDÚqcöÈÍàe@Úü°ë³p •JÈé·a
+»"oÛ´[8— ƒ6`[B3»ÒS¶“·œäK j@2Õð[ÝjÂ-ïé#k×-ÍÄV3GŸûøüÆzøÌ×n­Uðƒußdƒ;´VvY¡Ê¢×ö10
+„ä+ZŸ£Zåd…å4K
+Z‹8í†wc.¶¥P\JŠáb¢»§nÿÐyîï‘&õsÇz¡D¼Ñ\“^ßLHwõ*%TnD(h¾ý°EVÔ¦IèYŠ!ØVUýoŸð4\b"“V3!V<¿åU}ZÍå]×dV{ôÊè±eÅ¡…J½ñ˜ìû¾U!¢˜.ˆc0¦Vr³–oÄ[{Žƒoævp]¢Ë¹’6«œ¹ƒ$Rk”Ò‘Š÷«¦j«ä»­î~ÕìOD80/ôi?™zž_µ	¬4IA!IƒD[
+Â 9ˆ-†l÷eK¤ì"!GnÃ	û5ŠµOæy”N¯ÂS¯Ù…öfiÆ“&XÒBÎg‡ñkíÖA´,)¢ÜŸµ¸ÀÝCåV@À¡W}Ær?ì•)qBWó=Œ^ñ<òCQ¸Òó]9å;¶="‘È}¬èíÍ¦[û˜_p‘&<:°IÅ6X4Îà|x¢,è%=>Ö“‡4pJÄª‚Lû0ÔœñKŒ~üþø6DšüÜÕCbSÒ*®õ 1ûS)„Vú<Šã!"Ú«½‰i8í¿Ã!’Tñ9™»O_"poO”@2;²)¡@*Øgw* ºôêå MÈœ”u*ìîü„B!E¥H¸§_MQéX¥UwÚË\ö”é¼“ÁÐzÊ¦Öé§`´n×é…MÁHûS?õ0ŽíÙ<¾ð /pÒ~ÁŸïoþä‚>¤9úšv˜€´`P«ÒÂQ­–=ñF=´ (j|ÜGkÞ>×)«	ÿö\ÞGtgóP[£! ZßˆNæmåº³(‘Z“\ù³+·hã:¨@ýÌ€m¼ÿH	j*ÔòP/Y÷–\4öõ¤yÕv/Þ°–›aÖ²u2M]ìÿcê£Cu]É‡c"wQ°Nï,¬QgO»q]ñ Ø¡K0MÕöäK î„ý$!-©«ò
+3±’Ô ÒÚº–6vÚ.?JŒÂ(âÍä½kÄ+ßÚÄÀÔFR¿"*ÔéÛ…6~þøÝ¦Žà‰·ÜsJ¶{­Ï½C¶<’§w˜€
+ñë§>ËÔtùršŽá92M04¿Hç3c^ü¿/ïysãz˜7[P6 [£&rvHÐ^×O¿æv|¸	¼¹£hd}Ù•
+Z´+Ýë®®’“ˆ!sÐ= ³V ]îW’<Ñ™ˆì³i¦î4Dvô”H¯4ëüÊ·lÐß‚Æa©7¥;/ë“1†­‘üKÓ8êœ¡ý‰Ì\l#a½#*ÕBY @)kò*ç#5¹‰¤%7KM(œy±kÓÞ×€¸ºZPMçŽ-å.Qy–PŸñ?u0Wnù…Yx_“ØŠhŽã/ë¬òjø•˜ýÕjª£bÔ[„KÞÝj ú(ò'rÉõ°>ÉÍ´Ì¡ ž5Zª ~ò6:Ô¬ÀKœz¢óQŽýô{Ò˜“³~îpó:“PÌés…GVÂ4"‡N¡:2«?²GÏð	Èp —wÀ„²¥.ZØ¢xlô¼rb¼—_¨ÐkRÀÒ2ª´,}‡EÝ„z:z«œ+ó nÿã$Ž¸Óµ„tïìß³OÍèûœ¢%J­Ü’ÑobI¢š%¤ÊÛX‚—™©iøÞ1ÝÁsåcdr“U[‡j
+­ýYý€lÙÀuµV+Qí¾¹növ™ë­]KÄ8Ñ9—¨vx²Ó ‚Ù¢û¸¤êÀà3Êhéý÷Ž†jœÓœÌàŠÌ›®ú¸Ý¦„M‚•yÌÁ¼Ú¾ôWû&YÈÞ… ámÞëëB>²,ª•ã¶™•äoûªÃ×J^YORe|uœÔs6R3Ôv>;«?ìª{ƒnÜqx‚Špm‚;§f2\%TÎÑn¤%K«£º=é³º´N±ØÐð•9¦Ø²¥,w\À"xnÙmjâ¼—]…„(€8œmÜê$&?á¨×né’:ÜÝn±‡dZ½¥ù b³ª¦ôERpñ
+î¡q,x¬F?Ö`#Ÿ›Z‘çËÿ©®°æIö¸Ÿwo˜WKíè9û°5Bƒ7W÷2?åCjÛ^äÆ+ÜIOïçd[³2j—úÕÃx$LÎºWg1sX°²£Á›ÊJª…òFˆ¸{_ÈË’`$=*2ý'™¹S¹AUÈ[½øA¹ÜòOé‡m¡ù™Åê¬¸ú¨½É‰‹Û¨†÷;÷õôLÀT´Q[¤(¾\@÷öfDDfÄ+_ÈuËÃ¼Ýµ€0X´Ëaîw¥ZŠa²dI†~õM†EPA‹ò¦ù¢Aø¾…£349ÏºŸ1ùšŠ¯æèò°vü"(©‹‰\žÚˆ–)HŠ®³Â2iþÐ»6“ºÐ°*£ g’
+Ü£Z…>_ÞÖtýö^ˆÞôYˆÐrÀ€*ŽÒyçLÑ®±IÓ.ð:¡ŽŸ ÀQã.Ý„(¾Yt=fDA1¼©Èuýúõ£óD+²h‹„^Fmþd-ƒ# ÃHeU/¦sB1•P9ó\U7t1Æ>6¸6ì1®VB.Ê@ìøs‚CÃÈ}»ü½cVej²•ubCeHŸàSN³cå6I
+ø—gH¥N¤ayÊ]ÆV53Â©gÿŒ}ýÚT"ÎÓÌsCWÙó±ÌÁ.!ðÌn¤A9àZÚMÔòØÍ® {žÙØÿò,øÁªEá/KÏ—iîGÎãý:Ž÷*üŒÐ¿ønâpôV!D*œx ðˆýdf`&ÃU¿ÊWÆü>ÛüàLî¹9H@ÑE„¨ªdòE\ú·È¬óP\Øš½ŠßŠõåpÐ?Oè”Yµp~¿ã{ÅEXŒ7c!|ó„ÃÂ®˜2	œåñsÚœ8 .¸Ci¶;®žYû·C&ÁC?Îò1
+õ)qÇ\XÔF*³'d4Éµ.ô_ÏüÂ{Nø½í¸¼sºYTöFkœjÏXwÁ\W %¨:Ã7@ru\ör21F Vsã220whÂPtbeVd+¡Q6ßÿLàù4"ÍâÑ¦%ƒ~†‹“]YõàTJÍÝïé?¢,ø˜ÅÈb.¦îyøË¤Y
+›”Ó:«4-¸uP	Èy‹ö dwÀ-^™*Ø«ƒÛ„¼rk#lèØÐk[;eBª´%‹†05ä éMýå5Ë¢8ÛÉ}ÛæˆþÔÊ»©‡å:!hùøÚñb%\”¶x³D!"œBÙýoØ„dêÅ¿Áé.¤×*Œ…Gûk½åÊz©ºklðnýÅG&û¸Ý¢{$Ö}Çglñ' %I”Kék¥oap5áŸÊØ>Ïù¹7šþEr~')ºÈ^òX“;‰¶E“” 7â:¿ }<ÉÂU³?­¹‚8œN¬È§;ë!{ÿùU©€?Ü­î]]!‘eãE{L'M%ï»/£I†Ý»´q6NÜ®´S%ChðæbgBU3ãs"23¿üZƒ3ë£;°[K©¡‹ßÎS¿2‘4K™;Ùp?éL“âÈ©.,Ýè½›‡2OÿÉ…ùÅTzº»©Í¯¬˜šŽÜ³ëª¿â§YÍÊÆùÛ\Ïÿ§„]’›¯pû<¶Õ{·VÈáô{JŒ5o·QQ9ÉñÌ’ô£/CX‹Š¼jò%mÎø^˜k»êÞœjÝÿîú¿lšñH‹‡nÏÝ×{ãÍÌ‰³ë9j$4ýÿóYùvSÎ|äßê'fù­ŠPÚª—êwsÚÐc'nö1cÛµKòD7–gglÖ5ñNab)“7--ÇIwI%Ùfì¸9³=ÿU1ú—‚–#c´Õˆ·#+ÄR–¶S »š—¶qÎ¼»V`Nq<òê¸ ˜ÿó1›º+!à
+¨Ùi‚k±~ÖÑ$Ç0,É»Jžbg!/J|óa t[0×rE‹µq×Ý—{¨‘ûééw~±-¿ñÎŠ0¾òáyOÖí¿Î×^or}’2ãþÖxð0LçîoÎøl¯ýÕ„Q,ŠÉ«pð„3‡QVÃYq)`»‡‚Úân.'=¤þ‡vS.By˜²3!vÖd'B_ÑdS$V$`žÒVrwBcÓ6d?æ^óRËGóJàít.²Ñ±#(ä(ŽÓ.LÊŠ$(ÔS*¾·`^&RZ1¿ã%Ac[6 <JÔ~	™_q%/îWòÐŽ–ÓOÔãSÔ}%åÞ¼ç!IŒKb+Žv¶b
+b„H•FuN°zDCj–h]¹Äj—1ûÍþ^hˆOf”ñ–qõ¨&7Îá+®79¶ñ–ÚHÙœÊúVs
+ý¸´ò¢Ò£DöNê„á~XCZàP8B¢üËˆÊ¬ãüd+ÞøœÐP| Ïóî§
+'ã)ˆ›–k·Íî&Nâ/¥¢5ngQ­V”ÊÞX«µp§œöš¥,$`±Ò4tswN‡Ì¦ci&OÍ³c%DSiáûµ<à,¾©Â4Y…HÈÙ·&.ñl…—qD½È»¶oLIiK•ToZÊMå¤ý±[äsÿ@j ?ë7A Ætm7v<ª?æG}ÝÅI†a,ûÓ‘&ZârÙ†0U:œz-!™ìtfbD®ÚWÀÔ°Õì|OË€OÂ:Mí†¼Ò¯å3à;é¥ØY›Ž|K™Y4B7oæu zNáJÂb4_`C-õb\Ý¥Xê¦xˆË]H‰;#ßÎ›°&sFé_ùØïÉ8ŒÃf•Lnˆ½naê*×ÆGvGÙ÷•hvß™ØÙ«ÄkÁÄUÜÝºt|‘"«a;lÌêa½“x˜•M‰î
+®¨÷ŽÖT·i†ë´)ô:Õ;±‰í€àPó.½ÀjžX‰y$d@!ºÍ;ŠUâþ\‰¼~'ec	Ú’8oÇ.5GÿçÊ“`0±s9¨ší×F|Ú¶?‡™Qó}A)Ÿò<Ñ 6*á‘…iï5Z«í+®¦d.Õåß
+Ý`/ýù;×ŸÎV%âÑRIH±MÍ¡3ã01ˆ^årãŸ¸²J±Ï«Å¹œÀ{Áå^‹É„Z»¬¥ÚúÛÓ ·~ì––tqžŠ’žbÕÕ'Äh†DæejY*•§‹öZW¿5õÓìÏÎrñ’ì`DLÒ?íÀT:@“'=X·Mñ'6öK9ŽËT( ÂŽYÌŒLALNª¬ÓO»4Ó¾ºwgr.°ð?–P¸³¿†Øª "€bÄv›
+â½÷*÷ÒÚz°Ì¬g/Çúp{ Ò)»p«ññÄ\Ÿ'1¬÷¨ïiŽËŽ€¡-{5)¸åj|ë=«‹½Dòu\çó1°1\çàºÅÛà÷fU>‰¥èÇÿ‡Ç_ð%ô"ÅinÞ½YÆÃ Q.SR)¡	,æRG)ƒ$YÀ~ÿ [/}Ž)C$WOÀ%6QV>Ó@>š›=´x6ì;?„ú‚.ÊâÆT³…>×ˆÈä›‚~øø‘§ƒó”NÉ%	Žò:ô8mß®Š#Z=ÖµNñ fbµ +ôe­Oñœ=Ìÿgb”ÉmZÞ[˜Œï^‡œõ©0$·/ßŸ+¤1”•^Þx]ßÕ•ñTF~ûª¹Å*J¨Ù…š9Ì'z¹¾Ö“•øx{U“ÅýÞÉ\¸µ­nèœ&NùÂyÚ©åVŠ™™’u®øÍÉýì}Z^`p³e|m½2'Ç©Å†Š‹8¾ÙÙ¥:ª©­ÇÞår¦ªº¸‘OŠG|šÏÅ]ñ@º»¢eÞ¡wè9ÓjZ¹ ù­b® ·Wzˆ+ÐâfÓV*þÜ‚DGNñ¸Þäq<ÝŒ´ª§&G×L¾¶Ÿâ;¥9ë£¥I|ƒàskLØÈ²Cc¸~g÷{žMºI£ÆÒ@L”wÉtfP 
+y¥oN‚"¬n²(·gi€ZØfaV`/•c6r5AZç@/jZ-$º¥[î‚kî%æí$ÂWÏßþËaîT*ð&=‚M;”§«§ø’E‚þÐ¶mà•Ð3(’?¡gžåï¿›q9äXÇû†|ÐzÈœß÷x„O¢Ö}”/1ª"Û>–ÞË²èãÔpúØÞÖšì­4nÀ–rJp<•fáÎâ{hˆ ÎM”EK¬ßâyêI™»¤AÍ´Ó/Ù¥9‘ÈÑºt·úQU¶Æa2˜€ö‹ì°8Íð›0XÖ(ˆŠ ^um®ŽÞVâÔÆÀ$NÄçUnÁ?®=É½¿"h¾T)—@c2Ò267	|ÊìC…ìÂÓ#.ùŠ ory’·Z×tJðû¢ñp4ø³H>Îà)0n
+ÿ\ây^¹ºÉGb_D+»„Z€*'ƒ'nôUU¨;ÝXäV|×@Œ³¸á?ÂNªùÐWíéÜ©®_{LAeçTG]œ'Ieû–6¬”cSà¶býoØ·b<Ðþ›[´úzP(†|Ñj-ŸíWv8bÁÖ<89ç¨4Ì1’^WR,êOùc!KEu=ßrþíë!Ã13þBaàLÒv6*%3nmä'f@2V(ÅyÈ	«*®YÄ‡¨ËÀ0À›øpNfµ¾äG-,Ûˆž€9%Øz%'ÎÃ=þIøe`ò”2JÅr@¶0?ëÐ6uMÇ(÷žà[nkžì¬µEELë¬‹×à„a¡#e£&)ö]mW€ƒOH§uq³^æ–Þ­…kCzÁóÚ}È g(¿w¢%k ÕQ6¢ŠâÁIŽ¾Ÿ! †KØ¼ÕOâ;·}™¬SCtÏªÊ¦g,7jûˆâ$ÃÍT1¬ã<åþ‰sÒž:\Á4ù[¡'M’¿jqw`m×$x9ôElÞJ§Wøãk£,ÓjÔ«½€\ }”™#,ÖÝâ!zƒ£A×oåuj#ÌM¨;ÿê•®ó)Ÿ†·eØŸ— ;âÏìßÕjÎ	™ëânÔ>TH§{­[È¤Ñöc²>û¬ÕC(ö[¸Ž¢J±^Œð·ñéçÂ
+¯×ÚÄ¥l4^ûªîÜ0üŠ•«{|ÏìÓ-žœÙ²§ñ„cÖÙ\nS»N£µß¬D.ÿîýÂw`Ü±‚%UZ¾ü‡+®T>_Ñˆ.‰|ñïë£YÔÚ‘âfüÀ™€aÀ<•iŽó)µm¶gª_×Ö¼8ý˜qSÚîÄú ü>y‰„Qã%KÂîê­”c)ŠëÞÓ—Š"R)™±¹ÿ>hŸËòdia_“ìðUF	‰ˆ‘2Kt"÷T1F[IoÜ6ÄËƒ&*HGC$\ÒGgfqe<Æe '9òÔ°€¼áòƒRÂßêÈÆ&úù»ï« ‰ŽÉ®«¿I´ýQàêâÞR¯„Þ,l”÷{„Q µDZ¶mÙ—3ÔRhíé&èwúÑ£>ÎD'“-Ïê<‹û-‰»à_’Æ¬ Š¹òòFXÊº‡@jØ-yçRG@ßßqeanQA)“!c'b;¡U@Lç` >YÃ½­nÄA5ð`ïÀú´–
+ëê“ú¿æ{˜½¹÷æ X¬¼§Ÿi oŸùÇ„úp÷§õK¡
+µz¼ÖyîdEXË¢aq&Þd¸
+Ø?ÜÆB‹×š‘â7hý˜ì‡NZDàû¥:y®µoìÖrÿè"heÔ.árXd1…ô¬˜$¼×ÆMÊ´ZýÏæö©ß¸ Î¬©¡­T¾fç[µr»WIeAKûÃQreFy‰³P{[ÞÕ"Á¦Pðfí©8<Î%²
+µEIâ8’8ø)œÀOÔZ¶,¨¾Z ù•æDBÊÃ×Hz³"²c¥¨¿·^¦Kàš]þ;àÝ>Î H™´yÞ/¼lsîÿª)ÐÀá÷.D]Ë¤SGgo‚ÌÂ'0!ÈÉöY%Õ®`p¸£=ó½2ÌÜî©O£í3ÊlÞØ²`9ó+«¯Ñ&u·†}«¤& µR;«· ãVU¸8Ñ-ó&äX³-Á8ƒ9‘Z‡gl†ïOsÄÄ?CWU÷}í+¥~³}
+RñS—¸‘)¤ <Ñç.mÍ±È±FVz¾ù½àxD‚XŒ¢˜‚=×6‰ ­~CÞ†”c+¤]ÆI„Q‰Pkój±U2æãÉì|ïþÅúÄ®ÒÑûè¾÷â3-ËëÃÅÄ¬GãÜJL ÿÕ¤wÛèªàŠ†MË¬ØÚ¶èü¨øÁ9Š¾­»†ÔÍ)õ|ÌëËV[B;ÑI´U™î€	‡`ù¬µñ>fq—H/é"´Zn´!ï°º‹#(ÈÈ‘1oû¾êæDS+þŠ”ó°ðƒGÄnë–Ã^jP¢p!I^´o›k¡`ÁÁ.œp®CÏ­èþFim1Ò[ŽÙ—d¨­ÇiŽàˆŸúu\ÂnÎýÃph¼{:^kÉ&Fcm¶‹ˆx‘#iÉüÕJ²(çÅOw1WE®æW9º-.Yƒ7gD\×gf'fvÿoðgFxÒi÷wA ð;Â`r4QÏ¹õ6¶Ñ ÓG›.zïÙz‰‡b:º´Zº¥B h™†e8ãF?ò»ÄwÞàúÀYØç~ÜÛ¥{ŠãW“Oìo I'*CTU<QàÚí@ÍÏèœÃ+¿îíÎ«°ËÀƒ´^¿­«Ïb&h»‹«âd!ÍÎÀ6{@ý&hœ9:¤šÔ)|¶R‘FqÁ±dQ:ÅIƒ$_lŸª7%Ugn¶ú¡WGl›ü¦dq	¹®†‹fnŽ³(J*¦Í4‡èøÂ¿ûŠ»¨–LßÙ‰™‹¦{ë««­¸ò4Ñ —ýéC:‘.ùÄDH·hœæPhH°s¦…¤øŠþgƒñT‡b"[Ÿ‘Â6ryŽ·nàDL®õLÖ'09·íøÍP±Üýä_¯·®Û¢:å)º·îèû7µU°”3HÕo¡;¡6MÅNðLÕ.çiÊ'c!Èo‚! ‹­r!	ƒt&a%Oè¡& C%ÔD­° Tr‹ÂÍ`þã.ÿî“*Ú°ÙÖèŸè-ËþŠÃ¦<Br ù¢@^¦‹„S%|ôÎÝ[©\5ä>”_ã0(áT—Ô?ÍMîø—c]Àk­Ú·V_×ié‡vkò“ 'gEÈŠ©£chÎÛ…AJœ¥…__8cs#!zÃDP{~¤nÓ!VýÆøm255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708871177
+Vi7<UNoF5QFHccXfdCKWfG3
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65db4e06-3b-425c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708871169
+!i10b 1
+!s100 hIKLzoF8UdkHIn4NWVdA70
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdW2>[jQnfi_jiJj2YO0m41
+Z7 dD:/Y86-CPU
+w1708871102
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4167
+L0 3 56
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708871169.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+R5
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4159
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z16 !s108 1708871168.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z17 !s110 1708871168
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4149
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+R16
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R17
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4150
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R17
+!i10b 1
+!s100 ;3aOF0CV4[Qa:hSPhcHDD3
+R6
+Ic^GE>kV:^T^IkVILj?`;02
+R7
+w1708780698
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4151
+L0 3 86
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R5
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4160
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R17
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4154
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R5
+!i10b 1
+!s100 PG[g9kKoi`G3Z?g723UHM1
+R6
+IMbG0EC5VLmSaS`zW_0Kk03
+R7
+w1708698651
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4163
+L0 3 25
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4164
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R17
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z18 w1708783858
+Z19 8D:/Y86-CPU/fetch.v
+Z20 FD:/Y86-CPU/fetch.v
+!i122 4147
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R16
+Z21 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R17
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4158
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R17
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4148
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z23 8D:/Y86-CPU/sel_fwdB.v
+Z24 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z25 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z26 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R23
+R24
+!i122 4166
+R25
+R8
+R9
+r1
+!s85 0
+31
+R10
+R26
+R27
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R17
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R18
+R19
+R20
+!i122 4147
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R16
+R21
+R22
+!i113 0
+R11
+R3
+vmemory_access
+R17
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z28 w1708078169
+Z29 8D:/Y86-CPU/memory_access.v
+Z30 FD:/Y86-CPU/memory_access.v
+!i122 4152
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R16
+Z31 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R17
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4155
+Z33 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R5
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4161
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R17
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R28
+R29
+R30
+!i122 4152
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R16
+R31
+R32
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4165
+R33
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R5
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4162
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R17
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z34 w1706787196
+Z35 8D:/Y86-CPU/write_back.v
+Z36 FD:/Y86-CPU/write_back.v
+!i122 4153
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R16
+Z37 !s107 D:/Y86-CPU/write_back.v|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 GBP_5hF5H7Q=_[jFDRb0o3
+R6
+IJQXWe>3?04FK4YMn6@iPA2
+R7
+w1708871164
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4168
+L0 4 356
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D˜í—¶¡ÉRŸËŒtšq9âiRõÕakQâ3tZ8áI‚r1Þb"4WOâVpr7mÇdS$QNõGac&|ÖrVRfOndÇæì×_Oÿý“¡G~‹ƒU¦ëÇÅy•s•6…kH±Õ°i>îëð«£g)ö†Qâ5A\«i–éååwq0¥4§K\¤MÕª´i•9«^Å,wQx'nÙ`…“ éò›¬ÞüžäM¼~DÌ4\Ñ"/°T?ŒM—ZÐ&k·"Þú˜ŸÉ**[<¶Ñ32háôžÝ)bgO}–Bù”z:òù;ó k¦|ÕŽ½Ñ\áQøšÌÓ(8û„Ñthˆ@”DEË¥s¬ ;?ÖîÁ6W@ð®×j0»Ú¯ÌÚíÝïê¾ö?‡“9ÄÂE%Žkˆš³,OdÆ+îÅ4uZ¡‡ˆ—$…c|0§Ë™—ZPåe¨5…¡ÁWSƒðÚ”}Å¸¼—¨™Æ±*ýîg¦nßm  &¦ÁVWTYŠõ+\Â!_[[¤TP`Qi	îyÄ>ó=Œ7b
+&C„ÃÂ®ŸI¹œåñsÝçˆ'.Œs_ø²>ESS^µC#' c5V[hÎjÒ6s-P'9±'auuQLÑ%T%k¸p‰ík‘žCT¯Å  U>mZ–÷­Ð,õÍ¹„S)ÁbÆo¦ HådÎÞôR1‘em÷R/¡Ú¥\žŠœøá"–í+3A¯ØŽËîé3DÕÖ³6]F³;—³™Ô|§oèŸ­©wqQÐ:àÐÜ–~ðß©º—tÓ¾dL»´N°ýÆ-éð0¸	`‚P¾Ê /S_ûúûdª†ÐÇk€;ù¨æàÑC©@¡Ñ¸É—c,ÞýŒ·›µYøû„óMñ˜¼Ñõ£'í¼„÷waþº¸¡sqK‰±
+9ÁNq)¡­±ËJº9õgÃ¾?€»Û˜(âÂ¬gSaèN™ò(9üÀ9ƒšõ_É…K¯®Ÿ®0ÐºÕI…C/±Š)ìÇgòLAõDT+‹°ò­­eq–ÁpïË@½L<þ¬á[•	AÆ>4ª4óR'Jµþë^MÈ˜Ÿ rÉ›öàyå)˜¿é„XÖ˜„×6,¤(øŽàYajÞŠžQ•¤ÁgÄdI³—%jUõxÞ©æº+k¾Ò²õTjk[ˆá G%&ƒ7+f°ŠÈ„@ÉåÕw {è”dC4ÅOÇFJ1îhÿI°Ýµ½ç¾ÙŽhU^Ðšv`)UñZ¤UDVyÅ$¨ƒk;ÍÍGT™†K‰í&ÿ
+Ýò©w”²Æ5”à\ç6è¨®öãYÕØN¸ÿ'~ão ´u:gô¹ÌtgÒŠÆŽÚVÝ"ý6L}–Y¢ebK?,ÎÚ5Š¥~,aSžñ U.HŽ}³fLÔXžxÁ4LäS¿ÏÈÍÖ0÷mú4)¨8Í_gR %þ‚ÏÉc›îƒ‚MÖY‚–KƒXÖ{¯ãm¯ WÏp…Bwf{¡
+îm—8
+»Ë,À`÷b.„}hÃ¾—Ê‡p%ðcÕd¶ÙûñMë~RNê•BŠ¡<BL’?ìÕnDÅqV¯ïágOûÙ©ÄhfnéËGf&2J—Ã³À‹mÛ•óRÉª\rKò|÷ÀîÆîð€Ù®»‡Î‹¸»§ÕX ‡¼Ú³,«Vj®Ê lñXŸáUÞ >ž¶`dµP
+ðýÇPŒ¤tø	gô5êŽà/T)wD¿]á›Þà?ìÚšËàÁ
+ü¶ƒ6i³L©¿Ô6x“(Ê€šŽj=¬¿îåPSÁúÉñ.[5­Pp¿ÔCž2åèÏ¨¸|²ö[è—ÔñuZ˜œe	—@ê°QcÙ–=Ï×AtÎ=Ïîò1µ¸ò»‘
+øAÈÒÛ©£e8¶Ú/
+ÜvLÂ	;×žØ}k×:ù Â ÔFR¸R,áÔéØ†qžøÝ¦Š§8öçuwé‹æÞv¨©ç¶ù¯Ÿš¢u­jüGb6!ZŒUÐ‹¡|0n³Á3d"»5¡šÝlê£’GŸÂÛÏ¤rÑ^Œ%yûdZ$S[gF1-jÇsOLåkÒs'b9ÃGš¥UBZ³ÜÒ3,§²³qT[ƒ’$F> ,¥086ç€†~Â.Á³[^Ðó•
+Î[ÜÏÉŒd=éŠ» Pys?úú2‹ñHŸé„[ý€=ŒáMï°
+«å¯é«“^Õí[H*/õ}{Øh¾I¶2Òä2@Ü¯ú“(>ÎÝºú±Kèñò,ÁxMÓ­ÄS*!%Ñ
+æ6K?åÎíÐ_ž®˜é®Wü8!§TOÚØc	eå67PU	ü*ˆ`ÝÏs#TžÝˆ¸=·|üÔægS»Úû©€n—’-‚ïõY­¹‰‚nÛÖY¹Š¤\«°‹áîøÈçõé^b^Rñ<m¿ü>Wæ1_Ö%£¢Óëv¸Ôž@ÇýMìW¢)¼âfiÃ(ÖeW:¯DN?˜ŽÇEbiZ{ ÒÞ²xÇuüEX4¦].€á!R ’¢¦[^²*©Áîò–×ÉSµ/@-Ñ<`hmîxðcUzÎaÇr5‚  ÇÝ“–t_ëéî@oÀ¹+Àq
+¹Ø<²4;þ§R  T±Rt~\E§ü¸:„Dc”!ú”µí½•ÄþYå‰ƒ³!yFXÜôýµQ$Q¡<ü Q|ÔÐè‡uRø»ÞïµC,ÚÔÃ³2·v®ÝÓ0PüØÏ‹×NX~d2™´@.M¹p7…éðL—N]7]¨P9‚IBlN>á,Rø‚>N¦lÛ¦pzØ`Ó		’ÿC!3”Üý6ëÙ°:Í7)Æù6…wƒ ºä5jà#«1TF-¢)^ån…=îVëDÄ<sNÍw~Ý%â6šíí+w¼‰äñs3
+µó;Ÿ•È•O¢SÝÛùÿ*b+¹‰‡fR`]Ï©ô7u`ùÄ¸‘$A{‡ÌL0ˆø5}ÔjUº›Lo¡~lz8Y-«ðz´R<ŸŽ
+¬˜9üÇ©÷â6LýÅŠGy³
+’ðÖ†®$Þb5Ô\ˆ7Ê»¦“p$Ø	ªBžîãjQÆ
+b¥¢ Dgzƒ‘}=êVÐC¬’¶:ÉsÅƒ,@xÖ[7ª¥j?+µvª
+ã?á	†>žéÏ#$ZãmÞñj•:œø¤-´_üÂqéŒþw¼y-[ÎVFa;†ŒøwîÀW ŒßÝêõgÂK¸¿ã›¸¬G¸žýÌ‘kVn¢À¼ ZVçjÈõNeÂU-€‘Ú¯ö9c)¬øëˆ1—ˆA¥r)±»ÞC€}¸ã+ÍÍôiÙÊ°€T7‘œvAEP©‹ or·L™Àf8pxõz·#9û‹ Ž€µq¨#RÂ@ºwÃp-kìú–#-7N·ª¾nòIC
+ÿÉ fa!‚!sa.÷';·-G@{JºÆs"2I¤ÞÑ:+¡¯þàYa]‹ÚžQ•§ô2”dI³”)p:Uãs©ÆCf9Š=Ñ&UU{1w!3!F?÷6C+f¾Èæs%FVâ%ÏÔ&¾r.áJZ»ö'ŸB®^žTeZˆ.ƒÜúTñT¶’fÜâG Ü¢üúõnRHŠžó›±<D,™ŽýÅhdOªÞ“@osä^ÿâ0 Á&âSwpBýÖ<<ÔØé¨4Èr¡a§R,îA|#	cŠ4¼ò`#x¢qŽÔƒå	L*ƒøY>{aIY?·AuB6uÊJ£lHŠ!a‡b;¤@¼]Á4<gvkçˆ’b7ï|4ÏŽ\ï÷ZÌòÞx¡N4P†v¼óa'ñÊ®Ò´œÉ°ÊXŠ¿íÏæ5&†iÒ±YÅaxžÂ6Ÿðªõ,±òÀ	°UÔ1‰åÆ‰›•H°—7÷-æK¯ºr!…SUc‡õª)ê™ŸÓ™ô¨µ¨6šÉ¿•ì¡ïçÇ]í´ÍÊ²{ÁüË¹¹´yÊÛè˜”úïíÉ©›%,œÏùÂÙ…n¸ë‡Ê-$Ç¥}ÒCLnÀ^Ï‡!ªÃ8¸þÄÏž¿àŠùãÖi×*¼œØ±9›¯ûŠ'0eÆß‚ ‹ª¤${6jY8ë_Ä°»ˆyhÌô¾.(ÆÐj¦S!¯ÞÑ¦qÚøý7pZv.ú6ÍÁ]©û>fw7-Ê¿-Ô@Ygmå	ð>Q“ÌL°¾ÄIµÿ‘òõàyü¬å0ˆ_û…ÌÞÉ_Tò>ú¶s`qþèØËK÷³:¸§JâT¯ÎïÁRîRÁr\­Â]{Ún %D?µC"KRÓ7qJ_å‡B«C´>]õZpi|óÄüWç?ÙßÔ¿‹yB/–§ËÖfQôoÊÃfs)Iæ‹°^VLuC'evI‚DPG|–b&? >²FX7ÿ—¢/Ù2JI¦““{zúŒ¥ˆ’]`hè•ý€]Èš¹ÉêH‹ý÷¯d¹‰Œ×
+Œ½Î¾±cC÷øÐýÄ~Õ;†Ø	eÑlu|À/V.ÛMjïkã‡!‰ÿôxžHÞïÊ±
+²|´¡Ž8Ë˜ôð,ºÚðs¹µ6àîèˆØuAY½¼öÐç÷òÈ§Ô*F\=c{âÀjNÍ½	ƒºµ0Ó \ôô!±	7)’]Ã%CÜÂc°™ð@¼Hœßê“¦?ÿõÔ%3Ë¼Ì–™ƒ}žˆ²žm%Õ'ÆH†Kehy,‹+çV45»•°Û®oêÅƒŽÙ!~íáó kíÃ)†7#;î@c!*³"9	ÿˆñsd§{¼œ=Æ_Â”Égô818ŒïT)zŸ	&/iÆIÃeOpÕQ ”š¡1Õþ©®ŽõNùÊÔ¥X†r‰"z6páa32|R@4B7tF?“87ü2­¦ÞÂ/Úpäpó“H@WZÅˆ‘ncíÛ„Ûh€"ítá|Ô]Á@pêª§xåN{Ú±Ë?±K«”°–6j£`ò1#>Ýh¬p'p £PîÞÚàž¿Ý‚z³†
+¨¸›{‡¨š¶p]«W~¾ÀoN=¦lÚ±%Lˆm¬NåNã5ïé¯fK	H
+ßI±={×ç€³èÓì%q«vy¨³v_hë¿Çh!@ÞúµD*@Ø”c6EOê±JýÄ+!^k¿©i…U?Á¡#¹ìq;¹»d®ß
+aíêíõ7$ßYUŒœ{›uç…gdï¨-ÀHÛÂÏûä3DŽ0y¿àgéÀUÁFf_ë•y—uIÓ)óáï~½ñÇÜ£ÒÀ‘<•…Nghï!(Ð9ÔGOo-×QÔèÆU9ƒ.øÜ»^ï¶áyï=Â=ÅÓt]â+þ1m‰dWHòöí ¼é™¶Å0âØ2jó¬Ž,þ³*Ü×Ì¯ÿÃ!£ÍºÿáÖ9áò)Þp$w°R0¥Wx»3¤RDC8Øq17FÐ…¡¬y¼È£’@î×c¤u KÚ}ëäZÐ Öj˜/üáÖÅ!Øžúñl-Úø½¾éKÐ”Zˆ¿êd#ëŸ‹ì§KHsŒnj“'6V¢âæS"TyÜæöê”\%?üÍ‚ÞõeÈ³Š*TÍ£†I’gá(x>Ý&“rv«}™ín†nÖtæ0³+¤XÒZFe†}æAeK¡€)ÓN÷-æ*C7|™eBcS‘‘ãºÚø‰·Ðg˜³É4yŒ\t)–Vtèƒ%0Q	Ž÷'	x‡%úoÂ[):¹óZ.œú˜DÊûOá$7´ó»@ŽVNësRÌøA]N½ÿ¤(ò*–óìÆCò…ÍÏâ<Þ±bÁ’Å 6•Å=V¡°Sy„UZÅ•ö]jÕ¾T~,r,Õk!]YÀR»Âgö0÷fQC[ˆ8Çøúr %ô%¸»C‰ûõ†¡ž6jJtOß6Åp` ñi{¶%Ì½¥/|]Ê½Ë”40	úø¬3\Ì‘ã${<¨²™…ß…æH1¶ÇHy#ä9ÞRæuef,ðdøçr2˜¬ùòr0íŠÕº¤g^ÏŠèÓ!;«ü˜¦3uO±Ö`+÷z÷Š#NZ€Ñ¹þô±¦¸Ð2îU1Üß@&T$þò5 xlÈßž~÷R&¢>ñ—tX’ç_€3¯ýÖ3È“këÙ¨;<4ÂR—R#9cÅ¥Ž¢HD^ÞÛñ!ü“çlLÑrñ.²;mÚŸiOõzmuWlÑAAk[ºô!VuNu“VÈþæ	.çiã«¹È*	xa-¯ñ7fWák¸Í´wÛ¸‚w€?¼üt±”4ògR‚Iv\7ÎŒƒgH6…zÔŸë?éûeiÊœHUS.7r	Uü‚#&vyÈÿõYVÄ×AìÓ*¶{µ<¯€xò0šúû´L˜r?ª»Ð2†˜žÈˆ «Ú@0ù*	KòÒïär¡(”§F?"<EKÙK‚wKßñ)‹–mê´[§(ü#<™rlVR%^ôP!Q[=MèøNà%ª¿±”y-^¦Úƒ5x*Àät²ž¤õªèå€0\ÚÚ±Ÿ+± Ÿ%_Þ+©¥1¡*Ô®ç)Â`¿œ²;¡nÿ»ÞgFÃ€Soª’©ñ-gÿ6¿×Ù8ëRæÓyhÁ!èF¨Æä—p7ï/ø¥—ß½ÑÜÚ»ëÃÝÚó¤\‚¡*Ë®Æ\‰çk•Ú&õt­µþ!¹"¬5’¢{5UNÓ¬ŒO§*#d”P	‘ImËùíïA™m\±£Y¿^ó$ócnÀQHêOÝ9MË251Ë„¼E‰™¥ÃåR‰6/ýÆv{¥QñJvjv^õtwÎLbŠÐ%;‰K‚Rc§Åãnïï‡Jã}QYòj¦dF>Q.p86àð„8>Â.ÆÃYzó¡=Šæä[ß 7*‘ªÏ÷B>WY«Ú÷`"‡’!ClTÂw´Ë ,ð9¸ÈÕf-*‰žå	c%b j›—„Æ$a±·[ŠP²m.¬ùÁeOD/ø±
+	*#^¶woä`Wý¹
+­
+·lÞ…UÎ¿Òi¡†š4Nåã/Èª›	Žm¥äa1½°çJP­úô€T`f¶zÒ£îá'åƒ<âîN­Û ÂzÓ×v:²á†5º¤Z‰­­j&›L.,òX#=%²ãA(sßç™·dšíÒ¨ËTz®éÊWe*Ê—Â£Ã¾“„mÚ…ðcÑ*\xPXXi¼w½Á#:’A£S4s$éžÍ_’tYêðsÚ¢yø¾âÝÄYŒÙÚ'<©2m¯d¤C0]!Y„'NUÕ§ô=i´Mó”)Ç…ä-•AÝas<ñ% Fyƒ$jI]ø.Ñ`U¨™„\¤5@’2¸üá]0ÔµEQtvÜAã¹è:ŒÄgÐdª”½m¹ÑJ”þÙáÍÆã!qÆ\˜±­µY¤UólË€ÖyÇ…Vbé™²K€	Š¸Ç9£>£°úY’ Qàµ¶^Y¹´ø¤A2ŠÁöV•ëò·.Å
+ùòÂ	yHƒ-¼ÄçÍ¹”}Ív:«ŒÑáBPåZýraxFB[¡ ±oƒUB<À;¶?ž£T/È7ü8	ía2/ÚÔ¯Ï„=ááST©°b÷j)‹×®ß¢^7À˜_ó7ÐJ¦|×`ä4ªªâ]ÜWäTf\¤O+Hª*Õf.	?üì{·c/Q‡Cr	î»áS7s=€õBwCˆã½¨9¹'Ð`ê—ˆÜ™Fvã aÁ$­´I£-xÜËÑL¶…W2 ²—}ëNýÍÎñ–¬š¥Ì¾£Jª©Ç€ál®×Ït¼JÕà-×R——Nk™Æ§$d*pà½¶egms?ÓºÃ`Kî–‹¶ dÂ@†ah¹m[ÖD}·7'~ç,0tJ™$ÄµÜ»c<â†ùªR€)Ï1J€d›©é+Ø)†Ð!*Í«¥…W,Å©ŸöeKª½“°A`‡›\Ã5C/ÀzÇK·ŽkÃ‰±‘½¶'€§Zô¼«Þè	Avÿ HA»üÁ"7m‚ÍÕ^Œ—ð:ÄQ;¯µš*³¶R·ÅMnv{tËKüxª9­Á#¬ƒ½‰Ó¸œ‚Å[¾°ò8¿å?À¸™\q:  ªÏß	ì©ò	ÿOžîÜÜg")««®ðSHg}…\åSU(›¦{rJÇè×ÿÞXý†”]–›ƒŽ`û<¶Õy–FÈáô{H=šþÔºç,¡Â1Àn2—Fê|Æ\[j¨«|iÕa~üÔP]¨j¨É£A^}-Ã#.à&TÑ‰Au^ëãÃ$7•ë7ƒ¿ŽToó°bÌú^QÎó~Ìu”Ui¦-â3Ü÷$š°ì¢ú™ÏÇÁxŠ˜¡¯t,ŸíÇl’XdIÎ·…V÷mÇiäQ-áo‘<ý/ÛµZäh—iÞ$ñœ4ÁgÏÞéº%aà–wIC+3 o,ôS$S'Y¥:^â&n¡ pàë°+´Y#¢\]9—TY ·fä@mñZát|x§òX:†`#”/”¸‘äcÈpEaåÃw ú’fFé;›ZÈ-…ìCÂlA‘Gûú¢0³)È˜EÌÎêïÖqÉú”ú"Ò p´nâá}2P/– F1.êÎÏ+®a®4r~ÖvæA#]ØRÓ"òÓB`ýœ.@{,ÑpïÆqž{­Îô:b%YÚˆ–rg'Ï|5ÚÞ_Ý×Zœñã&tt
+èÚ/´,|š²_â6pýáŸØþ²H°ö—Pù0…h™Ò×¼	¨›¤^ˆ“(šÚÄJªänø˜Á~Ôñš[0x0.é¼hí:ž†-™utåK¦qZÌJfÉÄ ¤FìaéÂ›Éy-éé³ƒ0’¡¡]eXƒ|ç``lýiÃºÙ"q5ðg›Œ9€ˆËó¬ôëÒÎ-oq²úRf~úÁ~LülmqfF»kŸyäuP•å¨ÜÚ³#/ã/îùáQÁX¨›¡T(¿M\8	ífEUzÔ¯È{ Bm¾«âîðÏØµ8ã©ûìì´&‹&[ÛßñFµ‹CH¯t_îñ:´Wm¡ŸñÃíšÅfÖå¬E#‹œÎÃŸ˜a%¢?éé×9ÇFÛP\£»­»máNÛ¬Þó°ªb`äÀaÆSPå~~@ì¥¨˜=ùŠ¼Ûé€Ë¶¡Ë÷[©Ž¤(µâ¯
+&fOú‰9û_Èq°OƒYóq	‚=ó	Ñovj•£Õé«D&žùæÃˆŽ-3ú¾ý¢0,·Ò(€GUNù×þR¡íQnRJ‡ÞŒ,ü:»£¦,^ÿ¿ß²./¯&ŠŽ(”\ÖOÍž'=#ˆZZ÷+=ŸýtÁ`ãVÕ¦UJ°þó'gØÜ„aIÝ¹¢‘•¦ád÷X‰³•<&Yfxœæ([ì‡WÂíÊ—IÔyûª¿à*’5¿iä_’`½Ó/äL”\ë×A÷Ãemû§k«£mÉ„,ÌÂ%æxÉö[{EÐp¸¡]v2Ÿåv2iE©E¬ÞÒ@4PóCèš-Å0Üþ½â:¶x©¯ƒðÂP¶×y‰—>@VÊÖŠ’Vo×k¬ÜÒåHÑ$£*¹Ô&ZW‰mh qºÌ/ÆžöO¨¶vö|ÖÝãBÑ‹WóKë]^ÛK•¬šc” ‚Y„WlÝÒ7k§Ïð@-ÅEûŽUÙfí µtMÿU0âJºÅO®‘o”F|Ô]ñ-¡T
+Š&y\VÔ]b¼ÛzûÚ[ð²
+7LÓ)ˆÀ~”OþâgPÐJÊœr¤¿xó„fj‚Œ¥±*X“¶?Úý¼î$ZÔ]ÉÕagÄîKNâæ\¾Nèy~)ïÎXƒ+S‡aôVs+º}ÝÖ!5Iƒxé¨4Áê+Á§R,çÙöƒ	lÞØÝ‰ôT^ýúœÕ…¼ÅÈk‚ÿ-:e’¿r:/àCªVÚ´Z²>ô©†yš6b)¨¶~·0e[Žð•bPL½ÄWªàg1ùF×eŠkTÞ|Š€è¥H’<ßíÈ–j²ÅNúµI•>†­Þt4q»¹žÖR0_½¾ìðU}ïºÅ¿€ieµÊ³R0eÃÌ_*ë%Ä_ã'lÅNæ|Á[¶|ÔYìLì²;æ?‡ ’ â‡-”'Ä_âÆ}ro.éïnù`¨ˆÒëœ±@»Py¢—pã#ø·c=Ã
+¹…Aþ³eÇ#0>üš5Q2þ·3VbX›•avÒôBAC./s4;Ä¡P?pŒÞñ`)üÒ4W$[­Èá`ð‘h¤{(ŒÊ—K V.‹¸±Åt|§¸Õ*4©kŒ›>í¯>¤{É³^íÄS+ë¢xžæpÞ‚:¼ÐBi«›"Ë5Ø#1â:ö%6a+¤_ÔwuG›‹±i*øESÕQ‡%iÄb3‚5H•G?áo¯~ñÇ8
+Û³)ï{«x/Æ}…ó	€§CM…(×}¦&|(´«ÕYÆ^D2Ë§q0•Oƒ" &îú±Œ¦ÿ®n½P	œû‡l‘VîÝÁ	³«„É…“Åâ[ÍÍÏÿØç1ÎFÊ=K‹¡O’0mÈƒ%z'oê°Z¤öùµKŠ8ŒÌú•O§>‹¾ÜÓ*…l£à_–sÈ*±ÑŠÅ!	éRkžÕDX–m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708951178
+V^gS:F30fUOhcC45Gf]ljO0
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc8689-28c-3e40
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708951172
+!i10b 1
+!s100 hIKLzoF8UdkHIn4NWVdA70
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdW2>[jQnfi_jiJj2YO0m41
+Z7 dD:/Y86-CPU
+w1708871102
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4234
+L0 3 56
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708951172.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1708951171
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4226
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708951171.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z18 !s110 1708951170
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4216
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z19 !s108 1708951170.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R18
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4217
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R18
+!i10b 1
+!s100 QBIC8G^^Vh2SSfnobFlBe2
+R6
+IJi:0gPCe6;M9U[W]n6dT;1
+R7
+w1708950878
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4218
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R16
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4227
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4221
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R16
+!i10b 1
+!s100 PG[g9kKoi`G3Z?g723UHM1
+R6
+IMbG0EC5VLmSaS`zW_0Kk03
+R7
+w1708698651
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4230
+L0 3 25
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4231
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R18
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z20 w1708783858
+Z21 8D:/Y86-CPU/fetch.v
+Z22 FD:/Y86-CPU/fetch.v
+!i122 4214
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z23 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4225
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R18
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4215
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z25 8D:/Y86-CPU/sel_fwdB.v
+Z26 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z27 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z28 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R25
+R26
+!i122 4233
+R27
+R8
+R9
+r1
+!s85 0
+31
+R10
+R28
+R29
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R18
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R20
+R21
+R22
+!i122 4214
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z30 w1708078169
+Z31 8D:/Y86-CPU/memory_access.v
+Z32 FD:/Y86-CPU/memory_access.v
+!i122 4219
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z33 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4222
+Z35 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R16
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4228
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R30
+R31
+R32
+!i122 4219
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R19
+R33
+R34
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4232
+R35
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R16
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4229
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z36 w1706787196
+Z37 8D:/Y86-CPU/write_back.v
+Z38 FD:/Y86-CPU/write_back.v
+!i122 4220
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z39 !s107 D:/Y86-CPU/write_back.v|
+Z40 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 f_;`1YPAAVjj92EINI3Hk2
+R6
+I8k09=cf:MOZ9kO6JcFj_]0
+R7
+w1708950986
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4235
+L0 4 359
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reŠM kÃóz}cŸÚ¸PùÅœì'£«÷ùÔ­ËœÒj±‡ŽüãlÚ£"¥\ÕIîð‘÷lÜÒ;£-ÅOîñ	€æ}ÍÃ*µ(³x¤Ñ™	ˆ…I´ð;õÈ˜¬ÁwEë<8 x9¿óÝ:—Ž|ØK[»•øˆ‚n@›ïïÏ	Š½šÍä÷ý)#ƒïÛÈa-5:¦jùlÒ Òñ˜r¬²œîé¾Aqð2ßyUÆ€lp":øùz¦>@¸"dRßã-ÅDF.¿€p‹ñ3NÍÔKä¸“ä 5ìL2¢]nÏôjÀþX»@üŒððÍÿ‚©Fh¼\lèFÇ5f8—jóHmÔKàLœ.ü¥MÂ<õ-â¸ê…#°žr-Ûé`­JÉ¥á”¸ó‡_ù²‹Õ±)nD|×î]³1&q¶3;†tT]‚YuPZ(î˜PáY‡òº Bp/ŸÈ„Gtb<™Àc
+–›0y-ð	°¨í;ƒÁ«o
+|‰µênôq)Ú›¬&V<GösX[@0Ïð5Æ½ÞÀÏ_¼ü©Š¿ãkÁ÷õHœµðæâ9þ»Â´×T+®”´Næ9a º˜1•¨4ôb)³›ÙvZS’xæÙôEi‹9·øãnöuMŠÔ«¸€ 1Âe×	ƒ%GúŒ„j’7mß²ÈŠ ]&{ŽéþÞUÒÚ"P°$Môéÿö?”Æ¸#¡Çz‡¸.ª›Ó.ø”×Yû!!˜´[©UÊ3S¤!ßó61é€<ý·H9!“Dù²!;NWƒœõNuÓå\ò¶¹›’åó{Œ­ÏíÉÇ‡{á›2j,œßàUJœÝÖ&./‹¾î¹i€NÙú±&á`´j©»<"[n½šŒpÎÿÆXÉ¢FéEQ ™J¨¨Eþª§iŒ×iÊÔ«¿ùñoÂ}û«‘(—–“-¯ä(Â”Gk¯÷.þÂC¼xßÏÒ:3aGåoÂ4%_¨z°00a! ŽŸ‰/Û¸¨"BËêckHG´K	ö`0Ü–oÃ%B;èü!9™–ÙåC%J»÷éægn“´/qUÐf$!+
+$´ÎoÑ‡ßÁà´ØzœëûœH(Kf7 ììùò.ÞóÛ—þˆÙŽû¯ªÒÀ°ƒIï‰‘+¯çhÜ¨‘‘U®ˆñ¦:QÊ×Ø2¥®anP"*ƒ¼,þ–HÔ¶ rMÙaÛ&³7Za±R§c%M…/qîjÁC&x—ÜãBfßd°RvÇJ’A,~ifå+ÖfOU8i¡çÛ	¼8µÂþíý—?üÝÉ‚?£Aðæï‹«"ŸÏ‹C§‡	Ç”Ì/?×€Sñ¸Ôjâ®ÎË®‡n“¾i0ró8…
+X—9¡|û¬1–2ŠKZœ0¸_ªpâ
+}ÎÑ/±$-ZtFWáÌÃtéÞÛØ—dXÝ£Ðµ ~ÈëÒ
+·dS Là
+„`IÖ3¸‹µr€oËòÒ¤9!1Ôáy{ ¤œyù:½gTxìrT¤F4ðš¹Ã žûñ–#M[5JÔ×¸†`_}êšÂWòÜE#ŒäOÔï˜a"Õæ
+î¶_81qŠ¹>ç_}½ÄX“bQõ[ïq75'ò°UB<¾ä"H§W—qÃUlwõ£°z–oÓm8µ§Æ‘CßrUÏq kmèØ¸?”Cá¶gQ˜åœÐl´­Þè©îîìÙ‚>¤Á[ŠØÕ_•ª«¾¶žø¡“_À¾jX*:¦LkØh¿‚7ã„%Ty@+…0T[¢5©x‚/ÐsX /‚>ð;Ÿa:,^²] Q0þýå2Eh8
+\O‹’ ,o’É¥£‹ðY§‡9ô•dˆ÷`·eiƒž½Ñ# ¯ª×Ÿõ>ÈºÀˆ^ðíÊ¯ó{‡¤j¾¾"#9Í åGÅÔ¼L¿I½Ýò‘ýçŒt,Ž¿ÃýQË½æþ1ËlÀ7oç&ÌÄøŽ51Š´lùðj0l—Xøî¿Ì k½Ž,8üã¼Öpr«“®dÍÂCÁ•‡d•=ësÂ¥,sUñxnÝ ¼‰ÇM Aw‘?˜[«;¨ï!%Üu<ÇC,st)Ça2Xa!eaHh”PV I77dri ],Ñ3^„~UØq™çÊ„MþBD¥dµö5?D'{ï[â">ýÃoˆlÄNÉ™zî³+¯çdŸÆ)Ê‚r¯ñ£ÌÖZŒ¥a«8wô5ë›³D)wEªÕ#ûÉô@¿ŒÓŠˆ¾…®þÿ®’ÍÝÞƒ°°¢\Û¨žgFîûùÍÿy†ñÏ¤¼ØÍ§±¬H~fVK´nM»\øz®pTo¤žÎâ>lØàØ¾·I"LÈº·Ù–L@n½Ê¿âql&káÐFV5\Ú¶sq bÚµUCPNèÞç3SZ–ÖëA™êlÎÍrD¨º]hÊëF@R½(_0Ûëo»s»grHYúgÝ—vz¹…Kééz¬Žé'qÎ‡â:&%“v¡ÏF±áC`ƒs3Ÿz©+]ºM¿á•c­S¹ êôI–0ñ	¨Ðmè8¨i# #›Ü+#‰ï˜á<­^6máÄC6Âh»Ð`ö°d7 °tP5HÁ€ˆôWˆ¤¦fckC*íõ2c·ŒCL|ç{‘¿žÒÖÒO¾°0¸df¢<Ggyª÷K	ó2£Šƒæ29Žÿ¥$®äJ Ó*©Ö|Þñk7ZÐ9ÀœÉZ›°¢×g;Í´qª#Átú‹²òM6TºÛóc>¯ƒïïáv°>º˜]ÞÞyGvI]qTGdR6qE*K²'Oj­¶üÕuk«. BÂ­º¢BrÃo¥ÆÄ®²ƒÅC…}ÏŠž¦@”ÃùÙäJ¯¬4ZšÃ^Ñ¤Àû0z+¼æÈí8¾7‰n«Ž…—6·øžLÏÙªÿã*»ä0â)‘ÈÈAK¦z¸°Cb1„Ç	—C0ç‹¯ÆbDuïjÛ
+÷Y=·™¤¾L’@Ž3;ˆj®Ï3”%IŠ° |)Ÿ¦Ûßø[ÔÑ®ÞúxdJ=Q)­õµÆý]Ç÷o¶þõI…)­’çû0™||ÍÜ˜r7;$)¢†‘žgXˆ ¢CßÉi"`Ÿ¬ì•;P!ûaä.7F4xX†YÉ–IX)Ð;ÝÂ6t­0é@ßéÐS<Ò>ùÙ¦yÕ^ËÉ‘æ7‡nÛ)ú˜?sÏ~´b'Uü£ÒS¨®µ…NnûÖ³Ð9 oþÑ¾æNcXÖ|Ø’sO @åJ^„8Â4*Ñ psbµœÁ=Ëˆ¾…jÉj'ËïYúEe¡¥#ZÇREå2!/é9š‹>‡(”_î¶Ïþ¸0/§u÷i„Q’{ä VöU&mÑNUg¯FàòªÞWU^ÆÁwœùdücæ.ÏO9‚³}á	q UàŒÖ-èÚ—ÂB'Oá§_ÃW'mÌÒyïñC¥e%¨ž€ÀM«€˜¿Øÿý‹¸Ž»DX¿¯œð³°ùÒ
+«–ÊËT|;V÷$g Wh0c39;·^o•D]ÃcCÝÓpj0Ð*Â5Oã ŒÇë“K« P
+§!é…Å>Ù)#°|p#1;m>Þšç&XpBE·QyNû8šÉOÄŒvá-ÍuSG*°'%.ü”0qd)W` Fcr±S6)<Ã8Þ’`k×FÖì4ÊÒ™¼ÎÊ7hú™Ó–@UÈ{g½ëhlèK6·r=
+¥w·Ý“ñ›éîÈÚ8E]ìÑ 0d]×îµw#jØÜ9‡4Qy¦ÔÍ!™è7\ÌëDª™mC[b6íÅ=æ7Ašy•c¡Ê¯Ûy:éŸé‹¤U—“?´Úê.tt.ø©¦.å[Ìž¢ ç–oÛ·ne$ßƒ­: $]æñ\DW^ùÜ’&>]ã8æX6àüO¨¢.ÆÏ’Ã“‡
+Ì¯Ô&×¹¬îÖ›¬ÙÈúMÞïßßÊñjš¾þÿ©Á^øŸÏð–-Ú¯¤²6U	þÑ¬F—ü°°+´`¤!ò«í+~’DGÁp	ˆ)˜¯|¥õOì’PíØÂ|Ú÷kŠˆ”^ýÄH±–%3 fl¹‘QíÁ.Ÿ•nY`…&Û”A?SXdu¥íîÛ÷E«xN­¥ëÛ³GÄmêÎ³'j±KÆ†eR@¯Ê‡Ø’<Øþ€s(c´TœÁm ¸åmeÔ²§«—}òzC¦Ô>‚GT%Ûk¼û'¬ËškqïåG'YÍ˜°{X‹­ô~¥*Dú’f×¹¢Ô!hê¼¶Ê‰ZG[¯§*æwej ãÆdE!¬’@;Õ¨+Áó›Øi ð»)fV*Šë“lT´ž*v8Qð'²˜â!/ïEz™÷!Â0\µ¿÷ ½ýU¤2=ÌÔc¶j»ö/¢%XÔºµm†&ÜNÄ?OÜÄh'}áíx£n)ÎËÛc#H3\Ê–~L•UiäRxÿ¿º‰DÕ,Îò<¹ß‰‰ÀZÒV¤K¿®uk†Á¦âÔÄ?A;¾Äç}ï
+ÚöN³f}bNá+ª {¤Y†;ÊJ­Œ6,æ¿äS"]¤Â¬ó.pxeYœ™l×16â‘˜qŸC‰¾BBÍí)"btwƒq~Ô+a¡qÊ–4E5Y¨Ÿ_¢# Ú³kÈmÖ"©˜Ë\ÝÆ|û”+¾ìBM¸z¨ëö/œó‡ûM^–Ò	ŸÝ~ƒÔ|85Clç T,-ý;jº.óSë†?Í`g{‰Bar{«¢7#M:­†ˆñwP8¼Û©ˆ¾f™øÕ	æb*ô¶wKÀfTüBÖày(®ädå=;†ŸN¤ØÒÚó'ûdEaÉºdêè·ÅHÞ•¼Î¨¡Gìsc Ó.”b+†€°!â+êPk&Uâ¤´ÎŸH¯ú‚‡ÝæžFIÎ#nÌ¨]Éè ÔMé0AÔâ`4$R>øÖ?òg[º¸k®‚3(”ÉÜžó/÷÷dƒ2!D´VX f_L@÷ö(¥TfÄ+[†”þ¦ùÄhÚø—ÀmÓÃ‡_ÁxÓ/îòyí0–Àº{Ánû©Ñ
+ïyÛœ°ïè„N²Ð¥À`0º$¸ y.Ê¢‹Ý;€û ×#æƒÐÅFX¹Ð8æÛÔOÍÎF;½á
+¿ârQó7(žÅcMöp»©öùÂ}ÎF%µTO£Ïâlæ 1«;DÂ_NË³wàúÇŠ‘^Êá=‚¸sêj|–¿àÆØèÁ”¾ÝÊ³/ qðî•#õƒFOê± ’sj1LÀ8&Fg¨r2` †”Í¯Mû¸ §íãÊ7[î6q—bIFScàÞá(žè¡ÞN¡.Š¼ÞòzÜ%\‚´_ˆhŽýÃ'.´îÝÙè–mÞ¶š¹¢¾‰ ¾nÇZ¦H+ÚEik”ïõ< ]À{¬-Ëd~…æqBRÍ×0šƒ#¬Þû¤fh†åQ”ßá{½Ö2Ö|‚*É¨:"Ú.“‡R"éóÑ)c‰ØßÆŸµ4—LŸéïìN<Íã¬<bi’3&pVžåSTN0c«¤fUMÔae 0ûLéb„Íè”	¨LA(‘k‡2Q‘'cÛÑjùmÊ›ô"ñ™k3Mlîé¿XîÂßEnmœòÑÐÎ¦€lÉ­ÇÙÎæYŒßëí¤¨øýí­¨¯éˆ˜Ë—à9è×ðyÔ­ÝÞ´¼Ýé¹ ¼H|D4÷Z¤nO™vYk ¢šÃ4{­w}ôÏ’|Ð	ÉãÚªüe‘,±‹`ö°Œ±#ýª•³1d±Î•5mlE®e,{—tc¸nÕ¦Þ£ W]‰Ê·üÀ4Þ5Y½o¾à}Â0[ÀìÀA¹ðçŽþÌñ[Êz2IçE­ž“ˆÂ´NGÜ+‚0s‚
+;1ŒÓ[â  SÆrÆ~[2Ó°J„Càm=äµêÊáCþhU[‰ñ)Uô 8åDVyÀ}33j#×;4Ø”[¡5 xŒ¤ÆFG]Ù’wãt-ì{B«Ícg]qvÍ'ÅˆÙM7[ ¢du:‹µfzòžµDWhÔ3Öc{/Û‘l„UJ¾õôaG=ÊÑWº§pW†ui›Ó_rÔÅ"ôGTç`3ÅîŠæ6^)!y›‚9,á l› YÇ$Mx0&n'`dP F3GGI*£0_ç#n‡NWû@Š×É´OÝsW•g…íÑÆ'Q®(™ª“tè`;ç¯é76Zúže‹¶Xp$‹Ò#$T[§-¬/òq°‰PH°q×¼¶cWÈ‹®éØfõ_¤í}0äsIðUÒ¿ÔÒ¹üò…^î°ô_ºÓZ¸ ùjj &ÊÌ(º[	øËâÐé½ ×na—¢‚³?ÌZ÷W³E`k£(Ÿ¤8k½Kì’5¤S(ž÷rHç zß²<“4N°û£lÓP0¸ÁjÊ )7(°ûö•š†ÐÇmîØÉ¨–Ï£äTÅIñÂ±#‹ÝÙ ÚþíèœÒ;î”£>±ûð:¥\ÜÙç9Û?ea‚>&`##ww{×…ÛÎZñ¶Œô°¶-€3Âhç¨¹À²18¼YMßÜ—5cY‹£/£Hhü×Y±ZÚ¾ò>ÄS}¶â^ub=fmÖ<=ÅlO™¨4ÉdÈö×R,ïW´yc€>–'Imž©èÿõdÙ@CÿZîçc"<Ónëµ^8Çò¤Q08û˜7q—KjÈrõbÏ”qÈ©¡œ‚(œôÙÐ†0Vü_!À4¾ðLT$x<JVéíj‚$le4¯Ä³Ž¬XÛœ˜ß—œæŒ¥Hâð1DuÒôJžv¹›“ôåHš¿ìØÑjDLƒ„¹M¹<ã
+ÎD{«­ö <Y/ÅX™Çtc½ÔZÛƒtc®jì®£1•¡çëU¬M¯CsŸíí šˆÖ¶q™ˆä•kã×Ì÷bžÎÖ	ÌÕOëèúAö0U
+gðOågDkó`:äWZ¥PUª²sQ.]^»ÊÔEx fˆ±åî¤SÆ-²ð0V|¶tñs1&wÚ«Ÿ—!
+¼ß¢Sß÷*ÄÆVdÊ¿å0	(¯ºš3ÆýÙ˜ÒØš”Õ=æÚ,;1lsÂ
+ì.Ý-~ÁAÜ÷eAgÿ'vZ6¸‰¾'ÙÐ›­Áí®Mî(HiŸïÕd:Û.ç»‹ˆy{t<ûH8ƒ.Ê·'/±?aoÏò ]*¶(Ÿ–^UÞ…&Ø¤Mø#Xdv•ï-‹cÜà¾*¼ð<Îˆ4.çH‘µWZ"AOìÓ#g	™Ì¤wuuÿìÐMZï’¾n¤8wx…è‘$Wû	0‰îR:T¬ü0¸äz’æÔ/õfuö;²°YÂQüÌ”oS[àôP!wõÎû/2f¶lÁCÈ–-ä(¿K<0‚]fES_ÈtúÄq!¢ÆNœýV}¸Q!KŠé3( W~ÜÕA=0
+«~äap5]ÀÅDØ©ÞcÁìÎéÆÌŽ¸ê—Îij'¤mÖOYúC
+\|dpV0e¿ÚBýÌJºÁÌÿ¨».é®öÃfb¬ÜÚ÷,Í€¡ZÍ‹ÌÜÓ"­íÎøþ†y‰œÊ¬Ëì3+ÿ¸µäÇU$öOüá¾ˆfX~W=ˆ½(Ä)z‹×«£¾ö•jþÔÉJ¬û-:ˆJq ÷f7ö+“ (â¸ñ!wtžc’ðùî¬:çžB/×Îëª¸rÅjºÛŠåtÕÕ½š î»@ß†
+³´¿t?Dj«’Œ©}ê[$iÅážóZtxÚ–Ðgrq±K¶R7d]…!ø„	î^ê–Æx’8ˆëÞ—/ù)Þ™‘›IŠœ¿•b“½+7Û˜‹›êDu©7PQÚ÷_Ÿ,ÐwÀe^Ò1º¨®iøÕLÜÜ“E°|­€¿“½²=ÎÿÄÂVîŠêÊäË»å§i§9ÿÅíSÈ€±?õuûÒÂI¾²âq58R>”øã4uOG\ùö4Wb2zÕ¾âpHRÔLÍÐc*îcz»<Äæø€WŠ¸½©üþ_~²GX*ËR5û“cÁÞk´ÀÖi¥Ä•ZÖÆ/ú¶~þúòQö`A—ê#qòÒf /vz!/dþø2¿ì	Éðþ ±=D~ú–ðJ*ô ƒ)ÞÌÃcÉã,¨½k=,N•æGs“×HvÚ×®Àh2MÕi€®µTx¬šß®¾8 ,Ä(û 'Y„™ü]‹6I%\Æ3È”rH¸;<2«ËB#v‰¨sˆÆ7CÇ4$¥phULNûÛnÕ ;9Gs ’ýÕxGÜ‰¨ékèô£?¿5†	ó´”PæyœÏ±)DÐ?¨â#7&˜šù gI.l=V)³6J‹[‡‚”•¬é±©Q×OºŸï¬šs'ò0g¡'&P¼¤OÃ.HÒ¨éÄS.ûï„¡p^ˆøÄ“¬Ó.þ™èºÑx«€óîäÿêµÚšI¢”` -zÀà:^ñ
+ÏŒ•Ú·ð1MíÍÄZ…`aà±n²d{Î	|Í÷q«Ê5!üÌê°~üßìØôs=Þ¨ªº³v	 ½^ÏGZ¥x*ÆédTTZìôµ¬€:[yT
+ÝÅC#,à¹ú´²œF•‡AòC	FNÓ>¡UP	‡jò7b2VøÐ@$Pý¹®UÐó³D÷TMöÀnYj¼Ý·3rrµïûh”Îþ'F=ìÙÇRâý!91ÆxÏ½=tFA­ÞðD¬üÞú¿h™Î•JîË¬Ý•04û?u,~Îã<¨nÐð7N¥ûŽ÷»Ž»¡k¡ßïÜò1Ü§ *ß¡|óÌ8¢Ø#±+£}ãö¯=ë¡¬©€Ùàk¸‹÷Z»¢nŒõâ®
+×Âúˆ+×•l1²n£­‡UÑœÞð'IÐwÝ*<¢_ÎKCƒx0I	›CI7« ?â7lFy®Z¦dÇoá_’3ÌIæÜàÿ”¤rÞò1‡8ÌRz†;ä!ñÓàQAÅnµeFq	°?™>ÜcžN˜¡z›dlF’"µêò'Vê®ú¼ÐÈœÙî¢#?¿Ú»®§Aª.Y»²+Û\÷…G0M±XÝì	‚=À+ŠÆÛÛã‹ØlT{Ô,Î¸wÇ«L»Š¸œÑÉ‹©ŠÓ¿þëüïèŸºÊ•éK7„oñ=xêA*Q ¥764y%·.;¬H’EŠ“nÔ_áÿÂ3¥‘_':É oå^O¯[Oêöyƒ%ò=ÄEžâ,…{¦}›ÖRÕ"˜¨ˆ©6`6–|@pf–{¢2 6/ˆfVef.]2›‹KÕ `”ã‡}ÍùˆžòQíËÅò'sx«©‹÷m_
+#N]÷uy9þóÉ„]A^~€!Uv;!î4ÈÝ…}j»¤oÂmÃøQ¨U©ÈÕÚíÝ{2"ž$õ©÷j´WnÞüÔXý?ÿü‹’:·:Ë‚žf™ƒ…x†@ªÂÁ+FwoÙÖ¼ž6ˆ¤ý-åiÛŠÄTX’
+Æ€ùŽ–“‚-È–l›¯Ô)¦…ãjžÄYŒÙƒžözË¾â*é°Ÿ»ÖTüD»7˜®äbˆê@6IÌŽ7‰Jà%èK¬ò³®1È•ÞúÎ;ŒíÉ‰†NÝ£ÿ1oóQ¥Y†döó2vÅðétu$OØ˜“"5t_ê»¾/õV(¬Ù†*Á(=Xz.“Ò%~IóÑ!ìÖ@[‰ˆöp.Ü¼6ùwü¸Ô£¹qûDf“d„æ3S½ù¾öwc.íÉŒÕ'<Ï¾Ê·e±«>Í¯FK³'íèuD"to¡æ®‘s4\Û®ÎÓF&*…ÕFè»$ôR‘ƒ%‰úTôÐ>ó&{ÿîñ´@Ý™·nðE9£ŒCÍXüwY”eþ…¾ÙgmQMúòíƒhVzÛ®öq2GËt°÷ÆSMqž	à=!¦dYst^ñ$S$IB#1SFpGOFáåØþYµ^ÇÖ¼÷‹¬øÒzËª¹Ú“&ºB"º%dqÀÓÝ²°Ñ1ŠY)‹¤ULÔZ¹‡}DB&[‰€PBET}ÏårpCNû©M’G>
+y)‚ø¯d§á‚mòÈª»­Â8Ÿè™™û"<ÚººªÀamÑ‡\Ë¾Ù¡¡ZÌÌÿçjƒÈå°s#—‚b•	9Œ¬×ãÃ¬Â¶ìÔS;©”\ÎòdH›¦yã¿ÓLÜ”ˆó­Þê9ˆÞ«Ù˜¶íüùƒ•kO!Ðˆ‡!ÔbV2›_Ši—mÃ,ýÇI„Oãù†{¦tÞ¼–øÝ×LÜ•ÆnîÕlÞ¸Àiœó*»š’Ið˜ ÔM²|ÐÈ4ñûjÓp0ƒ4r9ƒ$oãq X×dS/“@íÏoÖ['õi¬Òv!x‡Oê·TsT‡î2X¦˜7r|LÍ Í›à	é¼­Ò:´YË­‹¡—oþÉƒ.¥‹”Ñ75Òª>à2Ý„9’Z¸¦W
+†xelÃI%z­2#&t—#q
+¶rgg0(‘HÑ4æí©“&DUð
+¡ 5B{öÓs'Y¤?¥'$BXÁ½'è‹U2+æQ·5âÕQÃ!k¨ñ/åÃ"÷1rAŽaNo÷{‰§cbið	¯á@;õLöéŠ`ú¼¿íÀçÖ¼f9µlÓ%@a“/ñuc‘Â5UW=æ‹•Dyr+ˆµ@TuY®ó%vS]-¶|c÷ïáX‘"µ;Æ{É]˜¡+£*¶m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708952699
+Vm_`CfW2kg<5b_LOTO1b`X0
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc8c7b-66-2bcc
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708952694
+!i10b 1
+!s100 fKS8zbZOa:j7lEI_Ch9WR1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISL3hI_ZLVY8aNA6nRRATR1
+Z7 dD:/Y86-CPU
+w1708951575
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4280
+L0 3 58
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708952694.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+R5
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4272
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z16 !s110 1708952693
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4262
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708952693.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R16
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4263
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R16
+!i10b 1
+!s100 b4H^lT8Cl8E[<WnTAzCoH0
+R6
+Ib?mKfb6lWj<C=WjQMb?nW2
+R7
+w1708952690
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4264
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R5
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4273
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4267
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R5
+!i10b 1
+!s100 PG[g9kKoi`G3Z?g723UHM1
+R6
+IMbG0EC5VLmSaS`zW_0Kk03
+R7
+w1708951745
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4276
+L0 3 25
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4277
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R16
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z18 w1708783858
+Z19 8D:/Y86-CPU/fetch.v
+Z20 FD:/Y86-CPU/fetch.v
+!i122 4260
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z21 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R5
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4271
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R16
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4261
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z23 8D:/Y86-CPU/sel_fwdB.v
+Z24 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z25 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z26 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R23
+R24
+!i122 4279
+R25
+R8
+R9
+r1
+!s85 0
+31
+R10
+R26
+R27
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R16
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R18
+R19
+R20
+!i122 4260
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R17
+R21
+R22
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z28 w1708078169
+Z29 8D:/Y86-CPU/memory_access.v
+Z30 FD:/Y86-CPU/memory_access.v
+!i122 4265
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z31 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4268
+Z33 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R5
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4274
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R28
+R29
+R30
+!i122 4265
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R17
+R31
+R32
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4278
+R33
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R5
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4275
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z34 w1706787196
+Z35 8D:/Y86-CPU/write_back.v
+Z36 FD:/Y86-CPU/write_back.v
+!i122 4266
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z37 !s107 D:/Y86-CPU/write_back.v|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 f_;`1YPAAVjj92EINI3Hk2
+R6
+I8k09=cf:MOZ9kO6JcFj_]0
+R7
+w1708950986
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4281
+L0 4 359
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:?‰x£sm8üy^Ø_ÍK`¬ÌúéØÍ7nÍÌˆž‡+­ýŽûº¸ Ë«Ïé„4_éŽýË¡|Û­Ïè“%NøŸìÚ°y­š…È¬Û™‹•é™ž¤ÔZØíàº ú!a£¢Éü#+-Ä‰z¢]Ùž¬aJÁó(“'?œø5Ü0†Ò-úRÄ|)ø‡scÉƒÉók=#°p½÷sm2Æãð—œ®Q
+¸Ÿ©å¸‡'Úsxþú·`Zìž™ê. /ŒìÍÑAéÄÅ9¯I.`|wUQ;½>Ùdýê\>­éjhJã@ˆ_ò
+®É_]7ú¶sií<ÈÈÓ>ž>v{§b\×B`ˆçõÏó;ëENÆ÷Eã±îcNY¿û—Ý¾÷ŽFY…àmÑ$TàX†X”VxÔ2ÈŽº*ËÎ;0?ä[¢¤Ñœ-ºžïúªù`Ï«ÞÔñ”¾f.é²»P>Km/*â4ŽöT±&rÆTC,K­¸Y¤[<7ãëµ}¿¾Ùÿá=‹ÃÒ)É(©ÜüÜ1×è0GD¸¹¼Çrpð …3x°„<}ö`"ƒY~ÓÇÛéþYüÌýÂ‚!7ðjú¿äU
+Ü",ƒÕ‡á**Îþñ•Á/ÎäÅ&µQ¥§b”%a­SÃµ-k›µuðhoÅª¾QÅZœYFcÅõcR7oéÁhh„ZÑdo„Vs/·[ 2W-Hö¯öaO
+¿Ë²Gþd4üå_Ø-¹vRÔâq‚£àŒU†lâà¤o’8ÌxdDñ÷0½Â8œÓxHò}éÕ"]ÔM†› C3Žoì¶ÞÉ–I51ôpø4œ
+LæÓñæUÈåÖ·q-O —·Þ§q/è›êÙ}ÕZÎâ«‘®Ú·›EGÛÚâ™‘ÈÜÞÏ•oG-ïßìYÂxOÏâ®-×¥¬Ú““­X{<¶Ýûµ~HáôsÊ	µëxÿ”FßœÃåü›¹©†}ÉÈñ÷­k¶Ô3)†uI×äÏŒÄQa”"§ö="2kòKˆ5Ö”ÃKr-ð§	«C‹*ZJX£ohrþ!ÅRÌáÒ“Q,Óý]·+®öyÀqÿýŽŸ…*®Ùê¾¶®â±XÊÄ*Ïø†7‡eiéüø?sÄÂP²'U÷3›ž¾žmÔÍ½åÄ“:Œlþ‡nó'&õQFØ»i«¶c.ýÁP„RZ‚*„C6>$y¦H6ç…ÖI².Á¶]çƒ“ê0ˆU\ýLÞÉUówr>ú¶yÇ	~èÕÛÍÏj‚ò8«‰ï)s´=ð„¡ÿãÆ7¹67YÖèªƒ d]¹ÕÚ!˜ÓAÇ~áBÖt
+•:ŸJ"Ò¥,teRáxnÚTðÑICÖL5@2…bIú¥dÕŠ§Sú
+íïžó,Ö>äHÜ`{Œ£MÃ%FIž–"B•Ù›±O
+¸§áÏGþX15_Ø+ßŸäVß˜€>ýkžÞ€Ð¸òÅVj¡g±S¹çi€‰ºê„{¸‚äDJû@¿Æ 4ó´¹NÎë’ŠÍ=àÿBL‹ãúÕ]ïìb%uÙûè‘QHõ³>º-õƒ´ÕA	€.˜øwAŠóÑG#Ã/½…09+7‰<~Ã3ºÉ~ÐòšÏ»ç@º@.—§k7e>1*òyñS#œÃý°T^ú·*Ñø‚*ƒ»Û‹»°¨šâ¤ÖÿûÓÏþât´\çö
+œ|@üCODfdfÏžêWÙ¨“¥áp»¥ämàe™ˆ‘KÌ-Þíú×ÅzÞüÚ³}ú4fîtÅ@ÔZ»€gª®*ÞWP
+ˆ)÷œùa¡TÂÒe6¿À_í¢<u<Á/æËá	„]Êÿ‹]ß¦x­ïœJtTYˆŸó1Q#EÁ?â|‡¨uA',£ àŽ•íû¸§ÓS×CÊyÒ}éY®èº<·V®G08“)‚sNî£AÛió *œ¥6òF3»^}æ-ØÛEî6œº†éŠ²Xºíöû8èç‡|À[EN¨ÓX¾S±èjDK—ÛÜ(¸uàKíéf$"Íý²ÿí^ý³ãªši›×R|›£+¢t=4MÑÁ't4Vz·e[õÀ4j<ÌÂwˆ—VØ¼|7ü²–FgZ!ð8wÜ‘y!r'MÅÿ¤GGb?éËÎ	‘ÄÒ3n÷gj¿¹Žš%ÁƒÒj¡ªS*–Iõa¢§‹8ð»›º¸å²ªJñï>™ôI lÇIƒŠ!yÇk®ÿ§1Ó°/^øžnÙ7<ÿpÐ
+ô¼ÑR[ÔtüHwùâšŽänD$ 4¿N®yË“hÓWžÇœò©ˆàÑ!K…çÈ³(%Z‰n´UC.´<&b~,Èƒ5UEJ¿´pbEI™† Gw"Ó"cSS	*'„Éêó2·¨³Â”ÛJšë™Ù¼žxx_9D£Üës²øŽÑ	óø![³*¹ŒÔ%¿üŽà¸B²:ˆ¹Ù_³ñÏO.¥Ós: †eîºÒC-ÃJ•üQŸ|ðêýÖjü4Y¨ÙòôÀø`¼îìæËÜ"ßE*Èá52¢ú¨±ÍÜãú8»ÙˆœÖ3E°ºú¾X‡ßŽùË4q“+ÜÈôw ë¾ï¤¼ÐI¸ê‘¬Hvç¤k´nE:C
+Z°D}`è©èX˜
+¿–¶UïD+¾Ô\p'E>¾öqivh…_) gqZ³!Ïz‚\ö?fmC<À]-Ãv8¾UÙeÝ¬vDMÿV îØuä!W.Ð²ÇPyK¢§m¹OÄÕÐÑ!ƒã;‘Ñ¾«½ÀîýŠÕ±j—æbòLX˜­çdÑÚæu6m½ëÖŽ·)	;TÎÏJ‚5.Ó~Ì[<…]”<Æ`SÎþ×Ò[:_}¢œäCl à2ÕïÍ-#sÛzm’]oœÃdè‚e Žö<¼-Ök½…ÍÛ´\ÞõhÏ­Î~cDOÏÿô/âî‹ŠÛC²WÅpýpokA¶6V¿ôwáÎã¿[ýßíÇh“oƒÓ;°Yâ'¤.u@-ã,®xßì3ú ê´Î¸éB.SIüûÄED4~ª„×öø–%äNì”²2b¼ª’œF”Çäh„`§GJY. šõt57$¢ùŒOèî2¬û8TF\XQyTéÕbEAxÝ¨i“fbŠ„<(ûÆ8üI )ìñ	—yÉeH»!sÁ‘é˜=ýÙ·ÚÃÚ“ÌVL“åFçd(Q.°1©ð 3'ÞîÇü¦4Z¸šúÐîâf…B×âÚ»¢<£Nöé{ë*b#2|5B@gLtÁã¸ù)¶lçÐe»‡‡Å+ÓX¬§ÃR)¦vÇx­^¡¡rÇw'ÎÍÿà¯ã¶òò{Þ´Ð5.äN°ösfo0¸ÔÊÖÞÊ $ç”pûûE†&FÐÇ`>Óuh–ÂsïèIñÏÎºŸKÝÙ­ÇÇWJÈÙê²qf€¡ƒ-!~ÿæwE"f]þn÷tFl$P60b•ÐñŸ‰,èöÂBË‚Ù'6ÿ­øÞµNPkºÇÙ‘>gšº¿åKTLŽˆ«PØ£]Ë­Å`„Ntm©@X•YÃÏåL¡'Ë;C¸õïÝÓpe·AìxÁFPùÝ»UwFr§d+i¤éð­}Ú‡ü¥Ð®ºÐíÚô8øû×úq ‰‹¸Tx8ÌÈË£0W‡l‚M·N_sÊ(ôù´GUùõ¶W…á{õ}žÉÊ6™AÝb÷’
+mV¿û…Ãèƒ¿Tùü×h“`qò*ðâhÅMÇmÏh‹³i¯v|EQº©”?äêÍêËB¢Sƒíq-!ƒ8YY‰ý…ú.5UeÂño5úïüÒ0Î‘ðn¦îrCêÍ(†`w*î×„­Ôoû®cGä8v`">ÝJèÖQ=Âg­Þæ8wfXŒª˜0ƒÇô5äb(¥ô)wJSi÷`jk‚:¢k m„:K½Ôdk†1lù…EKåX›¤tDÚ×+¹”z•êòÛ<¶ÓÔèáô}!³¡ëxñüu<Ãë#0e–tW&-Þ¡GaC'JŽ÷eFpqFÒ y—sjVub_“b¢ÔÉæÝ÷z„ç¤sÆÖU¦—7CÈCõé+ÝÐ>üp!*ÈÐÑ€iû†A»©‡l²@‰º×ø”š¢(Ö”_Î¾†VÞ`þgÈ¬ÆFÍºEfoŠÎ‡RFàÐ·çª¨¡Ð§=Ù‰ŒÞü“CÕ_®£Ä7˜ÎÏÅf„y™©ÝcÜy¤·Ó^ðvÌ{²áóo¡IÝÌÑ&`å¥_þ¹mÎªñ{€±™hH5z©¿[Þ
+›Ke¦PI±P' ”²ýÍŒ0!Ñ£Y•c/C¢L•A6?ŽCl}ûen†qÒ !·&{ðp‘¼ÖV=µjHwÿ„ûnD"ÆU¡¸¥u—£%+ç~Ú¾JönÒ;¨’~œ Å„Óa6z¾ü¿|ä2=ŒšÔ5ŸðâÖs½´uê"Ò§úòázFT¾XÄÜ•uÒ1¢H‚»ìÄ}Çb=†Š«ï½˜ªß¹‡h™éèÛÄÏÈ•Ä4¥_ÿ¢×c}öª#ÅÓOE{²öëJÙÀ;Cw4oŸ-ÈÂJq"x¿CVb+b%c'a'kµ»Ô?æ}È·TH…Wöx|Ë¶4»§6)ÿÈ<Ož±2$i2CÒŽ©¬áCo—™±ûlÙHç§F9®[ÜÏÅODfZÉÏçb1@vÊH÷kƒ—iŽ~…ÝªÕ8ÓmÚ©ž¸vq(ü­à°‚ÐƒEã¨¤ã^M+dÞ±4Gk;b&]F¸…zb‰Ô|¬ÑN½©wz¡1ÊGóÃ$Wk£=‚°Ž÷J©YŽìÇ!ë¢¦¹)¶FC190k]èròy[îÂD–r_xTCÅ‹±9TìŒÿŸåFxØñôI•m`i¹€F{¤A‘7SePz^ñ&F|rªPˆÿJ†jŒcU½ä·ÀL^ºŽ¸Û©*Ê­ë¡¤a+ß­ÉŒÑG—{þôã„‘fiˆ™ŠïàH=þ“Ñ#0T²:›*ÇN\F›>“‰´D`¨ãÑ'…æµ Øi±®#${‡:Ÿ˜=¶ló$áE[ƒ)Õ/U /Ä39…C¿ˆ ^ðgá[S6l%E b•Ñã¼¹,è÷Ðaû‚Ù+--ï¸¨Âh_¨U»ž ºË±+¤êýÜþôYˆÞ—’(Ð„‹e$lÔ[§ì•r*ŸîÁ%TABÕL†u0?J!ê+Ì~ÅRÙöŽÐôÝüÐ¤\£á-…eÓàjx‹’à¤PlßíÌ{[º«Å–)¬«ªº·LQTÄÎçt
+¢/¥¬Ö["FQ­Xwþ›«µ~D#Ù¦š¢r—:Í 629çcŽƒ7B2˜«–7`í£Þá_cÃò0š±8©ç{°Š¨h‹¹ËJ³s9ÿÇÃ¾ß€±=Û˜&ÂpD7Œƒ[nÐPüÚ!ÅQ,]4`Åþ¦c éÊØoö0<­Òÿ’¸’	¬ÑÐaÇW
+ÿœÿ
+_ß}Q'ež#ñÝç`x±]õÍ^Öpí¾ïö6œÙ­›Ûˆ>hx"•r&NKØ`;CŠŸ
+[óM?µ%ï•Ub6Êø‰ þ’Çvd2¾žÀvuGiØ¡ÀtjâÂ$B{MÎßâ@<s¹or[ÆkŸ\¯ ÷ÖQ ”õ:¨´\dK›6³!?¦Fev§CHØ‘ÀrI~ÒËÅl/þâw‡`7	úœsÁœ°´fgUòAòWÍ•Ï®ÁF;¤Ês9¨ÄJ‹s–"/çnô_¢\#1RŸú{Þíúž¢VÇ‹!ˆ¼1Qâž¥ç;(âTê|Òÿ‚´eÂ­C"HÔOùÏ	ƒ
+ðk‡Çý"£I%}ßÛ~‹LvP5‘‘É”xÇÐÉ;ñ+Ó+¯åŒ ÀöîÌë®þí°X€‡NÈ »ï+€‰ÿÅç÷Š$0±?ÿÑ¹ùr]ÂÊ‰%˜•j™§†}é‡ÏÛ‡}Ëªºý«Z«ôÒ	¸ôÜÚ·lÜ‚x©ÈÀøÏ6oÿªT\ñ¢ ý]®U{º†Î€ìûJXÏ®Òá®„I«¡ )¯‘I‰ŒÕƒÙŸ¨àžø©“õIè˜íÅo™¿È´øŠ¨ÓÇhÞ¼®ÖÛ3Ïwà,ÃüªGNaÊ^;õx6¤Q%n¦VpìóhR;;¯’þÕLL:’ú¢•¬Ù†r?¡d £V(•AŽ­Äa(ý3K±~Pff%´ÜÇ(%òÍ6ZÑ8¨ –X6#¯öbx{¢hùòpÃ@¼æh©7×Áw60<xeu/*¼K§j’Ë<³Õ‚%}ï–q7(ðä@^*Ò.ƒòª±¢Íþ«ÍT}ÚùŸö:\ÝŠ¹ûˆ2¨z' µr*ŽIúBCˆQëkð-hMÊ>£.hÝ>nñ{e`WI eSi<”FPuEþ†;\ŽvPäV~óSp‡ïÆüØLË½‡„]‘¿Ãpû=¤ñ9—VÈàæ_<ŠþÕ¨Ã_"¾úØš%‰ŸÂ¿'td‰0K…3 ¥6Žåt1M©¡`R}Á!^õ4ñ~UeØålvàôÁa«–nÆÇ#§Â†Ÿ°5©W·9á•ƒ1&ðÐÔƒž¬Îó+«¯ªÒÂ%ÉD°54X§D?Úx ó(áâüõ³P3á9¨ŠàFjµdÐGúôÕÏ(›¼Âv—`EÃX¼~cÆàzFfEõ=8¸wÌ…ÈÒäÕµv…†~a
+Ë`8Ó	¶c.çW¶Ì„AÃ(šøúMÛÿ@IÝ°•@'HçÔr‡×Ùïß5€%ÑmìÈ»°!”DSLÿ°!‡úå9ßõ[¼•¨š›ÒOÂ\;1k8…zì)¯	
+AÊµÛ¡tœüŸÂ•5\þõâ
+” \ÜØ—,¸hŠÿ§á‘HN`Ø™£Bci­˜Òs5YÂÖv]ZÁ'Ê"×ùãÝÒä$¡!ìyØÒï½»gL’>ŸäøäMâ5ó;–èëåH•O«Ä£3híVÁYˆ–u9ž{ìí“
+:QÚûH“©ù¤ó¼2¦·^ëš{RoWQHKá3YLÑnh[²(€)[’!¤Vw)ì-Ý†yTÕ
+@æBþUò'‡›Í¢ˆî°~ÒØ1RÊˆž·&&gû#1ÿÆe\™hŸ¸–"‘œ9/OØ‰º
+Èmáé+o¢óÕwÂîþÙ¬†YôðlÎØ˜"+ž`hßåD_£L 	Å3±7'oåGl‰Æ·ùØü[^èŒ–”Uf~Œòž`ôËÇÂ†FÇ…l9/˜Æ8»vÝ¸‰¢7ß«»ÌÐëÁõ[è«+Ëéc,×c^žüY‡ëÃö¿û½‡Š¿½í¿Ã~Tñ9—X*Ï_>†+á(5ºŠÞ7m_êÄ•cb~ì÷j	ÇwK©…F=­9×º¦Hà<Ê¼Ù‡=’Ó¤mœJQåY•ßå±}ë
++C·3pjJ ¸ÍM…yÁL¡ýóÒô[6~ƒåo¡,xê«‡fÊñßîõJþ›P	ÂˆÊÄ÷žú²¤z²<¼¯é€¶h‰Å£"há|÷ÍW„ÂX2Õq·œ<~­*T kSÞ<ßz´-ci¨…k$”FL*á·b3$ŸaWWb&¸ë/á5c^ä—ƒV²Ð~¥­›Z GÇ|Ö|0ìú³Lö!6üE*ædLÇ+I‰£BH¹#½(ûC;›Õ¹¨r´`Ró%ÜÚÊ}ï¦R’NâæÍô{§mÊùåº­™y".Ô´VqDL©÷&nyíœ°5NÞ–kÁïu/K‘çÜ¨må  ,•˜ÞÏ–»¬³‚LÎÛ¦Ælì@hÜÛ Ñl 
+ëÑDýº-»ª²;†ëÆçñ.ˆÍŒÂ,™c+Ž©öR‘—Š&¸¨‰±¹ûR™5zðËá<¯.úÖÑs=â3ƒÐf=Àö8ü.ëç4––e]Ù€î¬Jê²«¸Ô¤¦h‰Àö|ÿ€l÷ÈÝT9"Ð$î‰{Œ<lï§ƒ÷ b#¼+ŒTœÍý„j¿é‚>°xfiÖëß¨
+‘xšŽÞO°&áåmMnñ¥Ã(Kà`÷7ÍùWjŸg6î¶) IpJY„tPlÿB­%Ùé"Z‹«Œ4óG9¼¬pdE`ÒqQ ;æX‡.1—P jÒ0°%@M°lTJŒfeV:_èÅ1q(2«Noˆ?Ò*}²Ê‘ãQK‡„´¬ç‘wkÒù©Äx ×z—î9–A×ÕÔ-Â>ûácßû¶ç-1€i†G{£5J®zÇ !ìÜ–Xäy){9áªƒ1>Hä£²“áêu2™Vz‘ BßØÜßq `ÕaI¨?”H·h'wQ˜î°Al´¦f61p{ô”Ø•A½ïÎ—SÃš¢bi…®ÜwóÊ-¥à&oÕùðçNžù‰ÿ‹lÓµO‘À69«¢<Ùµg¦dIí‚cˆf„NÇvví¥Í¢±û¸¬ßîýÌØ˜ž›‹¾î¯ÞüÜŽŠº*_t7Äj¢l©ujTS ƒ6œ‡N¬‰íÂ7e|ý¯Ð¾ŽEÛJ"AáÁ.
+À9A:•QYÖ`}Á
+´R5"¾â(ÃWo»ÖVÖàôÇ˜¬ÎÆÇ@6’?í°G4ì6(èo½lMÎˆS RZ½À&Qq~>E€ÿ€L?ºI2)¹.î÷oÃ]Ê¸ßâ6 >¨¤T^¥7@½P÷öyº¥vÄ+^×„TX¶&*üú]˜î8¾¼Õ-Îô\ßÛ†w³_#ØÕ:œ4»’ßW÷D[þÓñÛ{„Yˆœ®ôZ¶èˆŒƒÔZí¼ò–èwòTòŽÎD/\6yô[.·R|—gd]À =–%©¥+ˆ³À³DfcÀy0ßæP´\AÇbVÙ–cz Ü¢ou£±eìçwSl'BÙ†wèÀOb}ò}‹Ùrãçim¹F^² ñ3žJšfÍ¨¦Ý”Å*•Vó…
+¤fíÚ¼Ó(“-ÏèŸZ ¸®ýÁ_”q­Z^iæÚ‹µ|m´¤tµ@DÞ ^Üö{¯Ó	ö¯Œçèk =»ÔMˆp³í#Cº¿è—a1™§ù‘ßïëü¥mj+LCEë—ržE©ƒ'	ÑqYÌú°Z}Ã°uç(»§b=ø¶uÊiÜ* g|¦Xì+âx ç,kHž[™ 	†{«½Ò+ñ=É…æUäÉj-¡¨¯üïYðã‘Ö/ˆå=‘ä]øµ
+ž­m5ïÍ$-£Pà¥è…‘ýþüØ©ŒÝÌ±´H‹û›®ÿ±|õîoW2öI>ŠJœ1mF*8|ôR}N·±Ï©@ê…”Z¼Ð)­•›óÿ%î:QKåÝ™›Ê¡®P³Æé„P˜“,ÛÍ8‹ºäj¹‡=¿Äñž/„ñ>é¸)òÆ_ —Zæ»êpç\~#*‘/´rGd_æLò>É‰â9òkÏâ*ôWW¡ñ¥fGi‹­ÅgfuJÌÊ¤E3(˜Ï;Ç‹0vÞÁá¸í4pÿîÊü‰CÏ%¦ØLØ´pKˆžEŽú&yþ<øÛ‚1
+¶I©åÉìÃVÑéœ‚ÆôF0ªjDrP	·`2 …C=ò"nÃ!Æ\{7‚­£ˆ¦c±pá&˜/£
+¸z°Ö_Œ11“@W“¾½+žTƒ’u~«>É¹‚1Önù‹¡a|ÄLŽÍÃ#yð2›9`‹À¾ÈƒSV‚öt% )Î-¡t@´VMãARlê-ÅØ¼P²=i šý¼;ûÄ×JµIƒ|Þöxò/õ^©°¶*Á ¼D¹“Ú¤bŠÃÑ!ä]V9¼  o"<´VuA5g¤å÷€ðä€<µò&™xOÅ¢–c-5yŒÝÁPK±Á6'S)ˆÄ'H2§Š }i²*¹ý?ÇŒØ¾½‚Hš¾ûœü×”½],žÆ§üÂ˜òMä?û¯ë£)ÕMÉŒÃ«¿÷Lù‹î­¸…j¿îÌÿ’Y‹¢ó}ºï	"<Rµ°‘‰Ó5{¬ÝÉ†pHŽýðœÓ'k­ÚËß‚p {„â$C¶ªä#1.ðˆ¶'adSœ<hØ.ü§iø»e|Y‚=Ã#0{¡åC%I„2¨£Gb{âYäÝÕTÄYÉÛÒ&Y‚<ë‰ˆ+„²ð › ýuV6¤ièÝfŽíb)‚>ýê·B: Èîöp›#mˆÖi£!DÑåkƒ#i×—MÅFK…9û&O)œ¥Ûvîéåæ‹tÔ<á”Dy‡lÙ¾ôfz¥Oé‰ÀX‘|½Æú¿d19¦öh…b=‹ðo÷DTX©¢C÷åŒ·éwGyÂ£0qÚët^æmº¢1
+¶6|œÑ)€\Þó%ôvEÆG>lEþï÷Bckøè…dQIªÛ‘nÒ,´ô
+¦ŒÌÛÁcjœÿîÄfz½ÌˆšáXšöã,Ó#wíSFn÷4^Nå\ñ"2pHâ.×dWRÐXö32Sá@öÿû^ŒÄ€ }>\:¬ÜÔQ`ÿþòi£,ßßàAyÿbs°YüÅfZ²uû·@×WKþò[wŠP—hS›Í.r¾Ò<Ø‘v˜‘ø¤thš³-È„@Mí¯dh•nwy•gH‘Cq~çAôa#V¹ÂK­t‡ä_·lÓ5Å0x”4ŒÑ ÅK¤Öy®çm255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708953986
+VkIQL=c0WPzfdng1kHT[[U1
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc9182-64-2f54
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708953981
+!i10b 1
+!s100 fKS8zbZOa:j7lEI_Ch9WR1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISL3hI_ZLVY8aNA6nRRATR1
+Z7 dD:/Y86-CPU
+w1708951575
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4303
+L0 3 58
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708953981.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1708953980
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4295
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708953980.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z18 !s110 1708953979
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4285
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z19 !s108 1708953979.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R18
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4286
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R18
+!i10b 1
+!s100 b4H^lT8Cl8E[<WnTAzCoH0
+R6
+Ib?mKfb6lWj<C=WjQMb?nW2
+R7
+w1708952690
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4287
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R16
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4296
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4290
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R16
+!i10b 1
+!s100 PG[g9kKoi`G3Z?g723UHM1
+R6
+IMbG0EC5VLmSaS`zW_0Kk03
+R7
+w1708951745
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4299
+L0 3 25
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R16
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4300
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R18
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z20 w1708783858
+Z21 8D:/Y86-CPU/fetch.v
+Z22 FD:/Y86-CPU/fetch.v
+!i122 4283
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z23 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4294
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R18
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4284
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z25 8D:/Y86-CPU/sel_fwdB.v
+Z26 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z27 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z28 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R25
+R26
+!i122 4302
+R27
+R8
+R9
+r1
+!s85 0
+31
+R10
+R28
+R29
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R18
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R20
+R21
+R22
+!i122 4283
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z30 w1708078169
+Z31 8D:/Y86-CPU/memory_access.v
+Z32 FD:/Y86-CPU/memory_access.v
+!i122 4288
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z33 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4291
+Z35 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R16
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4297
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R30
+R31
+R32
+!i122 4288
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R19
+R33
+R34
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4301
+R35
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R16
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4298
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z36 w1706787196
+Z37 8D:/Y86-CPU/write_back.v
+Z38 FD:/Y86-CPU/write_back.v
+!i122 4289
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z39 !s107 D:/Y86-CPU/write_back.v|
+Z40 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 ^2300EYF23;UAmE[ZBI6C1
+R6
+I1Kf^IY;O><UjDWO`keDf71
+R7
+w1708953930
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4304
+L0 4 343
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -re%I.2PTOhÑ˜ÀÛHÄÓÆœów}Ûü ÄRh“¯[¤cnø‹¯pUKÌØ“DVwnþú¶vuEMÌÙ„UGfïë§`p3z†ùßÑ7k–ØŽî®zºŽéú°Ž"P´j¨¨)ÿ['jiy“-Ó0Lb4:Ë]í+¢0O–VÕß˜öØ¬Íù2E´v‡„Bt¹‰²)ð<|M)¾ÆdkÃÒ÷ô€2NR;¯ï£KX„ÍmyÖpýË ô¨ý^ªoìÌÆ1ã!$Å8¸9€€|vB!1³]>ØsàòÞ­è}@M ˆ^åi¤NÉ^Jà=°¶r~6f7ÉáaÜÀZ¸’ÞµtL–ý²²$G"ÔZŠÀ9* ú$3ŽÃ2Éùq òÈ•Âº­íÅôûèŸéÀuµYÆãZÚ|Mè˜’3°–àKìä+Š¨‡}…©ˆÛì£]/rUíù•{¯CÈ7¤¾>¥uãò?Åkö[¥ºˆWk6zÄ5AÆlþrÿò ÆÃwHë¦ê÷
+C=ØVI¶F[7c"?À|•SÃ^c6;Gdj/—H3³ÄÎ–Ù²+•÷Ôwƒ^ŠVh¹‰5U}ZÎ¾ôS!@v†hÐ$/Z»áôTW1”c¶øôp”›¸Œ”¼Ù«ºÌòœHx‚„nKÚA,9?¥6ãë³h]Ø¢ë†RIŒÝÇ(ûYŸúðâáZ%.ùˆ•Ù³vMëžŒŒËxÚóÃ,öZÉ¤û7Yã‡^ã¾„¡)o^ßâ¿t›°0œQ5›¹¦J·+Ä­×$nãÁJ°MÎj-¹ôOooÄ×u'eß“ÓÃ±fÝñõðl$sÀ¿ XWœåëz±#ÏËÝ]´pŸ#3ú¡ c'/„­ÖbE!'À{’0%frÆ•D4Pf'ÄA4C`’El'Ì‘*‚<Zúó«Š’2|–¦kºø|Ù«„/Äðˆx=a>è®KÙÏTeÓóCQŸû„Y9Æiª¾öu¬'|•×s‰ã*¾þõ¹üÚÝQw|Î¶ž÷6"H°¾jQž›J¦LbCÙ¨{ –ŸÍš‚`(Ó­/."ýƒî	¼išÍÝþe<—k«©ÃItAUÓO†%eJ·nµ3%^tÇETCjWfQcP=b£ÇúÚÇz…ô'˜°öÆN½-<¨‰…ohVg\*æRB3#$›Y”MXÜw\Ã&{¤d~Ò!TÜ«[™‘6‘»Õh>e¢§›’&C‘z@5£›ÍA•‡|õÎ:¯Ô‡Óð‹««çüÏ¤Æïb ÕI¶[Ï«TÅ SÐŒ#Ø}þ±´(Ë:Š‹¢C,¤ú)ô0Ú¬ÁJTS{ˆè¿B õÔ1¦EZ†Æ	støSn2Ëž_=Âm˜°ix‚ÈX‡[x-œòLÓ$Táùšâ
+lO13&&>i!|KµZúY†NsQ$ò­&ëÊÞê‹6ˆ±ïQ@h6
+®ÕH8 7®÷eM†Wxß@ÜvÉÕçk ¿¤zæù£¾+½Ód±ƒ	ù­lEª,°·Wtc™ñòfÝ½˜ßÌ‚J¬üÐ­ÜìF
+û­Ë¨ÑjB-†â†EÆ}Æy·	’KŽsl {ì:¶"t#äÎ‹Ímÿüè#VÃÎU6"x±©|án>ôÆvþÓkƒˆâ*œÚ\æîŒ›§c(ÛÂÄMÓ$*˜‡â1·2ãfd"ÜÂ--Ãå6S…Ùc²\x©ÿPoÖ˜ 1TòLÇB<{œóYÇ`ºßcHïÖFC,Œé©í‰êÖ|Â-ƒÅJ“[ÖS‹1ë9â˜©“Øä 6˜8ËîÑîªÏ&_®þžóŒ¥^Þõ÷.ê¬ÙÃD¤F9‰¾ÓS³íË¨›£<ÈÈ¼´Ò-…‘Ž»IŽÞµ<ð³½/wr
+«›ªNÜ;E„pÆæ½ÔuÅ‚(§½{ÿû¡Ø‘O÷w<°Žç¦
+9Û™ùß¬ïŽ‡‘„›ÜËçŠ¯K•ÕEKÁ%åÇ÷öqxvoü”¼×7"K‚œHqž›x„nBCÙ«I/²tv—7+`MÁ|–5kUTxŸH£@TZ²=….‚(’^Ög!û¯ã(áv ”„_Åy ;îfE7EæãÆïŽY¿þÅõ2Ì÷ŽEˆ2Nè´\`UT{­ÆpT?­Ú¶Ç_ê¸—n`|SZê÷#W6mÜ›I‚9¢“½#½¬wX‹›`îÙi7PYjbU7x:ÄBOI°;ÑB7b<–™”Gs35öB4]_Ãº²`Q<A¥UV8àHóQ(0‹FãJÒ(­u>±ã‚mHÑ;í›]ö†¶wõD#à;ã »Ð‚2ßÕÜ­…Oë«èðåSd„MßÊöd_â:è¼¡'_áÚÌÇvmŠV~¯b‚¢Ø),éš„ëØk‚Ø<^V(¨Ã$´œ^¿&€'°ƒâ&TÑÅ^Ââ‰Þïæz½Î½ ã0MÑ¢%‡~ù¹£qÚï=~4µ
+ù°.à²Áy#Èë¨Ÿ†V,æù <)ÌÌÂyh•kèè¼qœ4ÂQ¦FiºwÀv"(
+ô}BüÆK[ôxè’4So‰s>¿šW1I‚?ã#l]þ“iˆ¤¦j¥Ëªíõ>Û?CLp!?žÞºÇ>°0´¢Ÿ"<GkÜ"wK	ÿôs+
+ƒêôQ¥$¢""(S*¥Vqk7VQHÉZ—vg*Wg;Ár"£Áx<ã:…òM:’Ò“[ócø`'ïïs'8¾º˜›¶VùGvE›ÜÇdR:·-¢Ë²'C¬Å…6üÕy­Ã¦ BÂ¡|ÊÊ‘rÃcc®L.²ƒÉ…íõOŠžª†üKÿùÙèŒÇ$´ZšÏ˜¹,@û0vÖC4fÈí4xr˜·‰n§H|6»ÖdpLÏÕÚÂwc*»èöŠ¡ÈÄ‡|Ã&z¸¼…
+¹Ç	›…Xƒg‹¯Ê¤,ýofbwY=»_Ì6Ì’@‚õS ›j®ÃõüŠ¥IŠ¼ÙÈô©Ÿ®Þ˜€ÓTÑª™†¢«¶Ñt´“P™s`x>VÐ`p GO´oa“¬æ%ûµZñåBc£Q$ùäÆÞá7×X±ïK÷êôkíƒRÇT£æwù¹B³ Ž1,YNîÏ1¾¥cZº°ŠØhŒÈ;Í‚Ïà lJ1c³¢r2  ñ 8Ä{¡£Š#’@á$°ŸØÛf}PáÅf3
+ŒÉ§o]Õp€o ;¡M¬'v%@Ùûõ.ý˜Ò 'd_¹­â%<¦[ä»?…è¡ÂˆâÇF·‹ßÐfÔ þñ»¹º,ªùŒÝÍ‡ â/ ²–gÚ¸œÓ"¡€?ªü¢uÇG¼ÉÌ7dJÈ·ÄÃÃ¸ó†MÜåðe±(|~:RôW»¡)¡P0ódÍ]ÎÙÈºZ¥lÐµrO¥NýÀT>s`”wy†>ñ`z˜œéÒ-’*­ŠVun¶Ó‚¢ÔÇ@)š„çMî0DÚõ~²tY"Nâ«†LBDÖ~òqnÊ£X¶9YíØ“(‘S(Ã¶#JÐmB(Ov%ÿGòÐ®R_ÔãPìü4ôÕe¢`cÙ¾Šs)¼§ 7&^T(Â>H:$)ÅC.õag£Fv¸“,Ò6`ë1cqGÓ0:´„${Î¤=jè!yÄ°º2Ü÷<î«’wîˆN69JJ†¤ÅŠ 8dJ„Š±!pû¦;Ì*¦lÛš`<1c+ª²s#RÞ¯xª	”N±ìÛôYð0¹}Yà¾Ê¡>N„¢û.Å¢>dSPØº÷Iïø¶ý
+§RïW<Ã)ƒ-ÃcBÏÿ«YYÚ 8îñ6Yõ+$Å¤j>ãy°×X>¬Áâç«¾îôwæ%Õš¦Mý :ñïïÂ!wDùNn˜9¾á=}³Ú—Hñ~ŽÍ·Ëßó µÊÊó)ÀYæ‚%]þÆ[í¥aßæ8Ý‘-îéâ!…«§IÆc_àK™•y5==å¨)²|7±iöfØáÆs›¹¶í¹ÁýÍ‹Áñ9Îûîú–GoìÜÝÙ­YÞý¥^ëãÌØ¿ƒZ•ë8y:oóJÉxº^_ÏJëŠPÊo´4÷H·fÝüöH•K¨ÚÚIžàa¶[H# Áoœ@ˆš z%HS:¡L9‚wßDÍ#»ÎP%\ëfŒþõ'[›ÞiJ¥j;c0(J
+à@Wf>ž	–6*^©êDDVF_¼»X° GÎ¥m/“Ió-ªã;{^Ê³hÑTV|û¼,=Öd°ciòD´ÊÐ¼àb‡’Ñ¢¸z™Ñ8ÊŠýH{e˜W!ÀìèI*Ã8¾óŠ+Ö8œÞÿ§žî±¡2ýç…+¬Ð˜¨—û§9èƒ<ÉÈuNß§·ÀïvVMØ§Ü«\ø|dl•›ïÒJì³}ÓbƒnçH–uN·©ž£Xùž¬×c väm¨QF­j¦?
+º4.Ø7þ?`"/Ø(âÏÎ…ü’ì~™‹1´_ë§"[VbjÚ¶E5UNø“u`bIª?¼(‡zñè›õ{Óù=[Âþá:†€3ÏJæ8³Î¯˜gPg¥EÕGNÚð2›Ó1,Ó›ïýæt^ÿ¯…³0J-C\†ÓºµB0?ÙÉÍÖh‰õ¤NåC/»ñz›·‰H4a‘ºÎ
+šP±Q‡!9Æ<¨a9v´\Fw/Ëá+ã7MÂœã	ö7oïéÅ%¾áBÅ/‘8¼ðäVûÖâR]µïŽæf0û©­¨â8¬â );ÛSÓŠé4`^¿ã¶º£		@÷º€3TYˆ–8ý8‚mäƒÛnÏ“(Ÿíë2"ºŽœ¬µ}ÛºñàLU?Äù¶éìq>á2…4®ß]ùÌõ9Fyê'§tx€f§Ûñ/”P‹ïŒ$BdyÞ€‡Waþ¾ëä+8¬ì¯ÉÑ	Å¡òDwÍUª#K
+Õs™þ	¤¼³¤:øÐÕ0_á¯ÞÔ%}ÌÚøømÐ^â¡NÄ8Â=É„?†<¿unfQÔEÍÂ%0;9c¾œ~ÁPcÞÐð±ÊøXfFÛt[ƒ5híjÉ”s+0üÑ"ZB*ó  3FGmÁLHýHß¦ph.I”*²gWêÞÉîSø'¬ý!«"Úšï×:ƒgèx[w§(ZLëwÅ31$SŸª£tV«ÀíÐPpsþ2[”TTP™Âwêò%h›–Z¬ÁM"9Ñ
+È¿EÖŸ|³†E]ð¬¡ñ(tÒå‡m\Ü¬XÒ+`x/ôj`«ñ%; LŸŒ.í…0X¹‰ Oà–øû &oºÉ™‘M ×á}ïEÔ¿rX3]òŒ¯$ö.ºšTsèºúµ$X0k»Š¾[1~»¨“.¶6m—ïÜøLØyŽû’Y“<B$Ë+®€qG‰ˆÍÑsO}.ah=õW[¼*“Äü‡+‰d“âk¦VéI’ãë¸¨I=ÝÈœ×e	ãÑ¼ô!Ä,PÁ ëß/ÛÂs_Ä´·SÅñ’Ûòë}ÜÞ=•yeh˜avc5"1!SWKÖ‰ê±ð£T¨·€±!â×;‡Ž$]©'–Yˆ"tA,Ó+¤ú§	¢Vú¶|×0-GL·#¿‚n
+¨@ó&S*ÌÿH‡þ“‚P!´#Ñ,4íïè=¶kâŒÇSºÍˆŸê³n–…^³ž+‹ÄÔã/åLºÅÓElüGáíÕ\Ÿ¨»ËÑ"—ÿ	rŸØÙ:Í01é%"m…LF»µj:z¢»àY†x—.žñYô+ÊE]Á<÷„„å:¶xˆàÀ¢ÓoG›*Ó_þö4×dïÓQ|ÅT¦rXá*RÓ¹á¯Ðtàd£á¬ªáJ<;‰oõ}” 1{¡? }:­€{cwpÇa eQ÷GD9b'*X‘*(æY"¬0Ž‘¨£:ŠSÓ’˜_«hk¹]ÎÐ78¾C\ÇC&ÖGBIÇa£an^s$1Sfpu@G#bad
+mÕUMÀ4L¡+¹a˜õïÑŸRE·Aà²ASk‰[%P7dû“0PIŽµ)x†4%ÅB2ìÕJ³"%LÜó\ä5bámˆ}Â¥2€‰eÖ|é˜¯V^ÒØ:pôšìäóÿëÏ¿Êµ·IÂó"§jÉD¦UÐÖa*8[»‘ÖÎ xŸîúúÞ
+®ºÊíÎû$Ýýí¦¥™ê¨â•\ÜÌ„­@sŸXl/ÆJ‚7	
+Ð œ :339ÂÑqe7GÊ%¥ÚÜy½Ò–ž×Œ{Ý—) ½>Ï…‹¥×b@Ð8ÞÒ Þè¾#<áÞG7E7hžòsJNáYî²OE‰éÅ'[Æ]íœ²jG&mÚðýÄf	¤ø	cºßG^à/PgéoBðòö/ßD‡k‰£|ñÏÉÄŸáœÝ±ÄyÊ–ÒI™¦p¡K´|ÜÔ\•!úªñý—ëüÈœßêœŒ‚«%gåE“9‘M%DÂMïEÑâ {]÷Ñ}9­$ö+çHw1sè¿§gh	C>Û"ø†HC‘RìÒ7o¥/:¤\·*Ž÷b1‰Ù-[ÅzŸ¾_öo¬2=ïv¤ÆœKÏLë¼à¯–âÚ1îÒÔ…‘Qk;dLôÖ¸…zdã~è›¡H× äMžg£~b\Ò	£B8åò®òúÇŠv[T-áÇQ"$;¸“Zé‰Æó§¢5[¿¤±Ïm¿Á¬E®jÔñ;´c·–_
+£ X¥f“(™Øí²}îkdEfõ€ *dêìË£$UHÞ’Çu=›¶µ:;§ZšÁ¼ø)0¤=ùø¿.Â¬¿Ê ‘ \Íó²,ÙâÍó¡’o—8ˆ‰šý"4|¯äõÖ•ÖÓíð¦T}/bï-È	‡Rx¿G4t[wF4VvpQjNâ"E4ZÓ3 2?û:„&F&8¦k±O	„pŸÏGý%Ô6Ñ5_Û	tô <:ãSê“`Jºi’&e~e4e@CI|ÁE8íLÇ«¥C+Ñ¤ÀFTÒÜ^ï÷.{Žv‰&âÚ+ÏEs>ÄéöëB‚ Æ>Át™†å„@5Êvh¤„ï¿ôULÛ¨ÛÁøƒnô‹''•QÏÇx'ÓÏ
+DàwÖicØBS†Ù™8¥KéÎ«¸	ä¡.èƒkEJæ~Œýc±ìKÇÂ{—ß–…l6ÙBw­=úÓònÔ+A†p¯ôlM½É€QaõW-¾ÔCò1Ê³{5\_tv‹¶dK§K«Ò¿æœà™5;P2Ñ¢G4n(55VP
+õS "6>ŸÖ7Y<þ•îó%N‹ÀÔXîÎ¨Wvbu§jã2}SÌL¼|æeuÿ‘þÒ×Ì«þ¿À¸exóâ3·ggN·Dùó3GÜ™ŸÆvwkèóÑH‹¾ÔGc+ªèÌ÷^{Ÿ±ŸÔJðò0@Yð4ø–éà¾Îà ¥4¢ÿJà˜Û‘L“SÐ&ŒÖéŒ®01I¡§†R8"|Á-Ã ûï]”, (ú³/ìL÷mÎ‘z·h†iš¤ýÊå>ŽÚ	lO‡À  /_’Ån«ói§‹òF†E6± ˆ™ø[‹äwÿ%P5Ì™¾%ÿ¿ò:½Á	ËÁþìˆ¥Oóæ¢>ÇN‹ºÀ¤Ÿ M D¨-Ó/ñ	Ž9¤[Á)Ó)ï§>‘u¡|·l}U¥×[–es–
+Lõ§êˆß,Ð”•by§Ï›¼÷kz©®ù…G&çxÛúx˜fv™„VéÑFy½‚:Íñgx‹èwh³A|õàƒÉø2ø¥úÅºœ>Dn³õ	¶_î•ï›·EB„J—B?â>¼»Y”“bmT%Nðë<¿yù³åõ\ÈÛEFYÐh¶Ó±çñi&LË—Ô,+ˆ}w\˜¢KlÜ»
+£q¥s£$\ÐU+Wuv°û²$Gd]ÈÁ“,OúòÉq$´Z’Wi,@û9î[“4fÈä¬õ¢ˆ­î yüÇþ4F[-)¿4éÑ!ÀÝ¯÷2©ùÅÝèæ~Ìøý˜É¸DÃ šoA&7iÓßk€ƒtÈÛþj¾­2.ì J’•Ô»=«hòˆàéªY$>‹ÝþŠ³<þóW{†yŒß¤=5PW¯s&I„Tgf gÊøª²/¤»ªã\¦Q¬OIåè«´i?”§Fšµ	¡éÚÍ2V·b Lëâ×®äs¬û–®Kú–¯é‚‡ÝŠž€=Þ´¤_ïæ
+ÏµÊþž¢xÉüÌÊñìÜ˜¾ˆ´ù{7ÆNá>HêEhCáê{÷^T†z‘.¤pÎØÜ9Í°ÕaGNSY˜·h)‘=U>°Oå yvf6?–9DØ•Oàvp?Î—µoÉš¢láHÌ®Üy¦àuà&a3•=7Nå2[lÓ»©ýæ9«¬Úµx·÷ç3Å‹J‡â Mô™¶Óp)¦©ES24Yçfq p<ÌÅ7b79ø»ÃÁŸ€¶AåòBÂíÉ‚h»D·9§ƒýûÆ|Þû—JÝû gÛ0ým	ÿ_Å½²ÿÓºî¤K¨”_î½Æy‹Ë 	Ÿ±?é†%=á¤ËJ.œs¼íyóÞÝ%MÆ®ªö[DV†#ìÛ?å6ºž¹£(–~ÏÏš­:€¬7> ¬Â\ÅI†œ(³/áõA	d‹½×6Oã,Ž‰©#»@„7ÇS;sYuimÊ³TBÃsYJ•<³%C.ôeoéXèQ1f<¤wƒÉ¹a¾i¯ìŒøO2åoîú·Ä]¯š£2j‚?íŸ—LvœE&Ù¶gP¯˜dwˆjêì\œì•	ŒÓ/ëžÔ —-˜•Hw²ˆqLws q=o÷dV{9…MÅ(;±ò§g>…eçÿÏ‡ËŸÿÙ7Åe¡ýO¾­Ez÷,§ÄŸáÊÇ¤yÊ™Š¹Ñ(æÂ«/Þ†W¬ê'íÞy"tFA•R6tVq
+·`&$B(À&wf!vVÕÒÔÎ˜8¬ÍôçÚ–’8ÌyÞ¼ûv~ñ­ëÑ{'+™êÏ¨·ª¯¯;g„=ñÇ`ÆOê¾õ/s6mø—cvˆ4ËÏLé*â×a qYûþ²2ÈÒ÷dÎóRõo¢Ù€€>ÿm>Xïö&šð’‡™ÎL0Ñ>ÿâ2qñÃÿõSy·nûúÁ-lCÍSC×teþŽ!é€\ˆöé‡nú†W8÷šš­àOJMgGƒSAwah/OûsÚ†tR:×nú´9>ïõ¼Öw;Û‹Huß‚•qnFÀ;OåJ>¢²ÛŠá6*Š÷éhU–·!ÊMûv}ÄX£
+ëyÔ‡­d/©Â¥³´C‰{Ø9aq£(’4R9ê@0C[ E7NVàøüy´NÆËÕ¾×Š¿é¸ÁÃbú@"œR¥¥C'nÆU@áîñj³Uã:·j S)µ>Ùy/¢¥Nó%OÀ—m´B.âoÑàGœz%¬HþTfbŸ•¼úX(ÛñËE‚fDÿ4P>×5j¹kÍ]X›ÙDpQ%Oè‘1!o7·ä.Y•Nâ`áŒÎºvˆc
+Øƒò5Jˆ“"=ß8Šªäd_ç=¾ÔñüO„ð.é¶Ï’Æ^ˆÝèŸnò:¸¨½«I»4>µ´Æ7ŒàòsûÿÙÕÜîÁ
+»«¨ŒÞó)ëÛº®©µK©ÞŽÐ¼AègÀ*¤gÛÜ%nS]ˆ£i`Ï†È(¯Ä9ÚæMS'ÿÄØ8šâ2âu6œ…ìã¯Â?îýžùŽðxˆ‹¼ŽÈ’<¿Â›<1”4ñ8ƒIv_z.±6:kâª¶(—fMï‹›§ˆl
+›ËáðÅ(»@±¥¿Þò?ælØŸìÏ#4N¯ÙŽö& 0º--^ŸNÊ¢ƒÝàôP4üª½Æs[¤‰Ím¶–4"GâÏR,KÉ)-l¢R¥DR:ã"9†oYœÁ#	A_›³Oäc¨Ã;twD|›þUˆèIœ›ýC;­^Eb0€wdQ9¹ÔV{<‰Æ}ðPÓÜÆP0ý›Û´vvßÉß9â6ËCuí€¨™ð ›J= I¡eEFghƒ$GcqZ±j.Æƒgb¸‚+‡AO¾…Y¡dmìßT|7¨‹ÅÌßð°Á>—%ãÖˆ5Vz»¥lÒEX›h“'gc¦5í[¤W{²{¦1Q|À2=Ã\¬Y·¬Ä#iŒ	l½`î#«Ä¹!.ø”\ær-Ú·lÑFqî„8ž|Ú3NÁ#®îà5mÅ¨é’+ ,úÅ’²óOl/	".½[µ)\Ž#!‘5<ÇfuN³$´DVx†X–rdó@"i½{·q'@“}°y±/ƒm9­Ô1¬šoñó4^™åËâkœàê³p¹ƒ=Í‰©‹¥º,¾ë¯Q	1Ù©¤W'7«â2e(Ý®µW Å®yž	ó<žØ&i#Â)„R47iæz¦tLÜÔZ‡f$.€šöèßz«ºžßêó|¬È¸™Ñ.©á‘ñï@}¨•IòE«•¨é­Ä]ÉðÏîæ}üòÍÌÕMÜÆ(ºÐœíÍè.êŸÍÉÅ)˜¹‹¬çFÆ:Îõòâ³ Oé‹³ gl±Ô	´wb=ÎüP\Ñm255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708954947
+VbBA9oT_E8:N[O7Unf[5@k3
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc9543-6-54c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708954943
+!i10b 1
+!s100 fKS8zbZOa:j7lEI_Ch9WR1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISL3hI_ZLVY8aNA6nRRATR1
+Z7 dD:/Y86-CPU
+w1708951575
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4327
+L0 3 58
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708954943.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+R5
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4319
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z16 !s110 1708954942
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4309
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708954942.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R16
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4310
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R16
+!i10b 1
+!s100 QBIC8G^^Vh2SSfnobFlBe2
+R6
+IJi:0gPCe6;M9U[W]n6dT;1
+R7
+w1708954299
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4311
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R5
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4320
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4314
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R5
+!i10b 1
+!s100 nIY;:17CC5;ALD9VXGnen2
+R6
+I@>FmL^AzBgR[2;2V5f:[01
+R7
+w1708954647
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4323
+L0 3 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4324
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R16
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z18 w1708783858
+Z19 8D:/Y86-CPU/fetch.v
+Z20 FD:/Y86-CPU/fetch.v
+!i122 4307
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z21 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R5
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4318
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R16
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4308
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z23 8D:/Y86-CPU/sel_fwdB.v
+Z24 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z25 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z26 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R23
+R24
+!i122 4326
+R25
+R8
+R9
+r1
+!s85 0
+31
+R10
+R26
+R27
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R16
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R18
+R19
+R20
+!i122 4307
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R17
+R21
+R22
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z28 w1708078169
+Z29 8D:/Y86-CPU/memory_access.v
+Z30 FD:/Y86-CPU/memory_access.v
+!i122 4312
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z31 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4315
+Z33 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R5
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4321
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R28
+R29
+R30
+!i122 4312
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R17
+R31
+R32
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4325
+R33
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R5
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4322
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z34 w1706787196
+Z35 8D:/Y86-CPU/write_back.v
+Z36 FD:/Y86-CPU/write_back.v
+!i122 4313
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z37 !s107 D:/Y86-CPU/write_back.v|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 ZR1Vn4<zMKKTL<al7<GCz2
+R6
+I<=iSL69TGP?X?azVHzhW@3
+R7
+w1708954940
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4328
+L0 4 348
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/YGý 1ŠšPI£à#ÅJÏ×5Q²Ë¬àDWá{é€!B<ÅDÂ g–xör5B:´]ÄQa—oçc$S+¥LÒTqVB·ÿiõ1R–e\Ž|ÖJ§"ˆvæ_Øˆ®E;\ñél½ÝóŸó6 ¦zýˆë[ïìÛý¶P¹OsDøª¡=|®Vt@Ÿ©´E4r—ÿ	üzˆÙ:Å¾Ô¹2½4"–uD]ƒM4@X&ßYÐ9…K¢?ò`YæìŠ‡ +²-ƒÃ'HFS‹7†ì»©“µ1ù¦˜?Àô²j––ª`KÌO Û'¢" ¡R¶vq•/`^Í¡lÞöz»Ã%hÈYdOe[¶;MÅ|]¿È3¹eÙäñ2+ŸV¦_–Q
+?JÅ\ô\kâ,ð†p_ˆb&7úÃEš—i‹ª/k74ý²UPt°Dt||D¶í¨:†db…0ê”·Æ½'¡X¢œ&\ôŒÚK„È–á5‰¬á–¹çë`×¹2nÑt[¨•Ú¢i¡|Ô™Š¼Ú0”8Ìò£`[ÿtLÉÍ.þÌM¸·ÅÚ^hôöMÝümµ¶X|f7µ4GF\ÏÛ8áA:»æ©—}.Ò¡&wf}Z9
+‘v(ç­Ú¤k®ØŒ®ÚŸt5à 	¹<©wN²rAÝÑ'åŠ¯ÑÝ~®ßžû®ñJÓÔHÔÆ[ÓH›£#q0œþ–ûƒrCó:¬“ÌÔ~Ñ~Ò›8uÑh0(ƒF*ž>Ð7ÿ,ÆP“íÙ¾,iÙ©ùÁ ]¤¢/ùäP ¼{©ˆ–qP™Ž™ËèñÂ[¿ýŠT^£	ûƒ‚ ø°µyš†ËÑòH8ScêJcýÂµ£UÚxÍIK»›x GwhŸäT9{¾êÂR}­ú¸¢I{C,¼×y—j¼Ä /“¯Kâ?ê2rtØ±/ä!Eª±#\ÿM^ŒºUx#Qø¼4é³j[t0j¦Ù÷s*{¿Â6q6ñ
+¤H45B6y†)Éçt]®jÂ¡F1íÌ‹ô 89j#MnÂ!?YþÀó‡å¤pLêè¯ –’øJu2Ôøáã-p–í»äP«Áó2nn™îš¢q
+¸Ý»¢-O¸Ì¯šÃ7x×Ùå3ßu¯r\}üÇSœ¯ÓÍ{˜Õ¥’_“4Ë`émÚŠ`¢`1yŽõL–:¯¼%˜·yÏä^¡˜Ëò¼^üé¸ŒÈÞXºšÈ¶Öàù#†LÎÆÊÈa(}s–ó´š¢Kaõš—uB9Š¶9éy”ç1Š…Žû—Fë.wNd¦ƒÏß	ÉY1Kšê'Tc'ž…$ÁŸ¯‚û±¢ÑÉ©õaª%®f»›²»RªÖ5€êƒÕGNß¹­·òýÙ§éEY³ýv.ÓQÌÑBSØ‡2·+)¯Ÿ‚<Ñ½ªÕ{ÖR¶åTN¾º„Ý°0¶î!dþÊ®È)ü&PûTü¤OÁ{œý±Oã!ºÑù™•$Ç0…(–tWÿÙÖKƒg=·¸‹µs+ŠšÏË ‡Š%#1¡¹øa/ ±¸Ö_5ä&nÜÙ>êŠ*ÈÛ¤Xž·€q:àp‡ætUOÑkË²BEr â'rÐN¶wøvçMöoÞE:MãÇÆ Ds‰urXX˜VmåïJÂ#ìc0$Î…‘DâÍÞå|Hè¸ŽìÔWiÑ—;ŠÕ àüË¾»K¯ÔÅ?À³¿p|q:«™<­>ßW`–ÒETtZ^ÓPTVwbxÿ‚"$-öO‚3%@NÉ:!‹å(öuQå©ˆ³REeí])ëŸõ{Ä©¥®^§,ñç9ù@3lÞ—`ºÃ2Õþ½ÜöwnùÊ×’ UKžÚÀ…‹§j»ª¯þ®Ðvò
+¾³÷tL›@èÓP2“´¼AjÈ‹’œ(°ù"LŽ²ª$ÝæóäDerlÍÇ`±FÁPr®î5<_ã¯j=¹À-®Ž²÷ëî!Éo‰µÜÖ}§IÞÅÎdÀ´OõŠ±[àk‹~òY%qX$/‹@¼„U‘2MÞmÈï,ðY©#\ÇNù$a"IÇlÔQGô2G(h™…D#V):â3Y	ˆ{¤e>„s€Ï‡Ê‰˜©7Åd¸#bJG{‚:—tr>ð8ý:¤	ÊrÆp]Â?á­_½®wTÆY”F:WoÅzÀ82£ÎkÃŽÂ*…ý¶ ó–N´¼¬­Ù$)”z¶Ó%<”X›¦7	tB(æé’+Ã-ÍÇþÝWd¨¦àHƒ9ÁåAV‡GÉçý§É½Ñ7Ô ågŒ{÷éÏÖ;àbÇW˜[¡š½¹A%ÖÔ)‘#,`	º%7$Q}‡	òzi›°3lÅAì‡E;†AÊµ5]×sg€V
+Ãot·ü³÷wR„!ñ#ÆÑˆy¯²	ÝùÍKM©@RðïÞ*"üË‚¾<Äcüd€àÐPvŒÉ×p¼ÈQq‡c½œ€Ä–ß*XÜ–æ*ªÃ6Ý8ã‚Ö~ðÌøÌOÅ³mÒ/¯lñIöQ§óÍXð¸«¿Õþ…²šý¸¥6ç©›„Ø]Ø¦©4âIŒÙ… péŸ¤ªDÒ†üÒ7ñ$Ê»Û“.ÖQò.êùfu¡z”ñ’Ó¶4né´àkZš_@jáEdðíô2ýÉ/“ë¨¾]»»‰†Õv\®»«« PpæmØ…Œñ~á_îû®žcY«åÃ<Ó9‡ˆ’o…=ã|4Ä<s—Z~Ý(>„7@·šŠÜ»7hä•aOÌ@ÔLû&²"Ôãq‘~ø×Gsã?(é	=â9·–å30gN‡—',TáñG×ÊXÊîÉæ ¬Ã=‰k¯Î‹×CŸd2™¹™¹=¹p7ˆ5h|:ã† ÈÃDÿ™žÝÁ¹›‘•8Ú¼ßï¬¹pÎìœ€È†nùìøÊðÛ2]ßÊ¢.¸~ûŽëÖP°ŠZ"R˜ª¨¬iÿ6›gÆº©­DŸú‡º'z¼Þø–2YvjéŽà
+~‹$]ýác=÷aç;RÌ•¼K|5¶±z]üÐx¸Å}LOkÙ—Ë·w-&yÐ“S	%Òßu*ó=ôì¨h³Â—4ÑG[ï®ŽoÖuÔQzy­ƒ£íÒê~ìâí}žÐj¸ÁIãÛ¼Èê‚]ÿŽ®ýË¥,½ŠÓ³iÀN¼Û¸…ìöó\û{MSJ]~Ž¼0˜¦7¨”È˜æ»Šýã†ÎÙƒ“<è hÞþõHÕ, ÉŽ0cuïà R'Yóª¶!-œÉÀù‚;Ø·È#¿‚–MÐ+bÀ8|yç_×8îåfq¼ÇVâCaÚ³kÎ· µrz©3 Ô\MNÖ2|¥+‰â$IËIˆÚ£P7Ã½/vÍÛ›«X°üyD¾:ê†×¼ßÅo¹¨‘ô}ˆS$ÅNŠp5S‹Ú¢<{›ŠÏ¢0½¦‡tx¹áá@Ë‰ââÒ;µ-Óf˜œö6	­nl=_GWvJ‚ÍéfÜŠ3mþµ
+µì§z›¬fj‚«ÜœÑ ¿‡”J¤&Z÷°uX”V}Á[6$4<£«°Hxšëþ„@Œ<CGÊ…Xªžd´óv9«KøãÞÀf½À‚< ÞÛè·Ì¨ˆ¼Ò†h¢¤.»¯àŸˆfm‹ÃJÞqÆâ;®à
+ãÿŠé@­ÜËå¢4	úÈµíV’£C†Oõp¡~(~Sª\ðBe{ïnö¢øÐÒÊÚ)DI ›c4hDæ)¡w`hÒTª¡0pÏ½ÆuDRµ^ëâYíò$â"&5¤Sz²FX=Põ×¢%vÆ
+I¦“ª,ÕÒ;Ô2y¢¥‡|þu„Lä‡ÓtK§h›«ç
+Gq@ï1^h°`€1qc¬‰jsÌîvk÷[a0ºäI“	QÃ:¦|ù“½‹Ò.Ã¶k¾¹ga)—À±“À….Q:©µóXlÿ yðe{ßO—{…KN‚{§fv1bÊ­Óp3iíé‚4PPYÙ‹£_oª©“nÏÍŽífénd7Ã~Ï]¹um&Â³ùáxn‰›ŽûR …=‰†s&=©u_±@X’çb7k±)VjÉ•!cm'n×eÓÏ|¾\ç}õü¡üòÖÑ$½"oÂØD„\s\À9k”rIÀ ²^nŠ 3 «®öw ËÌMÌ²/§ê–?–Q¯{K?†Ø«·]xâÄvš‘{ßÓVç¡¿+¸¦¡¼ˆœÙˆöÞ¾¤µ‚ÀÞÈ´
+ÓÜø‰®¬xi!%§¢EE.Mkµè¢7 YÚ½Ê“8dµX¢Ø–+á|ñª,0‚X2²
+_œ:ÐþÑY¶!<•Ì3í¼—¨h Á¤(ŽÖwÂ	¥=ŽôZ·/‰uXÙ%zuinÄTS&|¬“#q`hŠ¡L=ÆQL®ßDÉgøõà%\ïT%·Nà$d"û¤;–eoæËæi£ ÊÿŒ'upÜRqGa¤>lãC&9ÂU%˜WŽòºÅn_zS·‹”G\`jA%¥íœ]…ryÉ„úÉ’` Yœü×eL”3Ò*âT]ó~±ÆvxÃæXÁA‰Ô¬Ïò-ÿ›Œw÷‹3FÕvoÑ¸î{GÄŽÛJçé»ÑÍÁÏ—¥l˜¶Ó[¿ÇeókµnúµIÇû¸ÄÆõ4›2;©†W]EXƒ¸áqìÆkàõG?¹òèá— ¼ïð'ÒJBÞZçï¥qN²C×QòüÔÈœ©GO©£†%FÔk‡k¡M«UW*Ag¶WFw`sX	ä51C`}ÐXá%!y®P‹@Ž˜7TH­sSÚ™eâmN¼éÅ	‹2ò+€’öesò„	¨â1Þ°t£4oçÅº'Á	‹¬ÀVþk¯­Êä_à	™Ç…BÈíçÏqã°q£×WÐm3,kœ™]€'p¿~:¦[#åQ?:	Òñ@=¯'"b!Á×eAê§ÿÒ@Q¯¼Îç.½ëŸš™&îE&Ôc>È/˜dzR”wW&>ýn†`2?A5o“`4CÛ¶3<O¥Ž¤PjÔ=ŠÙ°aê»²(Ý#) “VVÕ×ˆ*¬Íñ»Øh¶o$ãÐ ¶ªµh¼ƒ€´'Èp]Ò:º±D7œÄ›–U+™ƒ*¾ú.–1MËÞpCÚ§¦œÔ
+‰ó®hr¤0½û¶NAyrÊ”¼÷19Ñ8ÑŽ…™L“ì*†©+ØŠ’5òtMíÏàÆ;ëÆ“ìµïâ6ô™I“öH´GzûDTä#ó°ò¢]mþë–ÁÃÏdmˆYƒ·gp5ôÀÛ²rñÛ—HåNþ÷)êC3m…ÙÐˆ´">þøµÀLMŽ‹¨ž’2+»áâ>ØÏÅéŸ}£?ñ0¬ á/Zìš•¯³YDxÚºßêÇyª± "ÒyˆœÕ7š¯·à'JftÔY  s?þb+0™„,ÅQHr:ç}±/@†œKÄÿÕX ¯–†Qäó|™£ÈÍ³íèÙŒ¸”ÉFi¥ÉGzˆFÆ/÷d^÷jòQû²~Ô.êvüÜá/éYõƒâ|¤vž‘åþi®ñ^ÐËrånô<ÿµvõ×B4£VlÎ¿ãsX°·ü<KÊJ¯Ú–ˆ¸{Nˆu–«ñkmë¢Ž¶a#(™ŽºÜ/õ\»ˆúÐ(õMÎýœïgCL‘•.¬*§zòÙŠ‘
+Ãú-+<³þâáñ#Ï_ÅDÚ¹=È sµ6:µFqN™~ì™2é«Ë/QIŽšÊ(÷FP…-îgv3Éˆ´0c;=)‰-ò#ÂËƒÃ‰Û'-øß¯à„›º‘ˆPÅ›¶s*º·!eº¥]›Ô$1÷wmþ×6Ï«ø–wsRêOHü)+†>PDµDpaxÓ7t]À:÷
+©a“N]ð
+RNóÁ£QS`2éÀ;!À]o²ÔS"0[Ï'>Ñü–uL¨ž€_ü_êŠÿÐÆ5£(·ùø¸=W‰@¶B%qºÎs‡¤õºŽXB5iªé n\§~Þ÷È¦]²~üÚ½€qú¨Ã¢Å.¨ßíÇk¡XØªÿ°…–lÈÚS!+·¶Ò§€‡VLÊ³ZLø}c_²trâ™ôNÖ{ *˜áNôVu´©˜Õ:>ûžãò4UH›¸ÂCŒÿÄÿ÷rsÄ_®»Ó{0øöcËÚ@3ÇÁÉiKòìR¡+ªLð_"<Fu2ýâwK1Éš“¥Š¥pÉ5›©åg—¤+ò5B¹ÝÃò];¶Š§eQU³¡ˆ&Å½1'±;ªØëÏøq$Ò,Â{LÒo„(¼s¸tÄ=fFkžGÈwÂ@F7A¢ÅvZ»6}»i¥ÌAÁâò" Á¼ŽØævíˆóÓ0IE	­°ÅÚ·fzœþÉÛÊ8Þõ·.ïðV”[çn‹Ž^`üJ×ÅtFFÏ—•kEä™m']n!Sts(i [oé÷­æ:žPc?ÏïQC6Vz½Ãe)x€W”‡~â:¶ul„ ƒzµ›»»ëLÛüÊÏÅã¸}Ps?ûžN1/PBx¸³YNÖ8—ê#åWDÒðbåøÍèäPÉÌ°ã269»ëÄvpXØÛðRH½²œÆco ãµ2gô¼G|çÒšNÒÖÓÎÝâØF£qgøT@7ä˜‰¹Tï½Ú»­ÆxÛÃÖm’¤“r¡!|ÞÊ“NË
+Åþm$þ9õªz˜d!"õq.ç77{¡,V*-…Á‡®ök³gƒ(Ã®ÍowŽfÁ7wQ½»UoÝ‘€Tf3jÄ¡>ë©ß(¾¾Þg§wFùC0&§ØÌÇ`Y‹ì²Ë¶(1X„•6ø—VYóœôê ¨þËØ³íò |ø€clÁ0€Õ!(Á0“²cT„J¨Ý.÷L£^ÖÕÚVæ,Íüe;X¾B,ÄÊµ<‘H³„!x˜5{…4Zµ@]©|Â.†V×á2?ã">üÉˆåv*û”K½Œ9ˆ³½¿Ã„Í)ñ9œëÊF_77,ÿÃ_)£lÐxšª¢ÛEr¦¦r1OŠLÍ†
+(á÷§fqÝÐ”ttÞnã46wMFJÂÖèÿI°äå5½ç°/¬Í·«¯Š&´LöøVdg´ã|Æu@˜×Ê£b7»+ä§q÷ »óÃÉt#Eöe èN5¦ÕZ½4fyÉÂhˆÍÖ"+³g†xÆrOÍorÞkË7wTí¶‰¯ÕE19->Òb‚)¦|lÄ`Ž¡
+°]¢Çw!}äOÙÀ	ƒwö!|S·7µ¹–hØ{«ˆ™òÐ
+% ¼ìÈ©9øbÝaw8Ö\9öf\Ù8Õ_Ã#.õ¿UÿÌµ-Ã)¹àh-üˆ[µRydXÃ	ñ,qþl°¿Öi¶Í±òçÀhÌŸÌ{Ut0Ð»¤+k…dõ0	„î¹“F{¨ÚÓÝÓ8DH¯žØ„S'iÚìûK“r­/zü1`U3ôÅ¤Éì}þìã—®ÓÏF#ªû£_¬Ù€mEb—E`.¿ñ! 4Õ¿÷,o´ ÃöpÌ@4]ÂRH—dEY–g"ÝÆ&‚*)`Œ·Ìã2SQõbÒ™Óed»þ…´e:r0„ZÊ{‡'GóæbÀÚ©²æÍŸþùÍÊùáò/¸©ŒÁÆaË¹šsÍð¨\7 Aãt¤îá9#29‚Þ„WßØ;ãdÒ U­ÇL»Ö^]Yfç˜¤EU:@6•Ê„ÜB=´™¡I«©œû¨"vjœÙ‰„$Jûö»¨jµ:¹ˆ•ÙÝ…KŽùýý¤J«ä´X¿‚NÕì@ù; /ôfÊÉy®H­ƒùÊ„(S-¥ãX…eNGzT#b3!°xk´PRœ®fB3-çÿYõp8éÙÇ|ÄuJšâHºë2[@§Øï¨q´l‘ßª‚G¯ì·Å8ƒ
+²•Ä-ƒ(ŸàYèeUµ€÷qghžøÍ^¡C9ÂÅ²#7(wjž”'I ƒË5-i³8¥øèoÇ‚„n±âãKÜË=J˜"%|å!(Ñl-×>jÉÉÚÆrÈñ[û˜	‡óY%OMB>*ô+IßLïgC!!·ø×=Xž¡ñà^:œÑzžVæ›1h4dNÀ¨ì*šUç«Ñ=ºpÞÿSgwEK¬Óg9“eÑÆ{¤X¤V,¤'êôËšq„·iÓPecŒCÏyé+™”eü¤«…¨?¹Ê‘åÿ•‡nc l(ÒœÄo/÷UœköU;£*°_‹^í€_Ö Ê°–s*´jßúµR®Ê©û¶caçjø¹òiÍW ¼çq5þŠBÖÓê\ð$ýq'N£
+»^Ójr>gd Þ×'I)ð¼ÞI–Gü®»£/âzÐæm€_‘mÔÓ#/çÙ¯Å!y²§Y‘æá\¥jÜIåë4ï”§E®ðŸ›ËgeÛ®‡¤v2ÌÝÏÑ'A‡4¿"ÚŒT@JŽ0&ØÆb.Ü ÕX„T^õNöz¶;¶l<ÔW>‚”Èwÿ‡ÌèŒîD"ÅbÖ}Â4¼>©¬5oìÕM÷M§RlmPú oé¥ºÈ»oØ½ÚéÞâ8ŸéŽº¼ÐÀ–i˜Ë–y“]æÞbÚ%*ÆDéøh½"7ož¥–\>ªÆ•ŒÜEL¦±(Ù¤R?îÄyúªv“§¨t0D½”«¢	&lÙ*H´UH–þ÷i†"-Ü€/äV'¢•ÛGþžWXýt#Üùf|Ó.¨Òu^0<’7EDT]õd_8ï+˜ö7„³ñµßÏëöQß9Sé€€r=¨à
+¢a4_êå>ÜtÀüB\p&læÏŸÞ›ÜŠë&5|ž¿ìÔUBß–íí„žþápÈ!áGÁn	©á6Ù—c,Ò©Žû¥/A‹ù½Ç`D,õìIdÈýbôoW¿Ì1K/¹×ì•qAL êmê+ªÀÞÐZ’<Ùˆ«vÉ¦ËU&NáÌí]¤}ÕÏBs<èY€Q£'k£F#8P-Á&ÿEÙb®ŸB]ÿQsÝì;¨Ç7ÙÆRæuGhª‘xë,¡Kžfƒ£|­Õ˜0Ñä:‹4Wk«¦He$ÅVjçQhÀbò¥¤Ày,îêƒ—;‚Ð©áRMžµb›XÙAÉ‰ûed|Þú³5ID¤Èä@a!t¥
+û$çž´å g^ø˜›áGlÄ…\Ãrü€h½gõ­T9&GÓž‰{ˆy‹êèñ}³yŒØš-‘g‘,Íç5ãÝlñãT;Þñc™/ü	säZÐS$2ˆòcF|»ŒváåÔ4õvnÇÖ	v[HŸã®©»›ŸºA‰o/?'*|-üÔTSjì}¦Òý(Ók5§Ó³9 ëÓvq
+¸™¤TUCCÐ†#!	Õ<ø6ç‚¡lr.Á±|.Ü<ßîÂhSiL %æ­Âsßê·ep5G›Gaa5™“'a3.Ï—Ir™Âßçc.ù íÄ$I˜‚h«¦pL¬ü}_Øõâey6·L8—RraÀóâa>V¤[ˆ·2ûÆ²=_ápÔ{çEH’8¡*ÙW°tM¾R#.åHÅmqòÊšÓ5pˆœÚƒ%B:¥‘¡RX”.ßGðû5-`%_ÖÈèoÎ¬èÚ’6þùŒØ¯ÇÙT9ÏV†ìçˆÚkI¹Ò¦GQË¯öwc"]»½Ô %@¾‰ªÑã·ÇP÷ÐjEinúÍƒ	gµ/œÃ&s/Õm©ÑP-T]VTÓŽú˜›r~€ü‚–J?É‰ŽúäPûÎèŒÆ'X™Ší¸¸2¬:"TöB*Š	ÿX|Ó¾º€Zl˜®‡¡ s/íÏÝä=cœog¼ûÌj¨qûsH¼:‹®	¾õEOüÓ)ŒÈYÞ¤oîñ\© ±›MYåçZ©½~„§Id[‚zûÐVx ;ÌÁ0vDºáý0Æç™GÓÉqs¤ì ò ûªé‚235ðËƒ4ö¹¥DQ9¤8É›ÂÕôõƒ]5÷ã0§Õh5LÞô[²2V}Æqœ‚s'YÀ¸Ø(†oÀ:ºö.æ|ßÔ|…4©è–Àö/D¢9û£Z2Ú7 B¶û®õOælÝÙ×iÑïë¨ú$f¨ÙÎ‘h‰žÝè‘EŽìû®ôgLÔá&ž8eÇj_Yžºa5"JF(>ã 5frð2 b3,Ò9¥MŠ£Œ]Û¹¡!¡[ÜË‡gjƒ	ü§ìíT)É‡¼LÅ-jN(ž¡)%MÎõvx£&oíÅALÑ[Þ‘vz8û›Š>ä@>ØŸ§8ã2žú…jÏ2¹FÅ¿‚%¹V.(”D8¥6gmÀ´Oã"/”R6yÑVZJ‚b¦çÒ'{‡K©ÉÔ 	¡Ìë†Í2Ž˜<ÏúFn÷	ï¯ÀW]Âê¿á*¶)‰Æ<A ¯²±™äB?‡ñ„Gp9®÷,‚@è’Ðrt>¿÷µCl>s>Ff7H,¸b–˜€X”<Ü¼Ó6~¬GiŽól„%5À_xÕÚ ÄvzùÜ§}â0ÛŽ¢8»8“ûOKÈò<Ù—RN¢ñ·¢·âžôYúºÄ[¼Ôlø­ÆyäLÌˆ±eÆD]â²%_ÅdYÏ´"-ã"<íæ
+s`geøB¸•@¹ l²6D|×gglZ¼WdEm255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708955196
+VmhIKWaSJSSVO`YIlmIKFa0
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc963c-1cf-34c0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708955190
+!i10b 1
+!s100 fKS8zbZOa:j7lEI_Ch9WR1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISL3hI_ZLVY8aNA6nRRATR1
+Z7 dD:/Y86-CPU
+w1708951575
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4349
+L0 3 58
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708955190.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1708955189
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4341
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708955189.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+Z18 !s110 1708955188
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4331
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+Z19 !s108 1708955188.000000
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R18
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4332
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R16
+!i10b 1
+!s100 QBIC8G^^Vh2SSfnobFlBe2
+R6
+IJi:0gPCe6;M9U[W]n6dT;1
+R7
+w1708954299
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4333
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R16
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4342
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4336
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R16
+!i10b 1
+!s100 nIY;:17CC5;ALD9VXGnen2
+R6
+I@>FmL^AzBgR[2;2V5f:[01
+R7
+w1708954647
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4345
+L0 3 26
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4346
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R18
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z20 w1708783858
+Z21 8D:/Y86-CPU/fetch.v
+Z22 FD:/Y86-CPU/fetch.v
+!i122 4329
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R19
+Z23 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4340
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R18
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4330
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R19
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z25 8D:/Y86-CPU/sel_fwdB.v
+Z26 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z27 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z28 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R25
+R26
+!i122 4348
+R27
+R8
+R9
+r1
+!s85 0
+31
+R10
+R28
+R29
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R18
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R20
+R21
+R22
+!i122 4329
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z30 w1708078169
+Z31 8D:/Y86-CPU/memory_access.v
+Z32 FD:/Y86-CPU/memory_access.v
+!i122 4334
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z33 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4337
+Z35 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R16
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4343
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R30
+R31
+R32
+!i122 4334
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R17
+R33
+R34
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4347
+R35
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R16
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4344
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z36 w1706787196
+Z37 8D:/Y86-CPU/write_back.v
+Z38 FD:/Y86-CPU/write_back.v
+!i122 4335
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z39 !s107 D:/Y86-CPU/write_back.v|
+Z40 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 I^ziOLUBC[bIK4;KBX9K>2
+R6
+IS`GE8C;lK>^XSM9_EzJFH3
+R7
+w1708955187
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4350
+L0 4 350
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reûmCžF-I£¦Ê>i"uÄ¤¶Ä+õWu¬ÓÐB=G–|áDVc#½Ü×ab0‰ŽõDP:»­Çgb1˜ŸäUA+­¨±P(˜á80#s¬Ð v]mXpŒ¸8§u~CQú––ú¼×{”àæ&ÌÜš÷‹‡…J¼‚K€¿qé;z§WÚÉy«Qr*ªøtTdC^Ôð€ôÈú.è¦Ç¸¾xM@ä$üÓ#"~2*þA ¤ S#,ÝÂ"f3@q“wWAJü>÷Nhà4ôÊVêÑ®Îììe7“ ÿ@=$´ 0ñÕ›Ê%†i¤Úr$d†Æ-àfpªòPë°BfÕ&éñ£DZ•‹%%P˜‹±KI„c oÏC½$Æ!5[›[æUK ·[„X*ýÑ öt—Ÿö0ŠÇžgGnû®ntÊä¶TJ­ÒsÀ‰¬{4²¬·ÇVcqõigÁÍ#àG_LVXµq
+Lô‰‰Õ2ù¨Üþkiš—ï!*i5Õ5DUEcÞãl"‰ƒÐØ”^ò·ä<íEQ€Op×.%|Iù©&ç…Øð·S>Á¶²b…
+Ë0Xœak< _á`Vè‰ž'ÓžÖà8”[¦ê=K•ÜW©›ºúVuhˆïÄò¢ÔÄ1¡>ê„çsQOš Ù9·taÙ?°<£ õÍ7uvNW0uA71>ÃLPŸmv2Ò6P2C:&—ÿ‹ò" ¤"É£ÃŸÎøñ÷]³x·£"=‡¼Í€BÚeK£#.ª8{ãTs¡ÃE]Ö<1¢¨4Å¨®WR,ã›ÐìùcŽ63ëToHK§H´A~lßÌW©-pFiŠ´R1D8e\Át7L|³“pz]Î—apLx‰ˆ—rvp.æ„ý‡A>ôÐYÂ½á.úö5—}ÑD´Sµ9¯L@ò§wUTfÁzNÙdè­ˆpÂU:§ÇXµORz¡ Çcfïö6¼Á5+ Ïãy×_ëË:Ã¿öm‡ˆœŠêÂ|:"SŒé—Z	ÿ"Ø1€ôqRÃÅÆ“æ¨^²øb ÊÊ«†}qtÆ aIêEW>o‡±s!¦?H¹ÒM±uR(ÖŸìòSVVÞkMYê¬ÆM~„¨¶z†7Ž$:Ã5Õ‚&_n=Û”‚‰ÖT)ë®½«_ÿ§ŸlÍÏà:.¯ª­À7Ré™Çˆ“,­çÏ|2®•ã×Zs×M,j”]Hÿó×ª¦Cÿ\Žé‰‚<Óhðå_­Qg`“E@!#@ò²ÄÌ·+_}:Htil˜@­€!\Bz»Ó%3uØd9MÔN»MÃr0³¹eÝ¦ÞÊ«ŸV äpû	Jþ;\æÐÌÛ…dÈæëa_ ªa½•e4\ÕM‰ènâsø©Ú”)çlÜÜè†°+Ð†\S1³Îù¿kÕ`»:YÒ›š£jÇ5«×Ç*‘¯ßÆ*³,ÚùêOüÅ
+ð„3MÆyƒ¼â`.ÓjéÎŒîå§h±,ª›SÉ•äauúÃ×JP¼«ûíéP´+ºŸâˆÚ'˜ŸîûçTN´Ç_°}S¥Oã*fñy« "6dIÉi€Cb@7Á&êÛÍÙ»7™ üpe§ÊNÄ=•Ð0Û€]âž¹‰3=ð¾¾ôUIÍ¡öh€,E<ûµZ±dÔ <°P4¿ðÞ¢ †vÖï¤?JŒÎÉ1y}ä½smB‘~â
+Škâ3'o¬¼#4GU)ùµt4VuMšŠ:ŒDÛèüµNç~µ¤\ðió ½PýZÐ½ú¥vÎ‡’Ëªø²Üœ>¸¬Öß“?È–Å¹¦zººña÷pXŸÝávàÛª¾ø‘›þÝ¢±1Ö§y˜Ø{«ƒ]æÐ
+$:È©9ùx½-aw8×F§ðÞæP–´I±ÞIÚ¨—mÎò}¤¤A]¦íÕƒYîÍì«ÜXéÍùíµ´×IúÊ¨Õ¯D™b]öç`÷D
+†õÒ¥G`Î±ïáV4(°¹GÿfJ¡=t"ÏÈ{
+áBT,'W
+.óYI T}`gq+©)µarq	„\“M:§{¤?ÀÞüÕI÷±_²>Ó2&hØvp&2Ð‚ÐŒ¼|ìÈ¤ãQþÒÝsožQ|ÍçjC7Iˆ•F5)yŸ¿¯"Ë¤ù‰„^ ‹þ•Á1EËU¯ð_b9ûŽWóÃ¿€µtOÕðbÂEó¹hN—¼t$@9etu1@ RYy–kÝ_÷{nöq›Z°L“…MEWzúS$Sò§‚­ªþê±pè³Ï@AŒŸÛï£Yq2ÈVuÙ†$u—'F|mÝùA©Ä2É—*dOóÚ 8Ä~ãöë²#jTRm¼¦]b ôÇè§z†ÇGF–Ü\:”lôv°Ì_$¬åœG¬ÆVýr¬iÜÃ$Vy€]¢ÏòaìÅ…2¼Õ}í‘ØÃÿ ºzUÕÝœÏTÎâžUç†ª³Dzè¨þ‚"{DWG,¦\s°öî•è¦k–Å3×F—ÂZÆÀfê}Ø¿n8ˆ«}w6T,ÜÔQCK_úîª'®é0{­ÄTÂ|ÞŠ‡EÏÊDK»ïlƒÅçóÊ-®Q?ÿÕùðìÿVøÞÒ•¼âSäR¥JÂýî±%ëÞêŸçÌíêËê½Ê¹ËÆƒ<Îä•jÈ„øš·Õw½„Ú§¸¶h‹æ‘	Ùàlõîe¯rY"öCœ¯Œ>_%æŒëÅR9òôxÔz%…Zš?)”d…õ
+°©ÁnÜÅb²)Ið’7X³/jf, €b&W!B}B€èÜaè›9‰ä|‹˜‡9—;É’+èr4xî†Uà†•ÒWÈ¯ø ¦fžTqçŒ†VÁÑXòšÈˆ¼Ø"-ôÄ.»¥DYÉèfm×w*å™àZ›æuÂ©ëº›´O¡åMëºÀ1©ìGŽË±7ßšA ú
+ü¢£ë¿Ì]LâëFc'hÇ$8oñ_ë±’¿ë˜°u\îŸ×‚jD­
+.ÌjT¯š7Ô+KÉã ,Z.rB!®æaL?âföDËDÃOLå\íwâÔö-Jñ>¾¸ïô¦³$Â0câæSµŒËŒ\½ôŒdfé‹ PxmÙÎÿÇd8Ë©àu&<¶ç!‹ÕmÝÑCÆwME9¯K2ÖèüwUSå5¾ÙdÜï¬"­Ì¢òFUãXŠ(ŠT,—eNþ°xdAR5†!S6t[¢ech Dy]ÕR{OçD‘,s»FëÆßÖku6„qçÂQv“Q£US%øŽÍYõXžúðu½Òtñ;á…EHÖõ`W(áB°2TA a5c‡ô´Í¬{™ŸÒ‡îÕ¨=%\ãƒø–^ÔÍÅ°4è’ Î9®½åîŽæ[§À-ï›æyŠµÃÓ0WãW„RA	†p?‡LY«žiÑGyšý#*“c]äõ×‹:Úíñ¸ç˜½/G1…«áC.WÎø/ñ9¹É…I…1ñôtžåA ºÓÅgL¯Œ+(ƒ7!ã"c}·I)„ËÄù³11·†W‚ší#ÈËÕ·[Þ5C±
+ÉEc`4ÿžá'jë‘’G hŸ¬¾ö3KÉí¹]Çj¸Öcx¿w	Ú¦)6dCf‘`ap=ne¤ÊØ>ÇvC—šöÐ™j™ÙºíøÜX{mpSáüèA‘ÌÊ“­
+¯ÐÌe—û¯àQgœÈÜØ<Ž«¯ë«­FmÝ‹ƒ¹ñÔK¸ÚTPI„/ÆÒ öä=a<Ê†Å9ÏE}Œã»¥;`1J”Ì“v·z<„H”^ò5úDBv†¯±˜³S,é¯ž“¯º\R†hÄm®UJ ?8]ÕVÊ;ú#d"-ð ßõQIdRþ/Aó³GÏÕY¶ÀnaäðzÃSA gx¶}j‰¡rx”P¯:®à#­†ê±9Î¶)ˆ36ñ`Zª XtQ"~ŽÞP€ð‹ÇÀ$H¦ÃV…nômŠ\	âK»t~ø&diÒy…@T7š¯²s&1ýÿäQ/ÆáU<\ Îæ`^IèâVå¦âQ¬äNÃ•?ÕâÔ¼€2Ûw²kÂœ¬Ã
+»
+¹Ã(–w,±ñ]¼i­öð¨À™÷ø'ý¥Ó#ë±‘ætyÏ•b™ÕÐvÛ˜4æ4u©(øå0#UÔ—zœPÛ»•—ÕnøŸê»áhb.½—ƒv/üÝû‚cM3Šš÷ÎÕ¤.”,ÛÁ½h†¦<ØÐZé‹£×”¶k¹ËFyÛâOÇÃ²ßr[=Û”ì¯¯}N!Z…U#Ãî%Šþ6‡PÂ—çH˜2
+–çjµG,ºC1GÊŠvZXôZ»£JÅÌc ^ã?£ÍÅbzÇA«9dËÃ‰»³W'ŠÔ&2¼T8< ñ	;åZ•Iƒ%C|î3¢r#q•KÎoÐuO§-¥'ª§yÉaˆãÁ•£´1­ýÙ³isÌss­†@_ 9‘%FÉÇsÔWjý­=Ú«vgºÜÈ‘¤Ëò¤-HÀæi‘O¬‰µ=ïGÿ
+'s_Ù9úNÝ$ôÏ AsÙ³PÙ‹;¬§­íŒüu8Ïäç!Ê½ÈÓK]ÛôÎt H=Q¡C'&h‹9õ;J¥[ètSu‘%à€õÝ¦ßßø¦Æ äqîRfûï×-‚KVE¸Z·ø”(SÀ¶  1r· !.›]Ö>Áz†_Çc*¸he!{å7uQL5GFq/DÁæí¨?Õ\çÕ0ê‘äö'èßÙÍˆŸxTH°šwq9Tç9 c%FxÓD«µU09Ó5ßÐ¤O®z¶9À-Ça€W‰‹Iüþ_}*(ð²G[õ²5ûPÅ6àvæ»·B³é˜§»Ë‰ýÌØ—,¶‚+¼¯Ò&ØÛ©ŽõNó7ó¤,Ö,Â+áéŠ’–Ué+<¶Ø¯ñ;áôvž[û%Ç*ò2±¢3úœ¤€øÜ°ìÏþ&•’ÞõB9¤Îæ÷]A’º¹–g"Ú¼ð‘r*.U(<ã2.ˆj’ÒÝ†³ÒùULýì*ÏKÞê˜ŸT-ë¯ê³`xc=Ë”qdfz¿îø
+ßiÈØ›ÜT%^êöžðEv
+”þjVëÏDnæLe6ê_@–˜¸ÎÀDhÓªZz`ÙÃîÉVÒMÚ½‹´xŸâ=‰áú®»Ä1ÜLê¿à»ã`”‘*¹·MÒ*ù`ð¶Tñ”½]¤ø®é²Ž€æVŸfIÇ¦z"7TzóU‹°:=ã‹³·k§+ÎÌÃDúâ¬ûÝÂ<Û‡ä²rI‰®–}ÔG#ÁÜU09+5¯yì~Ã3œ¤®Ðò˜Ïª‘àL¥†[ê¾æZšµïÝçZ¸˜šûËXŒ‡ähµš¶÷i…OßýÝR/fxîæaL=Å¿’DÉc·Üå\ïPjDrÔ÷3f_
+îƒé§&pz·ùB&Z5…Y¸B‰Ð¦}Çn½®p]ä*¥‰ú>ÿÑ+¦¦	A:Òxë‰bÙ²Õú&Qœóûvª‘þÜ…rº(¾ö€fh@ô_ÀC\ÿH þhúP&Íµ¸¼4ü÷Œ6+Œ:iW3H7"^L•Q'gfrxÿñDt8óñ1^ÌWGniì£5%H²:ÇKÑéƒ‰±÷ÚÂÁ'€ 9†ù-½ßÂ4â&C±yÅI„R~1eðÊ›Ï`®ù‹­ªÎgº’¦ëXˆŠñê¸°~ŒôùÇÂá8*Æ…l?Kø)¶0S"§«¾ßg¬Ìæ«UYè™‡%+UYŸ­ó=¨oÜòe!±ã£Yä{F'Šƒ‹ü_÷ŠÖÌi‰ê’	Ú3J¬’#>¸íî¶@°‹LGIº¨­šMç‹s~´sýV¾âõ¾MŸÏ•Gh’yâÄCd
+öS°(Y‡i„*³Tí@%<’M×)hžÚ-¹©!œ?~”÷S9º£ÖYb›o¤˜nÏI^þßÇ=á@lÈ³#‰·AyÈ‘ü‘m1®vOÔ2ci€*°D’d^”	]Ú¥07|®Ûæ‘›Åà!À¢F‡N·£h¹Tô ÇgËœõ5åJ¾ºÙ}ÙÄ&õMó7³%Iƒ-ÕIƒ_Ô:’¾æn¸r2zúÂ°†•ÓCŒê¨ ¦"Û
+Ÿ³ðÏäÊà:¶‡F2ö}WiùK£
+ ÕQ%È^äaÕþ¯ö}ÀùÊÑú«å:îþôÔ	‚î–ªiï÷–lÓ<ò°C¨ip6zÇFúÓ3¯l¥eÃ0	Í!.•4wÅÕ …,zÝó“XnÔ¼t-’vP¾ÀuŽú'apßÈÛPÝØ±&cÝw8µ27nñCE¾äB¨÷g`7H¤Š:ÏfC;°WÈÑ_Î_yo|º4G_\¡ø¿å€þ0J‰. …e§hh¹ÈY„Ê·´uó„#>Ö|g.â{¤PSD¬ÀV›-êª¢;¯æZéÔÁ‚éƒöoûêUHÊ§…â¡îfUú‡Ý»\ûNQ[ëŽgOÏ«¡b>cäN×äÐ"äá^Þ‰„]ÈÕ#Õ_»6h¢xò¥A	ÁHÆ{‡Yt!ª«¶:\Ôpƒ_È2¨uÔ:2*ŽF	x¿†_Šëÿ¸ôÎ9•b¸Q9:è†r>ð–Š¤’þ§ô}µMüþ›žVm[I+l©cé®	ôw©¸½ÑZâ.ýåÅ@PPN=Àf2ßáP˜â:+Gõ!¬â"t(cÓˆÍIÇP^¿‘ý÷ÝÄÅNƒá-ˆ³²ò+ju]óò„TVyŒÞ°{X€EäØ\¥Îúƒ¯UgÜm}«— ÛŸu)¤IUeÜÅFEeÏ{ðbeQô½Á!vŠI`‹ÏEpoSVëA‹”pŸéõ‰§%fÑ}Ýë®X®ÐhÝÉƒ-ˆü ½°iƒ‚½û¬ÕOë©•ÓÓÿ®È‚.ºT]æávP² üBX8ªª†ÏŸ–›ZùªT
+ÌÎ¹…$SœÏÉŽHŒáiÎó.øÜ¼!ÓVár¹šr3-ÂNæùÇV(½M)6a@ÿä{+ÒHEÞ’œåP-vÐ2Ôìæ?3câ÷fÙ™£¤Ÿ÷QÙ6)š¼Ó.õW–jñÖþ±û¸‘:šÕîI:PÿTv?ö–…›ÅioFlÐá3% Q^åÐ˜ŠH±Þ²Ó$áy º'‚¢X7Z¢±™k ÔD¢@ÅEbñ!vÛ×uoïZ©µÛÓh’<Ýˆ÷›¾²K‰šŒœØ’?î¢£}µÀZ×àå_ûî~ÝÅ;…æâßp|uþÄì­>ÛNWíƒ ÁªÀ‰ŒdÌõNû Pv‚#j€ª|ž®üØå)‹!Àx AÈƒ?¬1
+šÇA¤Å¢¥#‰»¼ã‘xa'Š=V_M8¡eŒÚ(’F¾ØÙ­fnÜÑ²p 3+®ý†NåU‘óWK²>ò<†%h«&F'ñæ’!)d^©Æi!ø K“9¶ËÝ=å¢“vö2¹ÎŠFHeƒ#´U8^ØÖTúÁ<Ñ½‰œôUNý‰ãÒ"y3}³õu#%AÓ0^÷s4C2~UcWLvàóºÚ¶nÆÀg˜·‡ÅöRÖ+Ðè¬©D]Q–²*&³>ÜSìÄg³‘VmÏàŸ¥(aÕ|ÙœWcØåSàû}	kÉÒÕq»½ð°TW‹WMÄ4t
+GòpRcH‡|œ>ñ!nƒ”ÊPŠ×ÍøŒìcW•cÉ*q	a}
+—$~YõUhžO£?À²{Éq2eÅ¿àfp£´ÐTÏ(ñbw‚5j×v”Án\ægP§,ò×Û›î,ŸØáÀÈ6Ù¬ÝqX« ce-7}f?Iû:ÌÑ@2ªÑfFU<Œ›µW.ŸÏ¾)&ì>gÏÓ>ÊºEaâ‚DŠöKÔ™bdJ™„øª‘qJ»©Œ½9œœƒí"$J®û¨•ýÅÐ¯çþ»AKÁ{€³µ¦àx5z«“•=:›KXÜ7¶XiŸÍCë¶Ji0G}È’5E9q­\¤K†á9¥$§Qš±žÙy†ÞtSÿ¡w€Lz‚²}è•hW2Çs5NóçKºR¢^Y±œa÷€²PbB×Ä%Rle
+¢e@Q`ìÆ9Fìç{Þ“'mË’;ùñ{#gý÷Ò$AM$_¾…0?EÐù<~Å]öÊÉ~Ðôö*üü0L£Ûœ£ê»6|¥‚¿ÌAÀìYB" À¢ecVvì–h€OèéY†û£)ŠƒLÌØƒ
+—zÍÛ³cÂ7+ŸÍk6„6Ñ7s£YtÑÏÈÆI-Tz•gk\ö7¡
+´"ûŠôD 
+™ƒš *,¬žþüÔ äHÝŒ§ @Öö~üÑa	­à|ª„xw[´IßÐ1^€7Ê$±™çÎÍÒ‚D¥`ó#.òKÉB8˜êtt@ë¢%6TÒòØ©	“|ãà$ý›±±Ð×}Ù‡h˜žô_ëÃÛ¼ƒ‰„ïÂ–í*,±¡8ŽËñóçiÛŠSÎ«‰hN*ì¿îð${Ê‚’I0ƒÌzpm&´vŒ¥kmýà	ß³2:º´]ŒÑ åËº®¦F{¨ÎŽÐ³²Ø wÀ*«”ëÝ5nZ¿œ€AEjSzÄ¨È_ê(œ¤”u
+’?ïìá$)œC‚õ§)m–ŽGq?K¼Û¨w›‚8˜”Ûªº°sò/ùÝüÒ;÷‡Èq“NU}Ð.BNûC! 0CxÐ=(Àh]ìX–r9÷AëÙFHôOÄ²ÞÀó‚Ý›ÝÜßíÎ‚3/îžÚ DiŒÜˆîÞQ/t1 $I»©s¾YÝKå~»â?â8’úã@£Ì^‰ìý'5¥áSƒz>å¥+“œÑmÊ²:Ð¼ÄO½ôXŸ¹ð1¨ û7 ¾Ë°&ÈêBõA°F*0Q5Ó_±Ë®b5?#žÖuFwV]²ïTà¨úŠÉ¨S x¹‘†ÝŒÁ4ÁÉ‹®öã/êÙÜÅ]”iˆ™Ùñ#+1`¿Ù™»ì"çlƒ~†&;Ž"1÷Ul¤/hèÔamºGçHãR(Ú\t˜{Åvè“/â9·mË¡`ŒÉ•Ã,‰ýëy`„0³_SYr/æu%JŸGœ›6t'¡ ]ã!oÔq ’ï¹x 	þÞ‰yÎ¿mxaI9dY.ÁeG%Aó;x€6H‘}´y#¼2«Äúƒ;šv†T½Ï£w€o½È‘~ÐM£ÕeRÈ?(¸|«Æ5'Ð°ô¯Ò;­Å/éàvÁžÉ‚8Ä$s‹=!}j‰“M?Ä·b?jíM$rfC~ÅÒããn5²ñ\õþ¡Óâ›b×.·ñ^îLLÄü/—Æž‰ŒÖ|ÝíËª¾ŸLÏ¼ìÜÕx±©}¨6K±>L ê˜u@?´—-¿ÚqVZìô"6s!9ª¸f›¥%LªídOã%_¬Ñ2K6Ð]à";§j°?ààÑ—Vz´åc‚¢Ù±«™š„êÁó§h¯®¥„º}žÃŠ`Á(ÍíÌ?‚û¢ ¬?®Ú·oäenÈO‰‘zj±ç”ØEòŽ^—|ïæu@ÇlÝÅXMÞå›§`Hê›oÈñ¤aI7³
+_åw%oê:½ÅGP:ÞJDËÆ2Á’ÂÈsu¯U &-[›•EDTP«§f$B)ÜáV!vWÉ§þ˜8­Ñ3”#Ú–“&	Ç\–˜HóX‡oìÐ(±m•²« Š—ÇeïeG¶:Éc}k–ûÀŒÚ¿‡ws;ûœÝÃrGEîh~kË	¿öNM¶‰§zþÉÅ“erCåIìÐ tüc’ÒÜ#õd3—tµ¿:×CÇÄOê@!
+¸“8—`7¤Aà&q¡udõÒÒ¦;žíôá{Z• Ëå-È’<é¤3<ì² ó~Í#Ý_Ø,4­·à¥?ýÌÚ¿ãv}Ïïñ´ET|ÿèß²B&Z¹ýàqVd‚Ú‘Bk
+~×qBhÍÄÀãœ÷oïéˆš½ÄMÏÐ’9îc¯ã‰‚G%ôB+‰¥EòEY¯ã ) Apàwi=*ë Y=Æžv“¨_¿j?ê¼Ð‘Éžö.â3/ì³»™ætŠØ÷çtB¬ØÚás0?ê½ø³)=âÚqš:¶›×%žÈþ»Ž×Ã?äV|ùã,ÆvIýÌÑýKì’²wÅIÅÂ$D}åKèÄ#6[£.Ê–Z0)A¶6z`ˆdõ±ÕÂZå`‡~Ø‘
+±?ç\Û³)Ó.ù‡ÕGé…Å'_Îw{¿Ã[ãq|ÍåB>Á#PÍDšÑöœ}ØÔÅXðÉÑÕH€|ì©˜Ð^ýë²?ækÝÍÉ„’ÄÕ}Ÿz#–näx¶ui–^ð/ÂZ‚2ÏÄJÜu0šª³@pP=‹™†Eu@Úîò`b;à…DR0MLE vÿXƒ4p1Ñ^„FVwmó¶0w òi‡(wìÁÿš¢s³GŸJ\Ä]ÇkÁ x—áSºµJ·^ó{Øé1J%]Ó 23f#Z¡&tVDq_ä|Úd°¶6x­³~5óL=HÄZ°eE9‡x%gR;¥K SwL¹ }MØƒ PKßñ'fur÷¯¤#,g½EIÑR&ÿ‘nò\œë£#%ÅCªm255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/modelsim/examples
+T_opt
+!s110 1708955293
+Ve^akd`6c`BK;>^TeJ15ag3
+Z1 04 2 4 work tb fast 0
+=1-68545a54ff8d-65dc969c-39f-285c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+T_opt1
+!s110 1706791273
+Vm2R0mQQHc_2Z_8iK[Kf[@1
+R1
+=1-68545a54ff8d-65bb9168-3ba-3e18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1708778783
+VTh?@g0XFkK`W^Y]f3RYkH2
+R1
+=1-68545a54ff8d-65d9e51f-77-52d4
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vcontroller
+Z5 !s110 1708955283
+!i10b 1
+!s100 fKS8zbZOa:j7lEI_Ch9WR1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISL3hI_ZLVY8aNA6nRRATR1
+Z7 dD:/Y86-CPU
+w1708951575
+8D:/Y86-CPU/controller.v
+FD:/Y86-CPU/controller.v
+!i122 4371
+L0 3 58
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1708955283.000000
+!s107 define.v|D:/Y86-CPU/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/controller.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vdecode
+!s110 1706443253
+R8
+r1
+!s85 0
+!i10b 1
+!s100 nNaezDgH9_XGlilkb2_RB2
+I]UXJmanTD3o=>CK`W_Z:>2
+R7
+w1706427633
+Z12 8D:/Y86-CPU/decode_stage.v
+Z13 FD:/Y86-CPU/decode_stage.v
+!i122 41
+L0 3 109
+R9
+31
+!s108 1706443253.000000
+Z14 !s107 define.v|D:/Y86-CPU/decode_stage.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_stage.v|
+!i113 0
+R11
+R3
+vdecode_E_pipe_reg
+Z16 !s110 1708955282
+!i10b 1
+!s100 V?9QUW?=3c>?fTgl>93gJ1
+R6
+IBnY7hJ9Q3Mg]o7E<G7RmI2
+R7
+w1708699671
+8D:/Y86-CPU/decode_E_pipe_reg.v
+FD:/Y86-CPU/decode_E_pipe_reg.v
+!i122 4363
+L0 3 76
+R8
+R9
+r1
+!s85 0
+31
+Z17 !s108 1708955282.000000
+!s107 define.v|D:/Y86-CPU/decode_E_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_E_pipe_reg.v|
+!i113 0
+R11
+R3
+ndecode_@e_pipe_reg
+vdecode_stage
+R16
+!i10b 1
+!s100 jNQRUJD?Hz5eWB=7nMjkY3
+R6
+I9fnSGEDcl_Qj<^6d1`]LK2
+R7
+w1708687226
+R12
+R13
+!i122 4353
+L0 3 125
+R8
+R9
+r1
+!s85 0
+31
+R17
+R14
+R15
+!i113 0
+R11
+R3
+vdecode_tb
+R16
+!i10b 1
+!s100 1P0gT3[8NIK1?n3fhV7Mj1
+R6
+I`g@2dD^YfS[^oJieBd?_:0
+R7
+w1706756683
+8D:/Y86-CPU/decode_tb.v
+FD:/Y86-CPU/decode_tb.v
+!i122 4354
+L0 3 29
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/decode_tb.v|
+!i113 0
+R11
+R3
+vexecute
+R16
+!i10b 1
+!s100 b4H^lT8Cl8E[<WnTAzCoH0
+R6
+Ib?mKfb6lWj<C=WjQMb?nW2
+R7
+w1708955279
+8D:/Y86-CPU/execute.v
+FD:/Y86-CPU/execute.v
+!i122 4355
+L0 3 82
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute.v|
+!i113 0
+R11
+R3
+vexecute_M_pipe_reg
+R5
+!i10b 1
+!s100 cfZDza6ncBm=XmPEDGLXf2
+R6
+IM4M=KTaP3=4Y@5SkKB05O1
+R7
+w1708699139
+8D:/Y86-CPU/execute_M_pipe_reg.v
+FD:/Y86-CPU/execute_M_pipe_reg.v
+!i122 4364
+L0 3 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/execute_M_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_M_pipe_reg.v|
+!i113 0
+R11
+R3
+nexecute_@m_pipe_reg
+vexecute_tb
+R16
+!i10b 1
+!s100 =_L@;VU65:h5`>GFmLQ1<1
+R6
+I0e[_cciTe?cDjVe^CLI1l0
+R7
+w1706614597
+8D:/Y86-CPU/execute_tb.v
+FD:/Y86-CPU/execute_tb.v
+!i122 4358
+L0 4 41
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/execute_tb.v|
+!i113 0
+R11
+R3
+vF_pipe_reg
+R5
+!i10b 1
+!s100 nIY;:17CC5;ALD9VXGnen2
+R6
+I@>FmL^AzBgR[2;2V5f:[01
+R7
+w1708954647
+8D:/Y86-CPU/F_pipe_reg.v
+FD:/Y86-CPU/F_pipe_reg.v
+!i122 4367
+L0 3 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_pipe_reg.v|
+!i113 0
+R11
+R3
+n@f_pipe_reg
+vF_test
+R5
+!i10b 1
+!s100 gI90FMOlH8PejnL>YYA:W0
+R6
+IV9kSdSGXWDB@6Ig:YB]=Y3
+R7
+w1707919863
+8D:/Y86-CPU/F_test.v
+FD:/Y86-CPU/F_test.v
+!i122 4368
+L0 4 86
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/F_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/F_test.v|
+!i113 0
+R11
+R3
+n@f_test
+vfetch
+R16
+!i10b 1
+!s100 :6O70>1PU01Q:??1^HifD1
+R6
+IDkA57b1OZ`VUbENZOlTg80
+R7
+Z18 w1708783858
+Z19 8D:/Y86-CPU/fetch.v
+Z20 FD:/Y86-CPU/fetch.v
+!i122 4351
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z21 !s107 define.v|D:/Y86-CPU/fetch.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch.v|
+!i113 0
+R11
+R3
+vfetch_D_pipe_reg
+R16
+!i10b 1
+!s100 kjlNGdOQdA]VYzjGAheM;0
+R6
+I<oR>81BdAgz0`9?lB?lPL3
+R7
+w1708695930
+8D:/Y86-CPU/fetch_D_pipe_reg.v
+FD:/Y86-CPU/fetch_D_pipe_reg.v
+!i122 4362
+L0 3 60
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_D_pipe_reg.v|
+!i113 0
+R11
+R3
+nfetch_@d_pipe_reg
+vfetch_tb
+R16
+!i10b 1
+!s100 XnmJL:8OQRbA`S_PYH=Uz0
+R6
+IVH35R72ZNBJ2[DENX^<_L3
+R7
+w1706758193
+8D:/Y86-CPU/fetch_tb.v
+FD:/Y86-CPU/fetch_tb.v
+!i122 4352
+L0 4 75
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/fetch_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/fetch_tb.v|
+!i113 0
+R11
+R3
+vfwd
+!s110 1708091202
+R8
+r1
+!s85 0
+!i10b 1
+!s100 3Adoa[gDMgP<H6IB[IUTM2
+Ij?KkgBJZ0`gXbY9U;cZHg3
+R7
+w1707879031
+Z23 8D:/Y86-CPU/sel_fwdB.v
+Z24 FD:/Y86-CPU/sel_fwdB.v
+!i122 2165
+Z25 L0 4 25
+R9
+31
+!s108 1708091202.000000
+Z26 !s107 define.v|D:/Y86-CPU/sel_fwdB.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwdB.v|
+!i113 0
+R11
+R3
+vfwdB
+R5
+!i10b 1
+!s100 mRdW2@z^VaNH2XZYa:PnT0
+R6
+IdX6`f1kk<D?1@3c@?ke9k3
+R7
+w1708262842
+R23
+R24
+!i122 4370
+R25
+R8
+R9
+r1
+!s85 0
+31
+R10
+R26
+R27
+!i113 0
+R11
+R3
+nfwd@b
+vinstruction_memory
+R16
+!i10b 1
+!s100 P50z2^Ll?zmC71F8FASlm3
+R6
+InC9h<J?3THDG<^5n9G]:c0
+R7
+R18
+R19
+R20
+!i122 4351
+L0 78 123
+R8
+R9
+r1
+!s85 0
+31
+R17
+R21
+R22
+!i113 0
+R11
+R3
+vmemory_access
+R16
+!i10b 1
+!s100 Sf8D::GF@5h3P8E<lA?6D3
+R6
+I8^@TaeWi@@W00d7eU9Ief3
+R7
+Z28 w1708078169
+Z29 8D:/Y86-CPU/memory_access.v
+Z30 FD:/Y86-CPU/memory_access.v
+!i122 4356
+L0 3 84
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z31 !s107 define.v|D:/Y86-CPU/memory_access.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access.v|
+!i113 0
+R11
+R3
+vmemory_tb
+R16
+!i10b 1
+!s100 gjY;lj;1jLZPASE8OK79E2
+R6
+I6kb=0P>X3iaCoI:ZQh^9j3
+R7
+w1706619206
+8D:/Y86-CPU/memory_tb.v
+FD:/Y86-CPU/memory_tb.v
+!i122 4359
+Z33 L0 3 31
+R8
+R9
+r1
+!s85 0
+31
+R17
+!s107 define.v|D:/Y86-CPU/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_tb.v|
+!i113 0
+R11
+R3
+vmomery_access_W_pipe_reg
+R5
+!i10b 1
+!s100 =lZ8G>N:CfM]0gkFARRMQ2
+R6
+I_oT`dJPP@DLkG5?hLlCFV3
+R7
+w1708695955
+8D:/Y86-CPU/memory_access_W_pipe_reg.v
+FD:/Y86-CPU/memory_access_W_pipe_reg.v
+!i122 4365
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/memory_access_W_pipe_reg.v|
+!i113 0
+R11
+R3
+nmomery_access_@w_pipe_reg
+vram
+R16
+!i10b 1
+!s100 mneR8eiMKJP13m=ZXza^m1
+R6
+I_Znm0GmXX8_T9U_o3QezT3
+R7
+R28
+R29
+R30
+!i122 4356
+L0 88 39
+R8
+R9
+r1
+!s85 0
+31
+R17
+R31
+R32
+!i113 0
+R11
+R3
+vsel_fwd
+R5
+!i10b 1
+!s100 W`e`DXi2oAFGZFoKkHRWF3
+R6
+IWgR^4m4KhQ]>@Z3P:dka_2
+R7
+w1708260177
+8D:/Y86-CPU/sel_fwd.v
+FD:/Y86-CPU/sel_fwd.v
+!i122 4369
+R33
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/sel_fwd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/sel_fwd.v|
+!i113 0
+R11
+R3
+vselect_pc
+R5
+!i10b 1
+!s100 BXlP=fTz9QH63jNl6W7>n2
+R6
+IXjjj:noSW[BmLi0AoiB`z3
+R7
+w1707746077
+8D:/Y86-CPU/select_pc.v
+FD:/Y86-CPU/select_pc.v
+!i122 4366
+L0 3 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/select_pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/select_pc.v|
+!i113 0
+R11
+R3
+vstat
+R16
+!i10b 1
+!s100 k^kJoG::TfgoLCEjAV4053
+R6
+Ih<2;E7G]Xd2060Kl>mAh42
+R7
+Z34 w1706787196
+Z35 8D:/Y86-CPU/write_back.v
+Z36 FD:/Y86-CPU/write_back.v
+!i122 4357
+L0 26 8
+R8
+R9
+r1
+!s85 0
+31
+R17
+Z37 !s107 D:/Y86-CPU/write_back.v|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Y86-CPU/write_back.v|
+!i113 0
+R11
+R3
+vtb
+R5
+!i10b 1
+!s100 I^ziOLUBC[bIK4;KBX9K>2
+R6
+IS`GE8C;lK>^XSM9_EzJFH3
+R7
+w1708955187
+8D:/Y86-CPU/all_tb.v
+FD:/Y86-CPU/all_tb.v
+!i122 4372
+L0 4 350
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 define.v|D:/Y86-CPU/all_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none
